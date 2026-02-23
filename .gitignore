@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Quarto temporary/cache files
+.quarto/
+.quarto_temp/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Optional: other editor files
+*.swp
+*.swo
