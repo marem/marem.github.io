@@ -11,6 +11,8 @@ jobs:
       contents: write
       pages: write
       id-token: write
+    environment:
+      name: github-pages   # <-- REQUIRED
 
     steps:
       - uses: actions/checkout@v4
@@ -22,6 +24,6 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs   # <-- if your site is built into Docs
+          path: docs   # <-- adjust if your Quarto output folder is different
 
       - uses: actions/deploy-pages@v4
