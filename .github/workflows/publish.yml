@@ -22,6 +22,6 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: Docs   # <-- if your site is built into Docs
+          path: docs   # <-- if your site is built into Docs
 
       - uses: actions/deploy-pages@v4
