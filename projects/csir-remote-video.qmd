@@ -1,0 +1,60 @@
+---
+title: "Remote Real-Time Digital Video"
+description: "Revolutionising athletic coaching through real-time video production and interaction design."
+image: /images/proj-csir-remote-video.jpg
+toc: false
+categories: [Interaction-Design, Multimedia, Video-Design, Innovation]
+---
+
+## 1. Executive Snapshot
+
+- **Role:** Assistant Designer & Technical Mentor
+- **Context:** Commonwealth Games
+- **Target Group:** High-performance coaching staff and athletes
+
+**Core Problem:** The need for a seamless, real-time method to capture and relay athletic performance data to coaching staff during high-stakes competition.
+
+**Outcome:** Designed and implemented a remote real-time digital video production system that enabled immediate performance feedback, significantly enhancing the coaching experience.
+
+## 2. Strategic Context
+
+During major sporting events like the Commonwealth Games, the margin between winning and losing is often found in immediate technical adjustments. Traditional video analysis often suffered from:
+
+- Latency in footage availability.
+- Fragmented communication between capture teams and coaches.
+- Limited tools for real-time visual breakdown.
+
+This project aimed to close the gap between performance and analysis through a dedicated digital video infrastructure.
+
+## 3. Research & Interaction Design
+
+The system was built with a focus on **Interaction Design**, ensuring that the technical complexity of remote production did not hinder the speed of coaching decisions.
+
+### Key Focus Areas:
+- **Real-Time Latency:** Reducing the delay between the athletic action and the video relay.
+- **Remote Access:** Ensuring coaching staff could access high-quality feeds from various vantage points.
+- **User Interface:** Streamlining the capture process to be intuitive for production teams.
+
+## 4. Implementation & Mentoring
+
+Beyond the technical architecture, a significant portion of the project focused on capability building:
+
+- **System Deployment:** Executed the seamless capture and relay of athletic performance across multiple event sites.
+- **Mentoring:** Provided hands-on training for the team in non-linear video editing techniques.
+- **Tool Creation:** Developed custom digital coaching tools to facilitate on-the-fly performance analysis.
+
+## 5. Impact & Evidence
+
+The intervention fundamentally changed how coaching staff interacted with performance data:
+
+- **Revolutionised Coaching Experience:** Enabled "live" tactical adjustments based on instant video playback.
+- **Operational Efficiency:** Streamlined the workflow from capture to analysis, removing technical bottlenecks.
+- **Team Capability:** Successfully upskilled production staff in advanced editing and digital tool usage.
+
+## 6. Strategic Value & Transferability
+
+This project demonstrates the successful application of interaction design in high-pressure, real-time environments. The model is transferable to:
+
+- **Live Broadcast & Media:** Enhancing remote production workflows.
+- **Industrial Tele-operation:** Applying real-time video relay to remote monitoring and control.
+- **High-Performance Training:** Scaling digital coaching tools for professional sports academies and Olympic programmes.

@@ -1,0 +1,126 @@
+---
+title: "Creative x AI Workshop Series"
+description: "Behavioural Curriculum for AI-Supported Creative Empowerment"
+image: /images/proj-creative-x-ai-workshops.png
+toc: false
+categories: [Mentoring, Behavioural-Design, AI, Creative-Education]
+#format: html
+---
+
+## 1. Executive Snapshot
+
+- **Role:** Co-Designer & Lead Research Facilitator
+- **Duration:** Multi-session workshop series
+- **Target Group:** Emerging young Black creatives
+- **Context:** Creative economy skills gap amid rapid AI integration
+
+**Core Problem:** Young creatives lacked structured support to integrate AI tools into their practice in a way that strengthened rather than diluted creative identity and employability.
+
+**Outcome:** Developed and delivered a research-informed behavioural curriculum integrating AI tools to enhance creative confidence, identity clarity and portfolio readiness.
+
+## 2. Strategic Context
+
+The acceleration of generative AI tools has disrupted entry pathways into the creative industries. For historically marginalised creatives, this presented both:
+
+- Opportunity (expanded tool access)
+- Risk (skill displacement and identity erosion)
+
+There was limited structured education focused on:
+
+- Ethical AI integration
+- Identity formation
+- Translating AI fluency into employability
+
+The intervention aimed to close this capability gap.
+
+## 3. Research & Diagnostic Phase
+
+### Research Questions
+
+- How do emerging creatives perceive AI in relation to authorship and identity?
+- What capability gaps limit effective AI adoption?
+- What behavioural barriers affect experimentation and confidence?
+
+### Methods
+
+- Pre-workshop reflective surveys
+- Facilitated group discussions
+- In-session observation
+- Iterative feedback loops
+- Artefact analysis (outputs created using AI tools)
+
+### Tools Explored
+
+- Figma (design workflows)
+- Midjourney (visual generation)
+- ChatGPT (ideation & structuring)
+- RunwayML (video augmentation)
+- Jitter (motion design)
+
+### Constraints
+
+- Uneven digital literacy
+- Variable access to hardware
+- Psychological resistance to AI
+
+## 4. Key Insights
+
+1.  **Identity Anxiety:** Participants feared AI would replace their originality.
+2.  **Tool Overwhelm:** Exposure without structure led to shallow experimentation.
+3.  **Confidence Deficit:** Low belief in professional competitiveness limited ambition.
+4.  **Opportunity Gap:** Few participants knew how to translate AI use into employability language.
+
+## 5. Intervention Design
+
+Based on findings, the curriculum was structured around three behavioural pillars:
+
+1.  **Identity Before Tools:** Reflection-first exercises anchored AI use in personal narrative.
+2.  **Structured Experimentation:** Tool use embedded within defined creative challenges.
+3.  **Translation to Employability:** Outputs reframed as portfolio artefacts with articulated design rationale.
+
+The workshops combined:
+
+- Guided prompts
+- Co-creation exercises
+- Live tool demonstration
+- Structured critique cycles
+- Meta-reflection
+
+## 6. Implementation
+
+- Multi-session modular format
+- Progressive tool complexity
+- Peer collaboration
+- Iterative content refinement
+- Adaptive pacing based on cohort feedback
+
+## 7. Impact & Evidence
+
+Qualitative outcomes included:
+
+- Increased reported confidence in AI tool usage
+- Stronger articulation of creative identity
+- Production of portfolio-ready artefacts
+- Greater clarity on positioning within creative industry roles
+
+Behavioural indicators observed:
+
+- Reduced hesitation in tool experimentation
+- Increased peer feedback engagement
+- Clearer self-descriptions of creative value proposition
+
+## 8. Strategic Value & Transferability
+
+This intervention demonstrates:
+
+- Behavioural design applied to capability development
+- Ethical AI integration frameworks
+- Curriculum architecture for digital transformation
+- Scalable model for educational institutions or corporate upskilling
+
+Transferable to:
+
+- Corporate AI onboarding
+- Innovation team capability building
+- University-level digital design curricula
+- Workforce development programmes

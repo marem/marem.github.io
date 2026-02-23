@@ -1,0 +1,65 @@
+---
+title: "Vantage HIV"
+description: "Improving ARV and PrEP adherence through a comprehensive behavioural journey."
+image: /images/proj-vantage-hiv.jpg
+toc: false
+categories: [Behavioural-Design, UX-Research, Healthcare, Social-Impact]
+---
+
+## 1. Executive Snapshot
+
+- **Role:** Behavioural Strategist (Collaborator with BCA Team)
+- **Target Group:** Adolescent girls and young women (AGYW) at risk of HIV
+- **Context:** Public health crisis involving low medication adherence
+
+**Core Problem:** High rates of HIV risk paired with low adherence to life-saving antiretroviral (ARV) medication and pre-exposure prophylaxis (PrEP) among vulnerable youth populations.
+
+**Outcome:** Developed a multi-channel behavioural journey that successfully improved adherence rates by aligning communication "nudges" with the core motivations of the target demographic.
+
+## 2. Strategic Context
+
+In the fight against HIV, the availability of medication (ARVs and PrEP) is only half the battle. For adolescent girls and young women, the barriers to consistent usage are often non-clinical, including:
+
+- **Social Stigma:** Fear of being seen with medication.
+- **Routine Disruption:** Difficulty integrating daily pills into fluid lifestyles.
+- **Motivation Gaps:** A lack of immediate perceived benefit vs. long-term risk.
+
+The project aimed to transform medical compliance into a relatable, motivated daily habit.
+
+
+
+## 3. Intervention Design: The Behavioural Journey
+
+The intervention was built on a comprehensive **behavioural journey map** that identified every friction point from initial awareness to daily pill-taking.
+
+### Key Design Pillars
+- **Motivation-Linked Touchpoints:** Every interaction was designed to trigger a specific internal motivator (e.g., autonomy, safety, or future-self aspirations).
+- **The "Nudge" Ecosystem:** Rather than a single message, we created a surrounding environment of reminders.
+
+## 4. Implementation & Touchpoints
+
+The strategy was deployed across multiple channels to meet users where they already exist:
+
+- **Community Radio Spots:** Used for broad social proof and to normalise the conversation around PrEP/ARVs.
+- **Social Media Messaging:** Targeted content designed to build a supportive digital community and reduce stigma.
+- **Personalised Reminders:** Direct-to-user nudges that felt supportive rather than clinical, helping to overcome the "forgetting" barrier.
+
+## 5. Impact & Evidence
+
+The project successfully shifted the needle on adherence through:
+
+- **Improved Adherence Rates:** Measurable increase in consistent ARV and PrEP usage among the target cohort.
+- **Enhanced Motivation:** Qualitative feedback indicated that users felt more empowered and less "policed" regarding their health choices.
+- **Optimised Communication:** Evidence-based refinement of which messages resonated most with AGYW.
+
+## 6. Strategic Value & Transferability
+
+This project illustrates the power of **Behavioural Design** in a public health context. The framework of mapping "touchpoints to motivations" is highly transferable to:
+
+- **Chronic Disease Management:** Improving long-term adherence for diabetes or hypertension.
+- **Preventative Health:** Encouraging vaccination uptake or regular screenings.
+- **Youth Engagement:** Designing social services that resonate with hard-to-reach younger demographics.
+
+---
+
+Would you like me to expand the **Implementation** section with specific examples of the social media messaging used to reduce stigma?```

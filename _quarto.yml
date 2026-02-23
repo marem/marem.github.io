@@ -1,0 +1,89 @@
+project:
+  type: website
+  output-dir: docs
+
+jupyter: python3
+
+lang: en
+
+website:
+  title: "Dr Marcel Maré | Behavioural Design | Strategy | Coaching & Mentoring | Masterclasses & Public Speaking"
+  site-url: https://marcelmare.com
+  open-graph: true
+  # google-analytics: "G-3N2FL85753"
+  search:
+    location: sidebar
+    type: overlay
+  navbar:
+    logo: /images/logo-dr-daniel-kapitan.png
+    title: false
+    pinned: false
+    collapse-below: md
+  sidebar:
+    style: docked  
+    collapse-level: 1
+    background: light
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marem1969/
+        text: "LinkedIn"
+      - icon: github
+        href: https://github.com/marem1969
+        text: "GitHub"
+      - icon: rss
+        href: https://marcelmare.com/blog/index.xml
+        text: "RSS feed"
+    contents:
+      - section: "Portfolio"
+        href: projects/index.qmd
+        contents:
+          - text: "Creative x AI Workshops"
+            href: projects/creative-x-ai-workshops.qmd
+          - text: "Sibabalwe Bakery"
+            href: projects/sibabalwe-bakery.qmd
+          - text: "Momentum Recharge"
+            href: projects/momentum-recharge.qmd
+          - text: "Vantage HIV"
+            href: projects/vantage-hiv.qmd
+          - text: "Remote Real-Time Digital Video"
+            href: projects/csir-remote-video.qmd
+          - text: "Veza Tourism"
+            href: projects/csir-veza-tourism.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Anthology of Data Science"
+        href: https://anthology-of-data.science
+      - text: "Buddhayana"
+        href: https://kapitan.net/buddhayana
+      - text: "Book an appointment"
+        href: appointment/index.qmd
+  page-footer:
+    left: |
+      <br>
+      __Chamber of Commerce (KvK):__ 52920259<br>
+      __RSIN:__ 850665851<br>
+    center: |
+      <br>
+      __IBAN:__ NL47 KNAB 0259 5268 27<br>
+      [__Terms & Conditions__](/resources/230901-algemene-voorwaarden.pdf)<br>
+    right: |
+      <br>
+      Copyright &copy; 2026 Marcel Maré<br>
+      This website was created with 
+      [![](/images/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
+
+format:
+  html:
+    # page-layout: full
+    date-format: "MMM YYYY"
+    theme:
+      light:
+        - flatly
+        - mozilla.scss
+    css: styles.css
+    toc: false
+    include-in-header:
+      - text: |
+        # <script data-goatcounter="https://dkapitan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+execute: 
+  freeze: auto

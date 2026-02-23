@@ -1,0 +1,63 @@
+---
+title: "Momentum Recharge"
+description: "Integrating visual design and behavioural principles for wellness engagement."
+image: /images/proj-momentum-recharge.jpg
+toc: false
+categories: [Behavioural-Design, Data-Visualisation, UX-Research, Wellness]
+---
+
+## 1. Executive Snapshot
+
+- **Role:** UX Designer & Behavioural Strategist
+- **Context:** Wellness application development
+- **Core Problem:** Effectively integrating visual design principles into a platform to promote and sustain positive behaviour change.
+
+**Outcome:** Designed and implemented a personalized user experience based on user research and feedback analysis, resulting in measurable increases in user engagement.
+
+## 2. Strategic Context
+
+The Momentum Recharge project focused on the intersection of visual communication and wellness. The primary goal was to create a digital environment that didn't just track data, but actively encouraged healthy habits through:
+
+- Integration of key visual design principles.
+- Alignment of app functionality with wellness goals.
+- Leveraging user-centric design to drive long-term retention.
+
+## 3. Research & Diagnostic Phase
+
+### Methods
+- **User Research:** Conducted deep dives into user motivations and barriers to wellness.
+- **Feedback Analysis:** Systematically reviewed user responses to identify pain points and preferences.
+- **UX Auditing:** Evaluated existing workflows for friction in the behaviour change journey.
+
+### Focus
+The research phase aimed to understand how users perceive wellness metrics and what visual cues most effectively trigger positive action.
+
+## 4. Key Insights
+
+1.  **Personalization is Paramount:** Users are more likely to engage with wellness tools when the experience feels tailored to their specific lifestyle.
+2.  **Visual Clarity Drives Action:** Complex data must be translated into intuitive visual design to prevent cognitive overwhelm.
+3.  **Feedback Loops:** Real-time feedback, aligned with user preferences, significantly boosts the perceived value of the application.
+
+## 5. Intervention Design
+
+Based on research findings, the application was customized through several key design pillars:
+
+- **Identity-Aligned UX:** Creating a personalized interface that reflects the user's wellness journey.
+- **Behavioural Visuals:** Using design principles to highlight progress and nudge healthy choices.
+- **Data-Driven Customization:** Adjusting the application's flow based on feedback analysis to ensure a high level of user-product fit.
+
+## 6. Impact & Evidence
+
+The implementation of these behavioural and design strategies led to several key outcomes:
+
+- **Increased User Engagement:** Higher daily active usage and longer session durations.
+- **Improved User Satisfaction:** Positive qualitative feedback regarding the personalized nature of the application.
+- **Enhanced Data Interaction:** Clearer data visualisation led to more frequent user interaction with wellness metrics.
+
+## 7. Strategic Value & Transferability
+
+This project demonstrates the value of merging UX research with behavioural design to solve engagement challenges in the health-tech sector. It is highly transferable to:
+
+- **Health & Wellness Platforms:** Improving retention in fitness and mental health apps.
+- **Employee Wellness Programs:** Designing internal tools that employees actually want to use.
+- **Data-Driven Product Strategy:** Translating complex user data into actionable design improvements.

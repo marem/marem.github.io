@@ -1,0 +1,94 @@
+---
+title: "Sibabalwe Bakery"
+description: "Behavioural Intervention for Safe Energy Adoption & Cookstove Transition"
+image: /images/proj-sibabalwe-bakery.jpg
+toc: false
+categories: [Behavioural-Research, Strategic-Design, Sustainability, Community-Intervention]
+---
+
+## 1. Executive Snapshot
+
+- **Role:** Behavioural Researcher & Strategic Design Lead
+- **Duration:** Multi-phase community intervention
+- **Context:** Informal settlement households using unsafe flame-based cooking systems
+
+**Core Problem:** Low adoption of safer cookstove technologies despite significant health and safety risks.
+
+**Outcome:** Designed and implemented a community-based behavioural intervention using bread-baking as a participatory catalyst, contributing to measurable shifts in cookstove ownership patterns and safety perceptions.
+
+## 2. Strategic Context
+
+In many low-resource South African communities, households rely on open-flame cooking systems, paraffin, and biomass fuels, often within structurally unsafe stoves.
+
+**Consequences include:**
+- Respiratory illness and indoor air pollution
+- Burn injuries
+- Fuel inefficiency and financial strain
+
+Despite the availability of safer alternatives, adoption rates remained low because barriers were not purely economic—they were behavioural, cultural, and identity-linked. The challenge was shifted from a product distribution problem to a **behavioural systems challenge**: shifting motivations and norms without imposing external solutions.
+
+## 3. Research & Diagnostic Phase
+
+### Research Questions
+- What symbolic and cultural meanings are attached to cooking with fire?
+- What prevents households from transitioning to safer cookstoves?
+- Which social influences shape ownership decisions?
+- How do risk perceptions align with daily lived realities?
+
+### Methods
+- Ethnographic fieldwork and in-home observations
+- Semi-structured interviews and behavioural mapping
+- Co-creation workshops and informal community discussions
+- Artefact analysis of existing stove types and usage patterns
+
+### Constraints
+- Financial vulnerability and infrastructure instability
+- Deep-rooted cooking traditions
+- Trust barriers toward external interventions
+
+> **Key Diagnostic Insight:** The cookstove was not merely a utility device; it represented identity, competence, and family provision. Therefore, messaging focused solely on "health risks" failed to motivate change.
+
+## 4. Key Behavioural Insights
+
+1.  **Normalisation of Risk:** Health dangers were acknowledged but behaviourally discounted.
+2.  **Social Proof Dominance:** Adoption decisions were strongly influenced by visible community norms.
+3.  **Aspirational Identity Leverage:** Participants responded better to narratives of capability and pride than to fear.
+4.  **Demonstration Over Instruction:** Hands-on experience produced stronger engagement than informational campaigns.
+
+## 5. Intervention Design
+
+The curriculum was structured around three behavioural pillars:
+
+1.  **Reframe Cooking with Improved Cookstoves** Rather than attacking the use of "inefficient" cooking methods, the intervention elevated controlled, skilled routines with improved cooking technologies through baking bread.
+2.  **Social Visibility:** Creating shared baking events to establish new behavioural routines and norms.
+3.  **Emotional Demonstration (Emo-Demo):** Using experiential sessions to embed safety practices through participation.
+
+### The Sibabalwe Bakery Model
+The bakery acted as a stage for collective preparation, sharing, and open discussion of safe, clean and economically viable cooking practices.
+
+## 6. Implementation
+
+- Facilitated co-creative workshops with community ambassadors.
+- Iterative refinement of demonstration formats based on cohort feedback.
+- Embedded reflective discussions and monitoring of post-intervention choices.
+- Adaptive pacing to manage resource constraints and infrastructure disruptions.
+
+## 7. Impact & Evidence
+
+**Qualitative outcomes included:**
+- Increased discussion and visibility of stove safety within households.
+- Shift in expressed motivations for stove choice.
+- Positive changes in ownership patterns following intervention cycles.
+
+**Behavioural indicators observed:**
+- Participants voluntarily demonstrating safer cooking techniques to peers.
+- Organic emergence of peer-to-peer advocacy.
+- Increased inquiry into alternative, safer stove options.
+
+## 8. Strategic Value & Transferability
+
+This intervention demonstrates the application of behavioural design to digital and physical transformation. It provides a scalable model for:
+
+- **Public Health & Sustainability:** Energy transition through social leverage.
+- **Corporate ESG:** Community-driven norm transformation for product adoption.
+- **Policy Design:** Workforce and community development through participatory interventions.

@@ -1,0 +1,16 @@
+{
+  "listingMap": {
+    "nugget/index.qmd": [
+      "."
+    ],
+    "recepten/index.qmd": [
+      "."
+    ],
+    "projects/index.qmd": [
+      "."
+    ],
+    "blog/index.qmd": [
+      "."
+    ]
+  }
+}
