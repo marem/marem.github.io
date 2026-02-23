@@ -51,6 +51,8 @@ website:
             href: projects/csir-veza-tourism.qmd
       - text: "Blog"
         href: blog/index.qmd
+      - text: "Substack"
+        href: posts/substack/index.qmd
       - text: "Anthology of Data Science"
         href: https://anthology-of-data.science
       - text: "Buddhayana"
