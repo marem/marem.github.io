@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Marcel Maré</title>
+<link>https://marcelmare.com/portfolio/</link>
+<atom:link href="https://marcelmare.com/portfolio/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 25 Feb 2026 07:34:11 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/portfolio/csir-remote-video.html}</title>
+  <link>https://marcelmare.com/portfolio/csir-remote-video.html</link>
+  <description>{B4F502887207:/portfolio/csir-remote-video.html}</description>
+  <category>Interaction-Design</category>
+  <category>Multimedia</category>
+  <category>Video-Design</category>
+  <category>Innovation</category>
+  <guid>https://marcelmare.com/portfolio/csir-remote-video.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-csir-remote-video.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/portfolio/momentum-recharge.html}</title>
+  <link>https://marcelmare.com/portfolio/momentum-recharge.html</link>
+  <description>{B4F502887207:/portfolio/momentum-recharge.html}</description>
+  <category>Behavioural-Design</category>
+  <category>Data-Visualisation</category>
+  <category>UX-Research</category>
+  <category>Wellness</category>
+  <guid>https://marcelmare.com/portfolio/momentum-recharge.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-momentum-recharge.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/portfolio/sibabalwe-bakery.html}</title>
+  <link>https://marcelmare.com/portfolio/sibabalwe-bakery.html</link>
+  <description>{B4F502887207:/portfolio/sibabalwe-bakery.html}</description>
+  <category>Behavioural-Research</category>
+  <category>Strategic-Design</category>
+  <category>Sustainability</category>
+  <category>Community-Intervention</category>
+  <guid>https://marcelmare.com/portfolio/sibabalwe-bakery.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-sibabalwe-bakery.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/portfolio/vantage-hiv.html}</title>
+  <link>https://marcelmare.com/portfolio/vantage-hiv.html</link>
+  <description>{B4F502887207:/portfolio/vantage-hiv.html}</description>
+  <category>Behavioural-Design</category>
+  <category>UX-Research</category>
+  <category>Healthcare</category>
+  <category>Social-Impact</category>
+  <guid>https://marcelmare.com/portfolio/vantage-hiv.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-vantage-hiv.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/portfolio/creative-x-ai-workshops.html}</title>
+  <link>https://marcelmare.com/portfolio/creative-x-ai-workshops.html</link>
+  <description>{B4F502887207:/portfolio/creative-x-ai-workshops.html}</description>
+  <category>Mentoring</category>
+  <category>Behavioural-Design</category>
+  <category>AI</category>
+  <category>Creative-Education</category>
+  <guid>https://marcelmare.com/portfolio/creative-x-ai-workshops.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-creative-x-ai-workshops.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/portfolio/csir-veza-tourism.html}</title>
+  <link>https://marcelmare.com/portfolio/csir-veza-tourism.html</link>
+  <description>{B4F502887207:/portfolio/csir-veza-tourism.html}</description>
+  <category>Interaction-Design</category>
+  <category>Multimedia</category>
+  <category>UX-Design</category>
+  <category>International-Exhibitions</category>
+  <guid>https://marcelmare.com/portfolio/csir-veza-tourism.html</guid>
+  <pubDate>Wed, 25 Feb 2026 07:34:11 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-csir-veza-tourism.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

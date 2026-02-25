@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Marcel Maré</title>
+<link>https://marcelmare.com/blog/</link>
+<atom:link href="https://marcelmare.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 03 Sep 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/blog/podcast-optimist-datasolidarieit.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/podcast-optimist-datasolidarieit.html</link>
+  <description>{B4F502887207:/blog/podcast-optimist-datasolidarieit.html}</description>
+  <category>nederlands</category>
+  <category>podcast</category>
+  <category>data commons</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/podcast-optimist-datasolidarieit.html</guid>
+  <pubDate>Wed, 03 Sep 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/the-optimist.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/geletterdheid.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/geletterdheid.html</link>
+  <description>{B4F502887207:/blog/geletterdheid.html}</description>
+  <category>nederlands</category>
+  <category>geletterdheid</category>
+  <guid>https://marcelmare.com/blog/geletterdheid.html</guid>
+  <pubDate>Mon, 24 Feb 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/geletterdheid.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/vvv-fairness.html}</title>
+  <dc:creator>Daniel Kapitan (presentatie)</dc:creator>
+  <dc:creator>Ellen Jonges (artikel)</dc:creator>
+  <link>https://marcelmare.com/blog/vvv-fairness.html</link>
+  <description>{B4F502887207:/blog/vvv-fairness.html}</description>
+  <category>nederlands</category>
+  <category>fairness</category>
+  <guid>https://marcelmare.com/blog/vvv-fairness.html</guid>
+  <pubDate>Sun, 06 Oct 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/vvv-dkapitan.png" medium="image" type="image/png" height="43" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/datasolidariteit-ibestuur.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <dc:creator>Egge van der Poel</dc:creator>
+  <dc:creator>Antoinette Vlieger</dc:creator>
+  <link>https://marcelmare.com/blog/datasolidariteit-ibestuur.html</link>
+  <description>{B4F502887207:/blog/datasolidariteit-ibestuur.html}</description>
+  <category>nederlands</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/datasolidariteit-ibestuur.html</guid>
+  <pubDate>Tue, 30 Jan 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/data-in-de-zorg-shutterstock_2419651697.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/better-altair-theme.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/better-altair-theme.html</link>
+  <description>{B4F502887207:/blog/better-altair-theme.html}</description>
+  <category>english</category>
+  <category>visualization</category>
+  <category>coding</category>
+  <guid>https://marcelmare.com/blog/better-altair-theme.html</guid>
+  <pubDate>Sat, 20 Jan 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/urban-institute-styleguide.webp" medium="image" type="image/webp"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/obsidian-setup.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/obsidian-setup.html</link>
+  <description>{B4F502887207:/blog/obsidian-setup.html}</description>
+  <category>english</category>
+  <category>coding</category>
+  <category>workflow</category>
+  <guid>https://marcelmare.com/blog/obsidian-setup.html</guid>
+  <pubDate>Fri, 29 Dec 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/blog/images/obsidian-setup.png" medium="image" type="image/png" height="119" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/webinar-knmg.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/webinar-knmg.html</link>
+  <description>{B4F502887207:/blog/webinar-knmg.html}</description>
+  <category>nederlands</category>
+  <category>webinar</category>
+  <category>responsible ai</category>
+  <category>healthcare</category>
+  <guid>https://marcelmare.com/blog/webinar-knmg.html</guid>
+  <pubDate>Wed, 08 Nov 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/still-knmg.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/data-is-een-recht.html}</title>
+  <dc:creator>Antoinette Vlieger, Daniel Kapitan, Egge van der Poel</dc:creator>
+  <link>https://marcelmare.com/blog/data-is-een-recht.html</link>
+  <description>{B4F502887207:/blog/data-is-een-recht.html}</description>
+  <category>nederlands</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/data-is-een-recht.html</guid>
+  <pubDate>Tue, 19 Sep 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/YasminDwiputri-DataHazards.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/dsc-whitepaper-pets.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/dsc-whitepaper-pets.html</link>
+  <description>{B4F502887207:/blog/dsc-whitepaper-pets.html}</description>
+  <category>english</category>
+  <category>data commons</category>
+  <category>privacy-enhancing technologies</category>
+  <guid>https://marcelmare.com/blog/dsc-whitepaper-pets.html</guid>
+  <pubDate>Fri, 30 Jun 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/dsc-pets-overview.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/podcast-dataloog-datasolidariteit.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/podcast-dataloog-datasolidariteit.html</link>
+  <description>{B4F502887207:/blog/podcast-dataloog-datasolidariteit.html}</description>
+  <category>nederlands</category>
+  <category>podcast</category>
+  <category>data commons</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/podcast-dataloog-datasolidariteit.html</guid>
+  <pubDate>Wed, 17 May 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/podcast-de-dataloog.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/datasolidariteit.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/datasolidariteit.html</link>
+  <description>{B4F502887207:/blog/datasolidariteit.html}</description>
+  <category>nederlands</category>
+  <category>data commons</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/datasolidariteit.html</guid>
+  <pubDate>Mon, 26 Dec 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/tim-mossholder-bo3SHP58C3g-unsplash.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/podcast-aitoday.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/podcast-aitoday.html</link>
+  <description>{B4F502887207:/blog/podcast-aitoday.html}</description>
+  <category>nederlands</category>
+  <category>podcast</category>
+  <category>responsible ai</category>
+  <guid>https://marcelmare.com/blog/podcast-aitoday.html</guid>
+  <pubDate>Mon, 04 Jul 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/podcast-aitoday.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/eerlijke-algoritmen.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/eerlijke-algoritmen.html</link>
+  <description>{B4F502887207:/blog/eerlijke-algoritmen.html}</description>
+  <category>nederlands</category>
+  <category>responsible ai</category>
+  <guid>https://marcelmare.com/blog/eerlijke-algoritmen.html</guid>
+  <pubDate>Sun, 24 Apr 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/alexander-grey-TZZwC_xsClY-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/analytical-problem-solving.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/analytical-problem-solving.html</link>
+  <description>{B4F502887207:/blog/analytical-problem-solving.html}</description>
+  <category>english</category>
+  <category>modeling</category>
+  <guid>https://marcelmare.com/blog/analytical-problem-solving.html</guid>
+  <pubDate>Wed, 09 Mar 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/logo-american-statistician.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/hippo-ai.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/hippo-ai.html</link>
+  <description>{B4F502887207:/blog/hippo-ai.html}</description>
+  <category>nederlands</category>
+  <category>responsible ai</category>
+  <guid>https://marcelmare.com/blog/hippo-ai.html</guid>
+  <pubDate>Mon, 31 Jan 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/my-boobs-are-not-for-sale.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/lartpy.html}</title>
+  <link>https://marcelmare.com/blog/lartpy.html</link>
+  <description>{B4F502887207:/blog/lartpy.html}</description>
+  <category>english</category>
+  <category>visualization</category>
+  <category>generative art</category>
+  <category>coding</category>
+  <guid>https://marcelmare.com/blog/lartpy.html</guid>
+  <pubDate>Sun, 25 Apr 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/lartpy.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/scik.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/scik.html</link>
+  <description>{B4F502887207:/blog/scik.html}</description>
+  <category>nederlands</category>
+  <category>data commons</category>
+  <category>data solidarity</category>
+  <guid>https://marcelmare.com/blog/scik.html</guid>
+  <pubDate>Sun, 28 Feb 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/instituut-voor-briljante-mislukkingen.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/comet-chart.html}</title>
+  <link>https://marcelmare.com/blog/comet-chart.html</link>
+  <description>{B4F502887207:/blog/comet-chart.html}</description>
+  <category>english</category>
+  <category>visualization</category>
+  <category>coding</category>
+  <guid>https://marcelmare.com/blog/comet-chart.html</guid>
+  <pubDate>Thu, 28 Jan 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/comet-chart.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/dutch-design-week.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/dutch-design-week.html</link>
+  <description>{B4F502887207:/blog/dutch-design-week.html}</description>
+  <category>nederlands</category>
+  <category>data commons</category>
+  <guid>https://marcelmare.com/blog/dutch-design-week.html</guid>
+  <pubDate>Sat, 17 Oct 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/ddw19-health-embassy.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/happi.html}</title>
+  <dc:creator>Daniel Kapitan</dc:creator>
+  <link>https://marcelmare.com/blog/happi.html</link>
+  <description>{B4F502887207:/blog/happi.html}</description>
+  <category>nederlands</category>
+  <category>healthcare</category>
+  <guid>https://marcelmare.com/blog/happi.html</guid>
+  <pubDate>Sun, 22 Sep 2019 22:00:00 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/happi-app-datalab-scaled-1-2048x652.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>

@@ -59,11 +59,11 @@ format:
 ::: {.g-col-10}
 #### Strategy is not a PowerPoint deck.
 
-Most strategic failures begin before delivery. They are not execution problems, but framing problems—flawed from the moment the challenge is misnamed or oversimplified. Ambition often succumbs to the quiet drag of organisational inertia.
+Most strategic failures are born before delivery. Execution is rarely the problem. The flaw lies in how we frame the challenge from the start. Painpoints and problems are frequently misnamed, oversimplified, already compromised by the quiet drag of organisational inertia.
 
 #### Designing for Reality
 
-I partner with teams facing complexity and ambiguity to turn abstract ambition into outcomes that survive the "push back" of reality. Organisations are not machines; they are social, political, and behavioural systems. Navigating them takes more than expertise. It takes pattern recognition, timing, and a deep sensitivity to context.
+I partner with teams facing complexity and ambiguity to turn abstract ambition into outcomes that survive the "push back" of reality. Organisations are not machines; they are complex material, social, and mental ecosystems. Navigating them requires pattern recognition, timing, and a deep sensitivity to context.
 
 I help you bridge the gap between where you are and where the strategy says you should be.
 :::
@@ -150,7 +150,7 @@ I provide sessions designed to help leadership teams think clearly under pressur
 <br>
 
 <!-- :::: {#logo-board}
-[![](/images/home-logo-board.png)](projects/index.qmd)
+[![](/images/home-mare.png)](portfolio/index.qmd)
 ::: -->
 
 <br>
@@ -194,6 +194,8 @@ I provide sessions designed to help leadership teams think clearly under pressur
 <br>
 
 # About me {#about-me}
+
+[![](/images/home-mare.png){width=20%}](portfolio/index.qmd)
 
 I’m a strategic design consultant with over twenty years of experience working across academia, behavioural science, and digital innovation. I currently lead **Moruti Consulting**, where I focus on designing solutions that support sustainable, systemic change in energy, urban development, and public services.
 

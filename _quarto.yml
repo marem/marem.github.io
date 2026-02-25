@@ -14,15 +14,18 @@ website:
   search:
     location: sidebar
     type: overlay
+
   navbar:
     logo: /images/logo-mare.png
-    # title: "MARCEL MARÉ"
+    title: "MARCEL MARÉ"
     pinned: false
     collapse-below: md
+
   sidebar:
     style: docked  
     collapse-level: 1
     background: light
+
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/marem1969/
@@ -36,28 +39,27 @@ website:
       - icon: substack
         href: https://spottedape.substack.com
         text: "RSS feed"
+
     contents:
       - text: "Essays"
         href: posts/substack/index.qmd
       - section: "Portfolio"
-        href: projects/index.qmd
+        href: portfolio/index.qmd
         contents:
           - text: "Creative x AI Workshops"
-            href: projects/creative-x-ai-workshops.qmd
+            href: portfolio/creative-x-ai-workshops.qmd
           - text: "Sibabalwe Bakery"
-            href: projects/sibabalwe-bakery.qmd
+            href: portfolio/sibabalwe-bakery.qmd
           - text: "Momentum Recharge"
-            href: projects/momentum-recharge.qmd
+            href: portfolio/momentum-recharge.qmd
           - text: "Vantage HIV"
-            href: projects/vantage-hiv.qmd
+            href: portfolio/vantage-hiv.qmd
           - text: "Remote Real-Time Digital Video"
-            href: projects/csir-remote-video.qmd
+            href: portfolio/csir-remote-video.qmd
           - text: "Veza Tourism"
-            href: projects/csir-veza-tourism.qmd
+            href: portfolio/csir-veza-tourism.qmd
       - text: "About Me & Contact"
         href: index.qmd#about-me
-      - text: "-"
-        href: https://nosite.com
       - text: "Book an appointment"
         href: appointment/index.qmd
   page-footer:
@@ -88,7 +90,6 @@ format:
     css: styles.css
     toc: false
     include-in-header:
-      - text: |
-        <script data-goatcounter="https://marem.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+      - text: <script data-goatcounter="https://marem.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 execute: 
   freeze: auto
