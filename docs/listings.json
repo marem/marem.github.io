@@ -1,5 +1,100 @@
 [
   {
+    "listing": "/nugget/index.html",
+    "items": [
+      "/nugget/sfeerimpressie.html",
+      "/nugget/onderhoud-accus.html",
+      "/nugget/winterklaar-maken.html",
+      "/nugget/dakkoffer.html",
+      "/nugget/thetford-toilet.html"
+    ]
+  },
+  {
+    "listing": "/recepten/index.html",
+    "items": [
+      "/recepten/haricotverts-ottolenghi.html",
+      "/recepten/ayam-bakar.html",
+      "/recepten/lia-warani.html",
+      "/recepten/mung-bean-porridge.html",
+      "/recepten/thaise-rode-curry.html",
+      "/recepten/szechuan-asperges.html",
+      "/recepten/zalm-met-miso-mayo.html",
+      "/recepten/vegetarische-erwtensoep.html",
+      "/recepten/couscous-salade.html",
+      "/recepten/black-pepper-tofu.html",
+      "/recepten/koreanse-wrap-met-biefstuk.html",
+      "/recepten/steamed-broccoli-soy-ginger.html",
+      "/recepten/bloemkool-ovenschotel.html",
+      "/recepten/thaise-salade.html",
+      "/recepten/sticky-aubergine-met-rijst.html",
+      "/recepten/yakisoba.html",
+      "/recepten/tian-de-legumes.html",
+      "/recepten/oostenrijkse-goulashsoep.html",
+      "/recepten/sauteed-spinach-onions-mushroom.html",
+      "/recepten/zoete-aardappel-stamppot.html",
+      "/recepten/tahu-telor.html",
+      "/recepten/ottolenghi-roasted-eggplant.html",
+      "/recepten/courgette-soep.html",
+      "/recepten/okonomiyaki.html",
+      "/recepten/harira.html",
+      "/recepten/miso-ramen.html",
+      "/recepten/geroosterde-witte-asperges.html",
+      "/recepten/mac-cheese-pompoen-spinazie.html",
+      "/recepten/pad-thai.html",
+      "/recepten/minestrone-soep.html",
+      "/recepten/gua-bao-buns.html",
+      "/recepten/soto-ayam.html",
+      "/recepten/ottolenghi-geblakerde-cherrytomaatjes.html",
+      "/recepten/goulashsoep-met-gnocchi.html",
+      "/recepten/smoor-ayam.html",
+      "/recepten/kip-cashew.html",
+      "/recepten/dahl-met-zoete-aardappel.html",
+      "/recepten/buffalo-bloemkoolwings.html",
+      "/recepten/deya's-porridge.html",
+      "/recepten/ottolenghi-pasta-a-la-norma.html",
+      "/recepten/spicy-linzensoep.html",
+      "/recepten/roti-masala-kip.html",
+      "/recepten/moeders-aardappelgratin.html",
+      "/recepten/gebakken-griet.html",
+      "/recepten/gegrilde-groenten-soep.html"
+    ]
+  },
+  {
+    "listing": "/posts/substack/index.html",
+    "items": [
+      "/posts/substack/2026-02-14-the-laboratory-fallacy.html",
+      "/posts/substack/2026-02-05-the-hinterland-paradox-in-south-africa.html",
+      "/posts/substack/2026-01-13-from-seabed-to-orbit.html",
+      "/posts/substack/2025-12-08-wisdom-is-like-a-baobab-tree.html",
+      "/posts/substack/2025-11-21-the-matthew-effect-why-a-harvard-degree-works-like-a-birkin-bag.html",
+      "/posts/substack/2025-11-12-the-flying-spotted-ass-ape-and-the-psychology-of-creative-formation.html",
+      "/posts/substack/2025-10-30-hal-9000-and-the-market-s-moloch-problem.html",
+      "/posts/substack/2025-10-23-playing-in-the-river-before-the-fire.html",
+      "/posts/substack/2025-08-21-moholy-nagy-and-the-art-of-remote-creation.html",
+      "/posts/substack/2025-05-28-the-ai-ux-iceberg-that-could-sink-figma.html",
+      "/posts/substack/2025-05-08-creativity-in-the-age-of-machines.html",
+      "/posts/substack/2025-05-08-co-create-or-die-key-mit-insights-on-ai-s-impact-in-r-d.html",
+      "/posts/substack/2025-05-08-klarna-s-karma-on-black-friday-when-ai-devours-marketing.html",
+      "/posts/substack/2025-05-08-designing-neural-media-allado-mcdowell-s-compelling-typology-incorporating-ai.html",
+      "/posts/substack/2025-05-08-will-ai-take-my-job-unlikely-but-it-might-eat-my-admin.html",
+      "/posts/substack/2025-05-08-ai-s-avalanche-is-coming-are-you-ready.html",
+      "/posts/substack/2025-05-08-baudrillard-dor-channeling-lies-wide-shut.html",
+      "/posts/substack/2025-05-08-frog-goes-hip-hop-jumping-into-creative-ai.html",
+      "/posts/substack/2025-05-07-warren-mcculloch-pioneer-of-neural-networks-and-ai.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/csir-remote-video.html",
+      "/projects/momentum-recharge.html",
+      "/projects/sibabalwe-bakery.html",
+      "/projects/vantage-hiv.html",
+      "/projects/creative-x-ai-workshops.html",
+      "/projects/csir-veza-tourism.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/podcast-optimist-datasolidarieit.html",
@@ -25,17 +120,6 @@
       "/blog/nrc-houd-toezicht-algoritmes.html",
       "/blog/azimov.html",
       "/blog/origins-of-kapitan.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/csir-remote-video.html",
-      "/projects/momentum-recharge.html",
-      "/projects/sibabalwe-bakery.html",
-      "/projects/vantage-hiv.html",
-      "/projects/creative-x-ai-workshops.html",
-      "/projects/csir-veza-tourism.html"
     ]
   }
 ]

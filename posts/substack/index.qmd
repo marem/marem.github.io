@@ -1,5 +1,5 @@
 ---
-title: Substack Essays
+title: Essays
 date-format: "MMM YYYY"
 listing:
     contents: .

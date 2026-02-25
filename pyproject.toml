@@ -1,7 +1,7 @@
 [project]
-name = "dkapitan-github-io"
+name = "marem-github-io"
 version = "1.0.0"
-description = "Source code for https://kapitan.net"
+description = "Source code for https://marem.github.io"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

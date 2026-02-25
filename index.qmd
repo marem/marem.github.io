@@ -16,7 +16,7 @@ format:
 </div>
 <style type="text/css">
 .bgimg {
-  background-image: url('images/home-hero.jpg');
+  background-image: url('images/home-hero.png');
   Background-size: cover;
 }
 .lead {
@@ -149,9 +149,9 @@ I provide sessions designed to help leadership teams think clearly under pressur
 
 <br>
 
-:::: {#logo-board}
+<!-- :::: {#logo-board}
 [![](/images/home-logo-board.png)](projects/index.qmd)
-:::
+::: -->
 
 <br>
 
@@ -187,8 +187,13 @@ I provide sessions designed to help leadership teams think clearly under pressur
 ::: {.g-col-2}
 :::
 :::
+<br>
+<br>
+<br>
+<br>
+<br>
 
-# Hi, I’m Marcel
+# About me {#about-me}
 
 I’m a strategic design consultant with over twenty years of experience working across academia, behavioural science, and digital innovation. I currently lead **Moruti Consulting**, where I focus on designing solutions that support sustainable, systemic change in energy, urban development, and public services.
 
@@ -206,11 +211,11 @@ Based in **Cape Town, South Africa**, working globally to help organisations nav
 
 ### Contact details
 
-**email:** [contact@marcelmare.com](mailto:contact@marcelmare.com)
+**Email:** [contact@marcelmare.com](mailto:contact@marcelmare.com)
 
-
-**Socials:** [LinkedIn](https://www.linkedin.com/in/marem1969) | [Instagram](https://www.instagram.com/marem1969) | [X](https://x.com/marem1969)
+**Socials:** [LinkedIn](https://www.linkedin.com/in/marem1969) | [Instagram](https://www.instagram.com/marem1969)
 
 ```{=html}
+<br>
 <a href="mailto:contact@marcelmare.com" class="btn btn-primary btn-lg" type="button">Get in touch</a>
 ```
