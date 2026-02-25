@@ -86,7 +86,7 @@ My job is to interrogate underlying logic and stress-test the story. I bring str
 :::
 
 :::{.g-col-4}
-![](images/home-noun-timeline-inverse.png)
+![](images/home-strategic-design-consulting.png)
 :::
 :::
 ::::
@@ -101,7 +101,7 @@ My job is to interrogate underlying logic and stress-test the story. I bring str
 
 ::: {.g-col-8}
 
-### Systemic Change
+### Systems Change
 
 Leading solutions in energy, urban development, and public services requires a systemic lens. I work across silos to translate ideas into decisions, and decisions into action. I act as an "early warning system," sensing misalignment before it hardens into conflict or inertia.
 
@@ -120,10 +120,11 @@ Leading solutions in energy, urban development, and public services requires a s
 
 Designing for humans requires understanding the intersection of policy, technology, and human behaviour. I help organisations navigate the complex fault lines where strategy meets culture. This is the "invisible function" of a strategist: making sense of ambiguity to keep strategy grounded in human conditions.
 
-<small class="text-muted">Human-Centred Design | Behavioural Insights | Organisational Psychology | Cultural Alignment</small>
+<small class="text-muted">Human-Centred Design | Behavioural Insights | Organisational Design</small>
 :::
 
-::: {.g-col-4}
+:::{.g-col-4}
+![](images/home-behavioural-science-design.png)
 :::
 :::
 ::::
@@ -133,7 +134,7 @@ Designing for humans requires understanding the intersection of policy, technolo
 :::: {.container}
 ::: {.grid}
 ::: {.g-col-4}
-![](images/home-noun-lecture.png)
+![](images/home-public-speaking.png)
 :::
 
 ::: {.g-col-8}
