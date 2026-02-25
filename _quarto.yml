@@ -8,6 +8,7 @@ lang: en
 
 website:
   title: "Marcel Maré"
+  favicon: images/favicon.png
   site-url: https://marcelmare.com
   open-graph: true
   # google-analytics: "G-3N2FL85753"
@@ -16,8 +17,8 @@ website:
     type: overlay
 
   navbar:
-    logo: /images/logo-mare.png
-    title: "MARCEL MARÉ"
+    logo: /images/logo.png
+    title: "ARCEL MARÉ"
     pinned: false
     collapse-below: md
 
@@ -33,9 +34,6 @@ website:
       - icon: instagram
         href: https://www.instagram.com/in/marem1969/
         text: "Instagram"
-      - icon: github
-        href: https://github.com/marem1969
-        text: "GitHub"
       - icon: substack
         href: https://spottedape.substack.com
         text: "RSS feed"
