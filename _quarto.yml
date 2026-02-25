@@ -7,7 +7,7 @@ jupyter: python3
 lang: en
 
 website:
-  #title: "Dr Marcel Maré | Behavioural Design | Strategy | Coaching & Mentoring | Masterclasses & Public Speaking"
+  title: "Dr Marcel Maré | Behavioural Design | Strategy | Coaching & Mentoring | Masterclasses & Public Speaking"
   site-url: https://marcelmare.com
   open-graph: true
   # google-analytics: "G-3N2FL85753"
