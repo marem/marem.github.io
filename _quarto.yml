@@ -37,7 +37,9 @@ website:
       - icon: substack
         href: https://spottedape.substack.com
         text: "RSS feed"
-
+      - icon: mortarboard
+        href: https://orcid.org/0000-0002-7860-4037
+        text: "ORCID"
     contents:
       - text: "Essays"
         href: posts/substack/index.qmd
