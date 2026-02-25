@@ -41,10 +41,10 @@ format:
     <h1 class="display-5 fw-bold">I Help<br>People<br>Think Clearly</h1>
   </div>
 </div>
-<p class="lead">
-   <small class="text-hero">STRATEGIC DESIGN &emsp; | &emsp; BEHAVIOURAL SCIENCE &emsp; | &emsp; DESIGN WITH AI</small>
+<p class="hero-subtitle">
+   STRATEGIC DESIGN | BEHAVIOURAL SCIENCE | DESIGN WITH AI
    <br>
-   <small class="text-hero">COACHING & MENTORING &emsp; | &emsp; WORKSHOPS & PUBLIC SPEAKING</small>
+   COACHING & MENTORING | WORKSHOPS & PUBLIC SPEAKING
 </p>
 ```
 
@@ -101,9 +101,9 @@ My job is to interrogate underlying logic and stress-test the story. I bring str
 
 ::: {.g-col-8}
 
-### Systems Change
+### Systems Change & Designing for Emergence
 
-Leading solutions in energy, urban development, and public services requires a systemic lens. I work across silos to translate ideas into decisions, and decisions into action. I act as an "early warning system," sensing misalignment before it hardens into conflict or inertia.
+Leading solutions in energy, development, and public services requires a systemic lens that views organisations as living ecosystems. I work across silos to translate ideas into decisions, and decisions into action. I cultivate the conditions where collective intelligence can surface. I help teams navigate the space between policy and practice to ensure strategy remains grounded in reality.
 
 <small class="text-muted-darker">Public Service Innovation | Urban Development Strategy | Energy Transition | Systemic Design</small>
 :::

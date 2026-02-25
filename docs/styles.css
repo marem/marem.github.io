@@ -27,3 +27,14 @@
   margin-left: -3px;
 
 }
+
+.hero-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444;
+  margin-top: 1.5rem;
+}
