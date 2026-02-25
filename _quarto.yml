@@ -85,7 +85,7 @@ format:
     date-format: "MMM YYYY"
     theme:
       light:
-        - flatly
+        - cosmo
         - mozilla.scss
     css: styles.css
     toc: false

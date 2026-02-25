@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Marcel Maré</title>
+<link>https://marcelmare.com/portfolio/</link>
+<atom:link href="https://marcelmare.com/portfolio/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 25 Feb 2026 09:21:34 GMT</lastBuildDate>
+<item>
+  <title>Remote Real-Time Digital Video</title>
+  <link>https://marcelmare.com/portfolio/csir-remote-video.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> Assistant Designer &amp; Technical Mentor</li>
+<li><strong>Context:</strong> Commonwealth Games</li>
+<li><strong>Target Group:</strong> High-performance coaching staff and athletes</li>
+</ul>
+<p><strong>Core Problem:</strong> The need for a seamless, real-time method to capture and relay athletic performance data to coaching staff during high-stakes competition.</p>
+<p><strong>Outcome:</strong> Designed and implemented a remote real-time digital video production system that enabled immediate performance feedback, significantly enhancing the coaching experience.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>During major sporting events like the Commonwealth Games, the margin between winning and losing is often found in immediate technical adjustments. Traditional video analysis often suffered from:</p>
+<ul>
+<li>Latency in footage availability.</li>
+<li>Fragmented communication between capture teams and coaches.</li>
+<li>Limited tools for real-time visual breakdown.</li>
+</ul>
+<p>This project aimed to close the gap between performance and analysis through a dedicated digital video infrastructure.</p>
+</section>
+<section id="research-interaction-design" class="level2">
+<h2 class="anchored" data-anchor-id="research-interaction-design">3. Research &amp; Interaction Design</h2>
+<p>The system was built with a focus on <strong>Interaction Design</strong>, ensuring that the technical complexity of remote production did not hinder the speed of coaching decisions.</p>
+<section id="key-focus-areas" class="level3">
+<h3 class="anchored" data-anchor-id="key-focus-areas">Key Focus Areas:</h3>
+<ul>
+<li><strong>Real-Time Latency:</strong> Reducing the delay between the athletic action and the video relay.</li>
+<li><strong>Remote Access:</strong> Ensuring coaching staff could access high-quality feeds from various vantage points.</li>
+<li><strong>User Interface:</strong> Streamlining the capture process to be intuitive for production teams.</li>
+</ul>
+</section>
+</section>
+<section id="implementation-mentoring" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-mentoring">4. Implementation &amp; Mentoring</h2>
+<p>Beyond the technical architecture, a significant portion of the project focused on capability building:</p>
+<ul>
+<li><strong>System Deployment:</strong> Executed the seamless capture and relay of athletic performance across multiple event sites.</li>
+<li><strong>Mentoring:</strong> Provided hands-on training for the team in non-linear video editing techniques.</li>
+<li><strong>Tool Creation:</strong> Developed custom digital coaching tools to facilitate on-the-fly performance analysis.</li>
+</ul>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">5. Impact &amp; Evidence</h2>
+<p>The intervention fundamentally changed how coaching staff interacted with performance data:</p>
+<ul>
+<li><strong>Revolutionised Coaching Experience:</strong> Enabled “live” tactical adjustments based on instant video playback.</li>
+<li><strong>Operational Efficiency:</strong> Streamlined the workflow from capture to analysis, removing technical bottlenecks.</li>
+<li><strong>Team Capability:</strong> Successfully upskilled production staff in advanced editing and digital tool usage.</li>
+</ul>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">6. Strategic Value &amp; Transferability</h2>
+<p>This project demonstrates the successful application of interaction design in high-pressure, real-time environments. The model is transferable to:</p>
+<ul>
+<li><strong>Live Broadcast &amp; Media:</strong> Enhancing remote production workflows.</li>
+<li><strong>Industrial Tele-operation:</strong> Applying real-time video relay to remote monitoring and control.</li>
+<li><strong>High-Performance Training:</strong> Scaling digital coaching tools for professional sports academies and Olympic programmes.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Interaction-Design</category>
+  <category>Multimedia</category>
+  <category>Video-Design</category>
+  <category>Innovation</category>
+  <guid>https://marcelmare.com/portfolio/csir-remote-video.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-csir-remote-video.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Momentum Recharge</title>
+  <link>https://marcelmare.com/portfolio/momentum-recharge.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> UX Designer &amp; Behavioural Strategist</li>
+<li><strong>Context:</strong> Wellness application development</li>
+<li><strong>Core Problem:</strong> Effectively integrating visual design principles into a platform to promote and sustain positive behaviour change.</li>
+</ul>
+<p><strong>Outcome:</strong> Designed and implemented a personalized user experience based on user research and feedback analysis, resulting in measurable increases in user engagement.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>The Momentum Recharge project focused on the intersection of visual communication and wellness. The primary goal was to create a digital environment that didn’t just track data, but actively encouraged healthy habits through:</p>
+<ul>
+<li>Integration of key visual design principles.</li>
+<li>Alignment of app functionality with wellness goals.</li>
+<li>Leveraging user-centric design to drive long-term retention.</li>
+</ul>
+</section>
+<section id="research-diagnostic-phase" class="level2">
+<h2 class="anchored" data-anchor-id="research-diagnostic-phase">3. Research &amp; Diagnostic Phase</h2>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<ul>
+<li><strong>User Research:</strong> Conducted deep dives into user motivations and barriers to wellness.</li>
+<li><strong>Feedback Analysis:</strong> Systematically reviewed user responses to identify pain points and preferences.</li>
+<li><strong>UX Auditing:</strong> Evaluated existing workflows for friction in the behaviour change journey.</li>
+</ul>
+</section>
+<section id="focus" class="level3">
+<h3 class="anchored" data-anchor-id="focus">Focus</h3>
+<p>The research phase aimed to understand how users perceive wellness metrics and what visual cues most effectively trigger positive action.</p>
+</section>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">4. Key Insights</h2>
+<ol type="1">
+<li><strong>Personalization is Paramount:</strong> Users are more likely to engage with wellness tools when the experience feels tailored to their specific lifestyle.</li>
+<li><strong>Visual Clarity Drives Action:</strong> Complex data must be translated into intuitive visual design to prevent cognitive overwhelm.</li>
+<li><strong>Feedback Loops:</strong> Real-time feedback, aligned with user preferences, significantly boosts the perceived value of the application.</li>
+</ol>
+</section>
+<section id="intervention-design" class="level2">
+<h2 class="anchored" data-anchor-id="intervention-design">5. Intervention Design</h2>
+<p>Based on research findings, the application was customized through several key design pillars:</p>
+<ul>
+<li><strong>Identity-Aligned UX:</strong> Creating a personalized interface that reflects the user’s wellness journey.</li>
+<li><strong>Behavioural Visuals:</strong> Using design principles to highlight progress and nudge healthy choices.</li>
+<li><strong>Data-Driven Customization:</strong> Adjusting the application’s flow based on feedback analysis to ensure a high level of user-product fit.</li>
+</ul>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">6. Impact &amp; Evidence</h2>
+<p>The implementation of these behavioural and design strategies led to several key outcomes:</p>
+<ul>
+<li><strong>Increased User Engagement:</strong> Higher daily active usage and longer session durations.</li>
+<li><strong>Improved User Satisfaction:</strong> Positive qualitative feedback regarding the personalized nature of the application.</li>
+<li><strong>Enhanced Data Interaction:</strong> Clearer data visualisation led to more frequent user interaction with wellness metrics.</li>
+</ul>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">7. Strategic Value &amp; Transferability</h2>
+<p>This project demonstrates the value of merging UX research with behavioural design to solve engagement challenges in the health-tech sector. It is highly transferable to:</p>
+<ul>
+<li><strong>Health &amp; Wellness Platforms:</strong> Improving retention in fitness and mental health apps.</li>
+<li><strong>Employee Wellness Programs:</strong> Designing internal tools that employees actually want to use.</li>
+<li><strong>Data-Driven Product Strategy:</strong> Translating complex user data into actionable design improvements.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Behavioural-Design</category>
+  <category>Data-Visualisation</category>
+  <category>UX-Research</category>
+  <category>Wellness</category>
+  <guid>https://marcelmare.com/portfolio/momentum-recharge.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-momentum-recharge.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Sibabalwe Bakery</title>
+  <link>https://marcelmare.com/portfolio/sibabalwe-bakery.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> Behavioural Researcher &amp; Strategic Design Lead</li>
+<li><strong>Duration:</strong> Multi-phase community intervention</li>
+<li><strong>Context:</strong> Informal settlement households using unsafe flame-based cooking systems</li>
+</ul>
+<p><strong>Core Problem:</strong> Low adoption of safer cookstove technologies despite significant health and safety risks.</p>
+<p><strong>Outcome:</strong> Designed and implemented a community-based behavioural intervention using bread-baking as a participatory catalyst, contributing to measurable shifts in cookstove ownership patterns and safety perceptions.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>In many low-resource South African communities, households rely on open-flame cooking systems, paraffin, and biomass fuels, often within structurally unsafe stoves.</p>
+<p><strong>Consequences include:</strong> - Respiratory illness and indoor air pollution - Burn injuries - Fuel inefficiency and financial strain</p>
+<p>Despite the availability of safer alternatives, adoption rates remained low because barriers were not purely economic—they were behavioural, cultural, and identity-linked. The challenge was shifted from a product distribution problem to a <strong>behavioural systems challenge</strong>: shifting motivations and norms without imposing external solutions.</p>
+</section>
+<section id="research-diagnostic-phase" class="level2">
+<h2 class="anchored" data-anchor-id="research-diagnostic-phase">3. Research &amp; Diagnostic Phase</h2>
+<section id="research-questions" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions">Research Questions</h3>
+<ul>
+<li>What symbolic and cultural meanings are attached to cooking with fire?</li>
+<li>What prevents households from transitioning to safer cookstoves?</li>
+<li>Which social influences shape ownership decisions?</li>
+<li>How do risk perceptions align with daily lived realities?</li>
+</ul>
+</section>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<ul>
+<li>Ethnographic fieldwork and in-home observations</li>
+<li>Semi-structured interviews and behavioural mapping</li>
+<li>Co-creation workshops and informal community discussions</li>
+<li>Artefact analysis of existing stove types and usage patterns</li>
+</ul>
+</section>
+<section id="constraints" class="level3">
+<h3 class="anchored" data-anchor-id="constraints">Constraints</h3>
+<ul>
+<li>Financial vulnerability and infrastructure instability</li>
+<li>Deep-rooted cooking traditions</li>
+<li>Trust barriers toward external interventions</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Key Diagnostic Insight:</strong> The cookstove was not merely a utility device; it represented identity, competence, and family provision. Therefore, messaging focused solely on “health risks” failed to motivate change.</p>
+</blockquote>
+</section>
+</section>
+<section id="key-behavioural-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-behavioural-insights">4. Key Behavioural Insights</h2>
+<ol type="1">
+<li><strong>Normalisation of Risk:</strong> Health dangers were acknowledged but behaviourally discounted.</li>
+<li><strong>Social Proof Dominance:</strong> Adoption decisions were strongly influenced by visible community norms.</li>
+<li><strong>Aspirational Identity Leverage:</strong> Participants responded better to narratives of capability and pride than to fear.</li>
+<li><strong>Demonstration Over Instruction:</strong> Hands-on experience produced stronger engagement than informational campaigns.</li>
+</ol>
+</section>
+<section id="intervention-design" class="level2">
+<h2 class="anchored" data-anchor-id="intervention-design">5. Intervention Design</h2>
+<p>The curriculum was structured around three behavioural pillars:</p>
+<ol type="1">
+<li><strong>Reframe Cooking with Improved Cookstoves</strong> Rather than attacking the use of “inefficient” cooking methods, the intervention elevated controlled, skilled routines with improved cooking technologies through baking bread.</li>
+<li><strong>Social Visibility:</strong> Creating shared baking events to establish new behavioural routines and norms.</li>
+<li><strong>Emotional Demonstration (Emo-Demo):</strong> Using experiential sessions to embed safety practices through participation.</li>
+</ol>
+<section id="the-sibabalwe-bakery-model" class="level3">
+<h3 class="anchored" data-anchor-id="the-sibabalwe-bakery-model">The Sibabalwe Bakery Model</h3>
+<p>The bakery acted as a stage for collective preparation, sharing, and open discussion of safe, clean and economically viable cooking practices.</p>
+</section>
+</section>
+<section id="implementation" class="level2">
+<h2 class="anchored" data-anchor-id="implementation">6. Implementation</h2>
+<ul>
+<li>Facilitated co-creative workshops with community ambassadors.</li>
+<li>Iterative refinement of demonstration formats based on cohort feedback.</li>
+<li>Embedded reflective discussions and monitoring of post-intervention choices.</li>
+<li>Adaptive pacing to manage resource constraints and infrastructure disruptions.</li>
+</ul>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">7. Impact &amp; Evidence</h2>
+<p><strong>Qualitative outcomes included:</strong> - Increased discussion and visibility of stove safety within households. - Shift in expressed motivations for stove choice. - Positive changes in ownership patterns following intervention cycles.</p>
+<p><strong>Behavioural indicators observed:</strong> - Participants voluntarily demonstrating safer cooking techniques to peers. - Organic emergence of peer-to-peer advocacy. - Increased inquiry into alternative, safer stove options.</p>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">8. Strategic Value &amp; Transferability</h2>
+<p>This intervention demonstrates the application of behavioural design to digital and physical transformation. It provides a scalable model for:</p>
+<ul>
+<li><strong>Public Health &amp; Sustainability:</strong> Energy transition through social leverage.</li>
+<li><strong>Corporate ESG:</strong> Community-driven norm transformation for product adoption.</li>
+<li><strong>Policy Design:</strong> Workforce and community development through participatory interventions.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Behavioural-Research</category>
+  <category>Strategic-Design</category>
+  <category>Sustainability</category>
+  <category>Community-Intervention</category>
+  <guid>https://marcelmare.com/portfolio/sibabalwe-bakery.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-sibabalwe-bakery.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Vantage HIV</title>
+  <link>https://marcelmare.com/portfolio/vantage-hiv.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> Behavioural Strategist (Collaborator with BCA Team)</li>
+<li><strong>Target Group:</strong> Adolescent girls and young women (AGYW) at risk of HIV</li>
+<li><strong>Context:</strong> Public health crisis involving low medication adherence</li>
+</ul>
+<p><strong>Core Problem:</strong> High rates of HIV risk paired with low adherence to life-saving antiretroviral (ARV) medication and pre-exposure prophylaxis (PrEP) among vulnerable youth populations.</p>
+<p><strong>Outcome:</strong> Developed a multi-channel behavioural journey that successfully improved adherence rates by aligning communication “nudges” with the core motivations of the target demographic.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>In the fight against HIV, the availability of medication (ARVs and PrEP) is only half the battle. For adolescent girls and young women, the barriers to consistent usage are often non-clinical, including:</p>
+<ul>
+<li><strong>Social Stigma:</strong> Fear of being seen with medication.</li>
+<li><strong>Routine Disruption:</strong> Difficulty integrating daily pills into fluid lifestyles.</li>
+<li><strong>Motivation Gaps:</strong> A lack of immediate perceived benefit vs.&nbsp;long-term risk.</li>
+</ul>
+<p>The project aimed to transform medical compliance into a relatable, motivated daily habit.</p>
+</section>
+<section id="intervention-design-the-behavioural-journey" class="level2">
+<h2 class="anchored" data-anchor-id="intervention-design-the-behavioural-journey">3. Intervention Design: The Behavioural Journey</h2>
+<p>The intervention was built on a comprehensive <strong>behavioural journey map</strong> that identified every friction point from initial awareness to daily pill-taking.</p>
+<section id="key-design-pillars" class="level3">
+<h3 class="anchored" data-anchor-id="key-design-pillars">Key Design Pillars</h3>
+<ul>
+<li><strong>Motivation-Linked Touchpoints:</strong> Every interaction was designed to trigger a specific internal motivator (e.g., autonomy, safety, or future-self aspirations).</li>
+<li><strong>The “Nudge” Ecosystem:</strong> Rather than a single message, we created a surrounding environment of reminders.</li>
+</ul>
+</section>
+</section>
+<section id="implementation-touchpoints" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-touchpoints">4. Implementation &amp; Touchpoints</h2>
+<p>The strategy was deployed across multiple channels to meet users where they already exist:</p>
+<ul>
+<li><strong>Community Radio Spots:</strong> Used for broad social proof and to normalise the conversation around PrEP/ARVs.</li>
+<li><strong>Social Media Messaging:</strong> Targeted content designed to build a supportive digital community and reduce stigma.</li>
+<li><strong>Personalised Reminders:</strong> Direct-to-user nudges that felt supportive rather than clinical, helping to overcome the “forgetting” barrier.</li>
+</ul>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">5. Impact &amp; Evidence</h2>
+<p>The project successfully shifted the needle on adherence through:</p>
+<ul>
+<li><strong>Improved Adherence Rates:</strong> Measurable increase in consistent ARV and PrEP usage among the target cohort.</li>
+<li><strong>Enhanced Motivation:</strong> Qualitative feedback indicated that users felt more empowered and less “policed” regarding their health choices.</li>
+<li><strong>Optimised Communication:</strong> Evidence-based refinement of which messages resonated most with AGYW.</li>
+</ul>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">6. Strategic Value &amp; Transferability</h2>
+<p>This project illustrates the power of <strong>Behavioural Design</strong> in a public health context. The framework of mapping “touchpoints to motivations” is highly transferable to:</p>
+<ul>
+<li><strong>Chronic Disease Management:</strong> Improving long-term adherence for diabetes or hypertension.</li>
+<li><strong>Preventative Health:</strong> Encouraging vaccination uptake or regular screenings.</li>
+<li><strong>Youth Engagement:</strong> Designing social services that resonate with hard-to-reach younger demographics.</li>
+</ul>
+<hr>
+<p>Would you like me to expand the <strong>Implementation</strong> section with specific examples of the social media messaging used to reduce stigma?```</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Behavioural-Design</category>
+  <category>UX-Research</category>
+  <category>Healthcare</category>
+  <category>Social-Impact</category>
+  <guid>https://marcelmare.com/portfolio/vantage-hiv.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-vantage-hiv.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Creative x AI Workshop Series</title>
+  <link>https://marcelmare.com/portfolio/creative-x-ai-workshops.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> Co-Designer &amp; Lead Research Facilitator</li>
+<li><strong>Duration:</strong> Multi-session workshop series</li>
+<li><strong>Target Group:</strong> Emerging young Black creatives</li>
+<li><strong>Context:</strong> Creative economy skills gap amid rapid AI integration</li>
+</ul>
+<p><strong>Core Problem:</strong> Young creatives lacked structured support to integrate AI tools into their practice in a way that strengthened rather than diluted creative identity and employability.</p>
+<p><strong>Outcome:</strong> Developed and delivered a research-informed behavioural curriculum integrating AI tools to enhance creative confidence, identity clarity and portfolio readiness.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>The acceleration of generative AI tools has disrupted entry pathways into the creative industries. For historically marginalised creatives, this presented both:</p>
+<ul>
+<li>Opportunity (expanded tool access)</li>
+<li>Risk (skill displacement and identity erosion)</li>
+</ul>
+<p>There was limited structured education focused on:</p>
+<ul>
+<li>Ethical AI integration</li>
+<li>Identity formation</li>
+<li>Translating AI fluency into employability</li>
+</ul>
+<p>The intervention aimed to close this capability gap.</p>
+</section>
+<section id="research-diagnostic-phase" class="level2">
+<h2 class="anchored" data-anchor-id="research-diagnostic-phase">3. Research &amp; Diagnostic Phase</h2>
+<section id="research-questions" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions">Research Questions</h3>
+<ul>
+<li>How do emerging creatives perceive AI in relation to authorship and identity?</li>
+<li>What capability gaps limit effective AI adoption?</li>
+<li>What behavioural barriers affect experimentation and confidence?</li>
+</ul>
+</section>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<ul>
+<li>Pre-workshop reflective surveys</li>
+<li>Facilitated group discussions</li>
+<li>In-session observation</li>
+<li>Iterative feedback loops</li>
+<li>Artefact analysis (outputs created using AI tools)</li>
+</ul>
+</section>
+<section id="tools-explored" class="level3">
+<h3 class="anchored" data-anchor-id="tools-explored">Tools Explored</h3>
+<ul>
+<li>Figma (design workflows)</li>
+<li>Midjourney (visual generation)</li>
+<li>ChatGPT (ideation &amp; structuring)</li>
+<li>RunwayML (video augmentation)</li>
+<li>Jitter (motion design)</li>
+</ul>
+</section>
+<section id="constraints" class="level3">
+<h3 class="anchored" data-anchor-id="constraints">Constraints</h3>
+<ul>
+<li>Uneven digital literacy</li>
+<li>Variable access to hardware</li>
+<li>Psychological resistance to AI</li>
+</ul>
+</section>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">4. Key Insights</h2>
+<ol type="1">
+<li><strong>Identity Anxiety:</strong> Participants feared AI would replace their originality.</li>
+<li><strong>Tool Overwhelm:</strong> Exposure without structure led to shallow experimentation.</li>
+<li><strong>Confidence Deficit:</strong> Low belief in professional competitiveness limited ambition.</li>
+<li><strong>Opportunity Gap:</strong> Few participants knew how to translate AI use into employability language.</li>
+</ol>
+</section>
+<section id="intervention-design" class="level2">
+<h2 class="anchored" data-anchor-id="intervention-design">5. Intervention Design</h2>
+<p>Based on findings, the curriculum was structured around three behavioural pillars:</p>
+<ol type="1">
+<li><strong>Identity Before Tools:</strong> Reflection-first exercises anchored AI use in personal narrative.</li>
+<li><strong>Structured Experimentation:</strong> Tool use embedded within defined creative challenges.</li>
+<li><strong>Translation to Employability:</strong> Outputs reframed as portfolio artefacts with articulated design rationale.</li>
+</ol>
+<p>The workshops combined:</p>
+<ul>
+<li>Guided prompts</li>
+<li>Co-creation exercises</li>
+<li>Live tool demonstration</li>
+<li>Structured critique cycles</li>
+<li>Meta-reflection</li>
+</ul>
+</section>
+<section id="implementation" class="level2">
+<h2 class="anchored" data-anchor-id="implementation">6. Implementation</h2>
+<ul>
+<li>Multi-session modular format</li>
+<li>Progressive tool complexity</li>
+<li>Peer collaboration</li>
+<li>Iterative content refinement</li>
+<li>Adaptive pacing based on cohort feedback</li>
+</ul>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">7. Impact &amp; Evidence</h2>
+<p>Qualitative outcomes included:</p>
+<ul>
+<li>Increased reported confidence in AI tool usage</li>
+<li>Stronger articulation of creative identity</li>
+<li>Production of portfolio-ready artefacts</li>
+<li>Greater clarity on positioning within creative industry roles</li>
+</ul>
+<p>Behavioural indicators observed:</p>
+<ul>
+<li>Reduced hesitation in tool experimentation</li>
+<li>Increased peer feedback engagement</li>
+<li>Clearer self-descriptions of creative value proposition</li>
+</ul>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">8. Strategic Value &amp; Transferability</h2>
+<p>This intervention demonstrates:</p>
+<ul>
+<li>Behavioural design applied to capability development</li>
+<li>Ethical AI integration frameworks</li>
+<li>Curriculum architecture for digital transformation</li>
+<li>Scalable model for educational institutions or corporate upskilling</li>
+</ul>
+<p>Transferable to:</p>
+<ul>
+<li>Corporate AI onboarding</li>
+<li>Innovation team capability building</li>
+<li>University-level digital design curricula</li>
+<li>Workforce development programmes</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Mentoring</category>
+  <category>Behavioural-Design</category>
+  <category>AI</category>
+  <category>Creative-Education</category>
+  <guid>https://marcelmare.com/portfolio/creative-x-ai-workshops.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-creative-x-ai-workshops.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
+<item>
+  <title>Veza Tourism</title>
+  <link>https://marcelmare.com/portfolio/csir-veza-tourism.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="executive-snapshot" class="level2">
+<h2 class="anchored" data-anchor-id="executive-snapshot">1. Executive Snapshot</h2>
+<ul>
+<li><strong>Role:</strong> Multimedia Content Developer &amp; Interaction Designer</li>
+<li><strong>Collaboration:</strong> SA Tourism</li>
+<li><strong>Context:</strong> Hannover World Expo 2000</li>
+</ul>
+<p><strong>Core Problem:</strong> The need to differentiate South Africa as a premier travel destination within the highly competitive and visually saturated environment of a World Expo.</p>
+<p><strong>Outcome:</strong> Developed high-impact multimedia content that successfully captured international attention, effectively showcasing the country’s diverse beauty and tourism attractions to a global audience.</p>
+</section>
+<section id="strategic-context" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-context">2. Strategic Context</h2>
+<p>The Hannover World Expo 2000 served as a critical platform for nation-branding and tourism promotion. In collaboration with SA Tourism, the project aimed to:</p>
+<ul>
+<li>Position South Africa as a modern, diverse, and attractive destination.</li>
+<li>Engage a global audience through interactive digital storytelling.</li>
+<li>Bridge the geographical gap between the expo floor and South African landscapes through immersive media.</li>
+</ul>
+</section>
+<section id="interaction-design-multimedia-development" class="level2">
+<h2 class="anchored" data-anchor-id="interaction-design-multimedia-development">3. Interaction Design &amp; Multimedia Development</h2>
+<p>The focus was on creating a digital experience that was both informative and emotionally resonant.</p>
+<section id="design-focus-areas" class="level3">
+<h3 class="anchored" data-anchor-id="design-focus-areas">Design Focus Areas:</h3>
+<ul>
+<li><strong>Visual Storytelling:</strong> Curating and designing content that highlighted specific “diverse tourism offerings,” from wildlife and landscapes to cultural heritage.</li>
+<li><strong>Engagement Strategy:</strong> Using multimedia to capture the “beauty and attractions” of the region in a way that static print media could not.</li>
+<li><strong>UX for Global Audiences:</strong> Ensuring the interface was intuitive for an international demographic with varying levels of digital literacy and different primary languages.</li>
+</ul>
+</section>
+</section>
+<section id="impact-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="impact-evidence">4. Impact &amp; Evidence</h2>
+<p>The multimedia intervention delivered significant visibility for the South African pavilion:</p>
+<ul>
+<li><strong>Captured Interest:</strong> Successfully drew in expo visitors, increasing dwell time at the South Africa exhibit.</li>
+<li><strong>Effective Showcasing:</strong> High-quality content successfully communicated the breadth of the country’s tourism portfolio.</li>
+<li><strong>Global Recognition:</strong> Contributed to a positive and modernised perception of South Africa as a world-class travel destination.</li>
+</ul>
+</section>
+<section id="strategic-value-transferability" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-value-transferability">5. Strategic Value &amp; Transferability</h2>
+<p>This project highlights the intersection of <strong>Interaction Design</strong> and <strong>Nation Branding</strong>. The approach to large-scale event engagement is transferable to:</p>
+<ul>
+<li><strong>International Trade Shows:</strong> Designing digital booths that convert foot traffic into leads.</li>
+<li><strong>Digital Destination Marketing:</strong> Creating immersive web or app-based tourism experiences.</li>
+<li><strong>Cultural Heritage Projects:</strong> Using multimedia to preserve and promote regional identities to global audiences.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Interaction-Design</category>
+  <category>Multimedia</category>
+  <category>UX-Design</category>
+  <category>International-Exhibitions</category>
+  <guid>https://marcelmare.com/portfolio/csir-veza-tourism.html</guid>
+  <pubDate>Wed, 25 Feb 2026 09:21:34 GMT</pubDate>
+  <media:content url="https://marcelmare.com/images/proj-csir-veza-tourism.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
