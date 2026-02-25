@@ -7,7 +7,7 @@ jupyter: python3
 lang: en
 
 website:
-  title: "Behavioural Design | Strategy | Coaching & Mentoring | Masterclasses & Public Speaking"
+  title: "Marcel Maré"
   site-url: https://marcelmare.com
   open-graph: true
   # google-analytics: "G-3N2FL85753"
@@ -89,6 +89,6 @@ format:
     toc: false
     include-in-header:
       - text: |
-        # <script data-goatcounter="https://dkapitan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <script data-goatcounter="https://marem.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 execute: 
   freeze: auto
