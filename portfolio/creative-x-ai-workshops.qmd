@@ -1,5 +1,6 @@
 ---
 title: "Creative x AI Workshop Series"
+date: 2025-11-01
 description: "Behavioural Curriculum for AI-Supported Creative Empowerment"
 image: /images/proj-creative-x-ai-workshops.png
 toc: false
@@ -7,7 +8,7 @@ categories: [Mentoring, Behavioural-Design, AI, Creative-Education]
 #format: html
 ---
 
-## 1. Executive Snapshot
+### 1. Executive Snapshot
 
 - **Role:** Co-Designer & Lead Research Facilitator
 - **Duration:** Multi-session workshop series
@@ -18,7 +19,7 @@ categories: [Mentoring, Behavioural-Design, AI, Creative-Education]
 
 **Outcome:** Developed and delivered a research-informed behavioural curriculum integrating AI tools to enhance creative confidence, identity clarity and portfolio readiness.
 
-## 2. Strategic Context
+### 2. Strategic Context
 
 The acceleration of generative AI tools has disrupted entry pathways into the creative industries. For historically marginalised creatives, this presented both:
 
@@ -33,15 +34,15 @@ There was limited structured education focused on:
 
 The intervention aimed to close this capability gap.
 
-## 3. Research & Diagnostic Phase
+### 3. Research & Diagnostic Phase
 
-### Research Questions
+#### Research Questions
 
 - How do emerging creatives perceive AI in relation to authorship and identity?
 - What capability gaps limit effective AI adoption?
 - What behavioural barriers affect experimentation and confidence?
 
-### Methods
+#### Methods
 
 - Pre-workshop reflective surveys
 - Facilitated group discussions
@@ -49,7 +50,7 @@ The intervention aimed to close this capability gap.
 - Iterative feedback loops
 - Artefact analysis (outputs created using AI tools)
 
-### Tools Explored
+#### Tools Explored
 
 - Figma (design workflows)
 - Midjourney (visual generation)
@@ -57,20 +58,20 @@ The intervention aimed to close this capability gap.
 - RunwayML (video augmentation)
 - Jitter (motion design)
 
-### Constraints
+#### Constraints
 
 - Uneven digital literacy
 - Variable access to hardware
 - Psychological resistance to AI
 
-## 4. Key Insights
+### 4. Key Insights
 
 1.  **Identity Anxiety:** Participants feared AI would replace their originality.
 2.  **Tool Overwhelm:** Exposure without structure led to shallow experimentation.
 3.  **Confidence Deficit:** Low belief in professional competitiveness limited ambition.
 4.  **Opportunity Gap:** Few participants knew how to translate AI use into employability language.
 
-## 5. Intervention Design
+### 5. Intervention Design
 
 Based on findings, the curriculum was structured around three behavioural pillars:
 
@@ -86,7 +87,7 @@ The workshops combined:
 - Structured critique cycles
 - Meta-reflection
 
-## 6. Implementation
+### 6. Implementation
 
 - Multi-session modular format
 - Progressive tool complexity
@@ -94,7 +95,7 @@ The workshops combined:
 - Iterative content refinement
 - Adaptive pacing based on cohort feedback
 
-## 7. Impact & Evidence
+### 7. Impact & Evidence
 
 Qualitative outcomes included:
 
@@ -109,7 +110,7 @@ Behavioural indicators observed:
 - Increased peer feedback engagement
 - Clearer self-descriptions of creative value proposition
 
-## 8. Strategic Value & Transferability
+### 8. Strategic Value & Transferability
 
 This intervention demonstrates:
 

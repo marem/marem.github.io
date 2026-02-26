@@ -1,12 +1,13 @@
 ---
 title: "Veza Tourism"
+date: 2000-07-01
 description: "Promoting South Africa’s diverse tourism offerings at the Hannover World Expo 2000."
 image: /images/proj-csir-veza-tourism.jpg
 toc: false
 categories: [Interaction-Design, Multimedia, UX-Design, International-Exhibitions]
 ---
 
-## 1. Executive Snapshot
+### 1. Executive Snapshot
 
 - **Role:** Multimedia Content Developer & Interaction Designer
 - **Collaboration:** SA Tourism
@@ -16,7 +17,7 @@ categories: [Interaction-Design, Multimedia, UX-Design, International-Exhibition
 
 **Outcome:** Developed high-impact multimedia content that successfully captured international attention, effectively showcasing the country's diverse beauty and tourism attractions to a global audience.
 
-## 2. Strategic Context
+### 2. Strategic Context
 
 The Hannover World Expo 2000 served as a critical platform for nation-branding and tourism promotion. In collaboration with SA Tourism, the project aimed to:
 
@@ -26,7 +27,7 @@ The Hannover World Expo 2000 served as a critical platform for nation-branding a
 
 
 
-## 3. Interaction Design & Multimedia Development
+### 3. Interaction Design & Multimedia Development
 
 The focus was on creating a digital experience that was both informative and emotionally resonant.
 
@@ -35,7 +36,7 @@ The focus was on creating a digital experience that was both informative and emo
 - **Engagement Strategy:** Using multimedia to capture the "beauty and attractions" of the region in a way that static print media could not.
 - **UX for Global Audiences:** Ensuring the interface was intuitive for an international demographic with varying levels of digital literacy and different primary languages.
 
-## 4. Impact & Evidence
+### 4. Impact & Evidence
 
 The multimedia intervention delivered significant visibility for the South African pavilion:
 
@@ -43,7 +44,7 @@ The multimedia intervention delivered significant visibility for the South Afric
 - **Effective Showcasing:** High-quality content successfully communicated the breadth of the country's tourism portfolio.
 - **Global Recognition:** Contributed to a positive and modernised perception of South Africa as a world-class travel destination.
 
-## 5. Strategic Value & Transferability
+### 5. Strategic Value & Transferability
 
 This project highlights the intersection of **Interaction Design** and **Nation Branding**. The approach to large-scale event engagement is transferable to:
 
