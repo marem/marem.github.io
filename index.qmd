@@ -190,7 +190,7 @@ I provide sessions designed to help leadership teams think clearly under pressur
 ***
 <br>
 <br>
-[![](/images/home-mare.png){width=20%}](portfolio/index.qmd)
+[![](/images/home-mare.png){width=20%}](index.qmd#about-me)
 <br>
 <br>
 <br>
@@ -232,9 +232,9 @@ You will only hear from me when I have something of interest to share.
 <a href="https://www.instagram.com/marem1969/" target="_blank">
   <i class="bi bi-instagram"></i> Instagram
 </a>&nbsp;
-<a href="https://spottedape.substack.com">
+<a href="https://spottedape.substack.com" target="_blank">
   <i class="bi bi-substack"></i> Substack
 </a>&nbsp;
-<a href="https://orcid.org/0000-0002-7860-4037">
+<a href="https://orcid.org/0000-0002-7860-4037" target="_blank">
   <i class="bi bi-mortarboard"></i> ORCID
 </a>
