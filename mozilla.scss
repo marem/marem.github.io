@@ -21,7 +21,7 @@ $navbar-default-font: $zilla-slab;
 
 // Heading sizes (using rem for better accessibility)
 $h1-font-size: 2.5rem;
-$h2-font-size: 1.25rem;
+$h2-font-size: 2.5rem;
 $h3-font-size: 1.0rem;
 $h4-font-size: 1.0rem;
 
@@ -53,6 +53,7 @@ div.quarto-post .body .listing-subtitle {
 }
 
 div.quarto-post .listing-description {
+    //font-size: .875em;
     font-size: .875em;
 }
 
@@ -129,4 +130,12 @@ div.sidebar-item-container .sidebar-link>code {
 
 .sidebar.sidebar-navigation>* {
     padding-top: 0.5em;
+}
+
+.quarto-listing .listing-title {
+  margin-bottom: 0.5rem !important;
+}
+
+.quarto-listing .listing-description {
+  margin-top: 0.05rem !important;
 }

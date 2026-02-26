@@ -1,5 +1,7 @@
 ---
-title: Essays
+title: |
+    Essays
+    ---
 date-format: "MMM YYYY"
 listing:
     contents: .
@@ -7,6 +9,9 @@ listing:
     sort: "date desc"
     sort-ui: false
     filter-ui: true
-    categories: true
+    categories: false
     feed: true
+    image-height: 200px
+    image-align: right
+    fields: [author, title, description, date, categories, image]
 ---

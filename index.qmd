@@ -48,8 +48,6 @@ format:
 </p>
 ```
 
-
-
 <br>
 
 ::: {.grid}
@@ -72,7 +70,23 @@ I help you bridge the gap between where you are and where the strategy says you 
 :::
 :::
 
-<br><br>
+<br><br><br><br>
+
+::: {.grid}
+::: {.g-col-2}
+:::
+
+::: {.g-col-6}
+
+### "I help organisations turn strategy into outcomes that hold up under pressure."
+
+:::
+
+::: {.g-col-2}
+:::
+:::
+
+<br><br><br><br><br><br>
 
 :::: {#light-grey-background}
 ::: {.grid}
@@ -174,20 +188,6 @@ I provide sessions designed to help leadership teams think clearly under pressur
 </style>
 ```
 
-
-::: {.grid}
-::: {.g-col-2}
-:::
-
-::: {.g-col-6}
-
-### "I help organisations turn strategy into outcomes that hold up under pressure."
-
-:::
-
-::: {.g-col-2}
-:::
-:::
 <br>
 <br>
 <br>
@@ -196,27 +196,39 @@ I provide sessions designed to help leadership teams think clearly under pressur
 
 # About me {#about-me}
 
+---
+<br>
+<br>
 [![](/images/home-mare.png){width=20%}](portfolio/index.qmd)
+<br>
+<br>
+<br>
 
-I’m a strategic design consultant with over twenty years of experience working across academia, behavioural science, and digital innovation. I currently lead **Moruti Consulting**, where I focus on designing solutions that support sustainable, systemic change in energy, urban development, and public services.
-
-My work sits at the intersection of policy, technology, and human behaviour. I work with teams who are grappling with the reality of complexity and the weight of organisational inertia. I view my role as part editor, part interpreter, and part early warning system—spotting fault lines early and keeping strategy grounded in the conditions that matter most.
-
-Strategy often fails because it is treated as a plan for a machine. I treat organisations as social ecosystems. My goal is to bring clarity to problems before they become expensive distractions and to ensure that ambition is met with an equal measure of operational reality.
+I’m a strategic design consultant with over twenty years of experience working across academia, behavioural science, and digital innovation. Based in **Cape Town, South Africa**, My goal is to bring clarity to problems before they become expensive distractions and to ensure that ambition is met with an equal measure of operational reality.
 
 ### Areas of Expertise
 
-Strategic Design, Problem Reframing, Systemic Change, Behavioural Science, Digital Innovation, Public Service Design, Energy Transition, and Urban Development.
-
-### Locations
-
-Based in **Cape Town, South Africa**, working globally to help organisations navigate ambiguity and deliver meaningful impact.
+Strategic Design, Problem Reframing, Systemic Change, Behavioural Design, Digital Innovation, Service Design, Energy Transition, and Sustainable Development.
 
 ### Contact details
 
 **Email:** [contact@marcelmare.com](mailto:contact@marcelmare.com)
 
-**Socials:** [LinkedIn](https://www.linkedin.com/in/marem1969) | [Instagram](https://www.instagram.com/marem1969)
+**Keep in touch:**
+You will only hear from me when I have something of interest to share.
+
+<a href="https://www.linkedin.com/in/marem1969/" target="_blank">
+  <i class="bi bi-linkedin"></i> LinkedIn
+</a>&nbsp;
+<a href="https://www.instagram.com/marem1969/" target="_blank">
+  <i class="bi bi-instagram"></i> Instagram
+</a>&nbsp;
+<a href="https://spottedape.substack.com">
+  <i class="bi bi-substack"></i> Substack
+</a>&nbsp;
+<a href="https://orcid.org/0000-0002-7860-4037">
+  <i class="bi bi-mortarboard"></i> ORCID
+</a>
 
 ```{=html}
 <br>

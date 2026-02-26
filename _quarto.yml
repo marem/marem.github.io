@@ -58,16 +58,17 @@ website:
             href: portfolio/csir-remote-video.qmd
           - text: "Veza Tourism"
             href: portfolio/csir-veza-tourism.qmd
-      - text: "About me & contact"
+      - text: "About Me & Contact"
         href: index.qmd#about-me
-      - text: "Book an appointment"
+      - text: "Let's Meet"
         href: appointment/index.qmd
   page-footer:
     left: |
       <br>
-       __Marcel Maré__
+       __&copy; 2026 Marcel Maré__
       <br>
-      &copy; 2026
+      
+      <br>
     center: |
       <br>
       <br>
