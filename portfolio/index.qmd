@@ -1,10 +1,11 @@
 ---
 title: |
-    Portfolio
+    Selected Projects
     ---
     <br>
     <br>
-
+#description: |
+#    A selection of projects that I have worked on, including workshops, talks, and other creative endeavours. This is not an exhaustive list, but rather a curated selection of projects that I am particularly proud of.
 date-format: "MMM YYYY"
 listing:
     contents: .

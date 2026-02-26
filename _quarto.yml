@@ -43,7 +43,7 @@ website:
     contents:
       - text: "Essays"
         href: posts/substack/index.qmd
-      - section: "Portfolio"
+      - section: "Projects"
         href: portfolio/index.qmd
         contents:
           - text: "Creative x AI Workshops"
@@ -58,6 +58,8 @@ website:
             href: portfolio/csir-remote-video.qmd
           - text: "Veza Tourism"
             href: portfolio/csir-veza-tourism.qmd
+      - text: "Research"
+        href: research/index.qmd
       - text: "About Me"
         href: index.qmd#about-me
       - text: "Let's Meet"
@@ -67,15 +69,11 @@ website:
       <br>
        __&copy; 2026 Marcel Maré__
       <br>
-      
-      <br>
     center: |
       <br>
       <br>
       <br>
     right: |
-      <br>
-      
       <br>
       <br>
       <br>
