@@ -58,10 +58,10 @@ website:
             href: portfolio/csir-remote-video.qmd
           - text: "Veza Tourism"
             href: portfolio/csir-veza-tourism.qmd
-      - text: "About Me & Contact"
+      - text: "About Me"
         href: index.qmd#about-me
       - text: "Let's Meet"
-        href: appointment/index.qmd
+        href: index.qmd#lets-meet
   page-footer:
     left: |
       <br>

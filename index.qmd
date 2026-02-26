@@ -70,23 +70,15 @@ I help you bridge the gap between where you are and where the strategy says you 
 :::
 :::
 
-<br><br><br><br>
+<br><br><br><br><br><br><br>
 
-::: {.grid}
-::: {.g-col-2}
-:::
+# Systems, Behaviour & Strategy
+***
+<br><br>
 
-::: {.g-col-6}
+>### "I help organisations turn strategy into outcomes that hold up under pressure."
 
-### "I help organisations turn strategy into outcomes that hold up under pressure."
-
-:::
-
-::: {.g-col-2}
-:::
-:::
-
-<br><br><br><br><br><br>
+<br><br><br>
 
 :::: {#light-grey-background}
 ::: {.grid}
@@ -195,8 +187,7 @@ I provide sessions designed to help leadership teams think clearly under pressur
 <br>
 
 # About me {#about-me}
-
----
+***
 <br>
 <br>
 [![](/images/home-mare.png){width=20%}](portfolio/index.qmd)
@@ -204,15 +195,30 @@ I provide sessions designed to help leadership teams think clearly under pressur
 <br>
 <br>
 
+::: {.grid}
+::: {.g-col-8}
 I’m a strategic design consultant with over twenty years of experience working across academia, behavioural science, and digital innovation. Based in **Cape Town, South Africa**, My goal is to bring clarity to problems before they become expensive distractions and to ensure that ambition is met with an equal measure of operational reality.
 
-### Areas of Expertise
+### Areas of expertise
 
 Strategic Design, Problem Reframing, Systemic Change, Behavioural Design, Digital Innovation, Service Design, Energy Transition, and Sustainable Development.
+:::
 
-### Contact details
+::: {.g-col-2}
+:::
+:::
+
+<br>
+
+# Let's meet {#lets-meet}
+***
+<br>
+
+<a href="mailto:contact@marcelmare.com" class="btn btn-primary btn-lg" type="button">Get in touch</a>
 
 **Email:** [contact@marcelmare.com](mailto:contact@marcelmare.com)
+
+<br>
 
 **Keep in touch:**
 You will only hear from me when I have something of interest to share.
@@ -229,8 +235,3 @@ You will only hear from me when I have something of interest to share.
 <a href="https://orcid.org/0000-0002-7860-4037">
   <i class="bi bi-mortarboard"></i> ORCID
 </a>
-
-```{=html}
-<br>
-<a href="mailto:contact@marcelmare.com" class="btn btn-primary btn-lg" type="button">Get in touch</a>
-```
