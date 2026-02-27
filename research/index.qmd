@@ -1,11 +1,12 @@
 ---
-title: "Research"
-author: "Marcel Maré"
-date: today
+title: |
+    Research
+#author: "Marcel Maré"
+#date: today
 format:
   html:
     #theme: cosmo
-    toc: true
+    toc: false
     grid:
       margin-width: 250px
 bibliography: 
