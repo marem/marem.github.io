@@ -1,7 +1,9 @@
 ---
 title: "Creative x AI Workshop Series"
-date: 2025-11-01
-description: "Behavioural Curriculum for AI-Supported Creative Empowerment"
+subtitle: "Behavioural Curriculum for AI-Supported Creative Empowerment"
+date: 2025-08-22
+description: |
+    The “Creative x AI” Workshop Series was co-designed as a behavioural curriculum to empower young Black creatives through AI-supported design education. The programme delivered reflective, tools-based learning using platforms such as Figma, Midjourney, ChatGPT, RunwayML, and Jitter. Its aim was to build confidence, strengthen creative identity, and enhance employability within the creative industries.
 image: /images/proj-creative-x-ai-workshops.png
 toc: false
 categories: [Mentoring, Behavioural-Design, AI, Creative-Education]

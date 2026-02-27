@@ -1,83 +1,54 @@
 ---
-title: "Academic Research Outputs"
-date: 2024-03-14
-bibliography: references.bib
-csl: ieee.csl
+title: "Research"
+author: "Marcel Maré"
+date: today
 format:
   html:
-    toc: true
-    toc-depth: 3
     #theme: cosmo
+    toc: true
+    grid:
+      margin-width: 250px
+bibliography: 
+  - Publications.bib
+  - GuestLectures.bib
+csl: ieee.csl
 ---
 
-### **Doctoral Thesis**
+### Academic Papers, Publications & Reports
 
-**Maré, M. (2023). Influence of Behaviour Centred Design approaches on the diffusion of flame-based cookstoves among indigent South African households [@mare2023thesis]**
-*Doctor of Technology: Design, Cape Peninsula University of Technology.*  
-This research addresses the evidence gap in shifting inefficient culinary practices by utilizing a customized multi-phase research design framework to implement and evaluate behavioral interventions in low-income settings.
+::: {.column-margin}
+![A phase-based behavioural design framework was successfully designed, implemented and assessed to effectively explore and modify cookstove-related behaviours.](../images/Fig_BCD.jpg){#fig-bcd}
 
----
+![Investigated customer preferences for improved flame-based cookstove features in South Africa.](../images/Fig_Mamelodi.jpg){#fig-mamelodi}
+:::
 
-### **Academic Papers & Publications**
+Marcel's scholarly work centres on advancing sustainable energy solutions in sub-Saharan Africa, with a specific focus on the strategic design and widespread dissemination of improved cookstoves. His interdisciplinary research approach integrates design thinking with behavioural insights and social marketing principles [@Mare2023-uu; @mare2023thesis].
 
-#### **2023**
+#### Social Marketing and Consumer Preferences
 
-**Influencing motivations linked to the adoption of improved flame-based cookstoves among indigent South African households: a behaviour-centred design approach [@mare2023sustainability]**  
-*Sustainability: Science Practice and Policy*  
-This study validated a phase-based behavioral design framework (BCD) using emotional demonstrations and co-creative workshops to trigger a revaluation of cookstove-linked motivations.
+His work has contributed to understanding the role of social marketing in the adoption of improved bio-energy technologies [@Mare2010-hs]. He has further investigated consumer preferences for cookstove features in South African regions, employing willingness-to-pay surveys to refine marketing strategies for stove dissemination [@Mare2013-dz; @Mare2014-hd], as illustrated in @fig-mamelodi.
 
----
+#### Service Design and Behavioural Goals
 
-#### **2021**
+He has explored the application of service design principles to identify and implement behavioural goals that could boost the uptake of improved cookstoves [@Mare2016-fu; @Mare2017-tt]. This approach signifies a shift from product-focused strategies to comprehensive service design strategies, emphasising human-centred design and observational field research.
 
-**The influence of behaviour centred design approaches on the flame-based cookstove-related health and wellbeing of indigent South African households [@mare2021machakos]**  
-*Proceedings of the 3rd Annual International Conference, Machakos University*  
-This paper explores the role of motivational touchpoints in facilitating a shift in cooking behavior to improve health and quality of life in sub-Saharan households.
+#### Behavioural Change through Design Approaches
 
----
+Since 2021 his research delves into the influence of Behaviour Centred Design (BCD) on the health and wellbeing of indigent households in South Africa [@Mare2018-uq; @Mare2021-kp; @Mare2023-uu]. As illustrated in @fig-bcd, he examined how BCD approaches can modify cookstove-related behaviours and address broader social, economic, and environmental challenges.
 
-#### **2018**
+### Guest Lectures & Speaking Engagements
 
-**Advancing a clean cookstove culture in sub-Saharan Africa: The transformative power of Afrikan innovation [@mare2018machakos]**  
-*Proceedings of the 1st Annual International Conference, Machakos University*  
-This research investigates the integration of culturally informed, participatory design methods rooted in African worldviews to shift energy-poor households toward safer technology.
+::: {.column-margin}
+![Impact of digital learning platforms on design education.](../images/Fig_Mooc.jpg){#fig-moocs}
 
----
+![TEDx Stellenbosch 2010.](../images/Fig_Tedx.jpg){#fig-tedx}
 
-#### **2017**
+![Designing with Time at NID, India.](../images/Fig_NID_2.jpg){#fig-nid}
+:::
 
-**The use of Willingness to Pay in determining customer preferences for improved flame-based cookstove features in two South African study areas [@mare2017smq]**  
-*Social Marketing Quarterly*  
-Using Discrete Choice Experiments (DCE), this study found that safety awareness campaigns significantly shift consumer demand from kerosene to efficient LPG stoves.
+Marcel’s guest lectures span themes of design education, African innovation, and sustainable development. His talks range from digital learning [@mare2014moocs] to the economics of sustainable energy [@mare2012energy]. He has presented on the competitive advantage of African design [@mare2007datavis; @mare2008designthinking; @mare2008afrkandesign]. His application of design for social impact is illustrated in his TEDx talk [@mare2010tedx] (@fig-tedx). International engagements include courses at NID India [@mare2009designing] (@fig-nid) and exploring educational approaches [@mare2006globalisation; @mare2007teachingdesign].
 
----
+### References
 
-#### **2016**
-
-**User experience observations with improved flame-based cookstoves among a sample of South African households [@mare2016lenses]**  
-*Proceedings of the LeNSes Conference*  
-This paper utilizes qualitative, ethnographic field research and structured observations to identify specific service design goals for the uptake of energy technologies.
-
----
-
-#### **2014**
-
-**Customer preferences for improved flame-based cookstove features in two South African study areas [@mare2014due]**  
-*Proceedings of the 22nd Domestic Use of Energy (DUE) Conference*  
-This study quantitatively maps specific attributes like fuel types, durability, and payment options against consumer purchase intent in urban and rural settings.
-
----
-
-#### **2013**
-
-**The applicability of “willingness to pay” for the diffusion of energy-efficient domestic stove technologies in the Southern African market [@mare2013due]**  
-*Proceedings of the 21st DUE Conference*  
-This paper demonstrates that WTP surveys are a fundamental diagnostic tool for understanding market demand and barriers at the "base of the pyramid".
-
----
-
-#### **2010**
-
-**The applicability of social marketing in the uptake of bio-energy based technologies [@mare2010pen]**  
-*Proceedings of the People Energy Network (PEN) Conference*  
-An early review evaluating the success of social marketing strategies, as opposed to commercial profit-driven approaches, in the dissemination of bio-energy technologies.
+::: {#refs}
+:::

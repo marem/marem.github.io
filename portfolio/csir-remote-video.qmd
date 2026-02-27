@@ -1,7 +1,9 @@
 ---
 title: "Remote Real-Time Digital Video"
-date: 2002-07-01
-description: "Revolutionising athletic coaching through real-time video production and interaction design."
+subtitle: "Revolutionising athletic coaching through real-time video production and interaction design."
+date: 2002-07-13
+description: |
+    During the Commonwealth Games, I assisted the design of a remote real-time digital video production system to assist coaching staff. The system enabled the seamless capture and relay of athletic performance, revolutionising the coaching experience. My expertise extended to training and mentoring the team in non-linear video editing and the creation of digital coaching tools.
 image: /images/proj-csir-remote-video.jpg
 toc: false
 categories: [Interaction-Design, Multimedia, Video-Design, Innovation]

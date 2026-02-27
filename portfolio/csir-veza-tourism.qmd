@@ -1,7 +1,9 @@
 ---
 title: "Veza Tourism"
+subtitle: "Promoting South Africa’s diverse tourism offerings at the Hannover World Expo 2000."
 date: 2000-07-01
-description: "Promoting South Africa’s diverse tourism offerings at the Hannover World Expo 2000."
+description: |
+    The Veza Tourism project, conducted in collaboration with SA Tourism, aimed to promote South Africa as a travel destination at the Hannover World Expo 2000. My role was to develop captivating multimedia content that effectively showcased South Africa’s diverse tourism offerings. The multimedia content created successfully captured attention and interest at the expo, highlighting the beauty and attractions of South Africa.
 image: /images/proj-csir-veza-tourism.jpg
 toc: false
 categories: [Interaction-Design, Multimedia, UX-Design, International-Exhibitions]

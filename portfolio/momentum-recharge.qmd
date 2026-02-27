@@ -1,7 +1,9 @@
 ---
 title: "Momentum Recharge"
+subtitle: "Integrating visual design and behavioural principles for wellness engagement."
 date: 2022-11-01
-description: "Integrating visual design and behavioural principles for wellness engagement."
+description: |
+    The Momentum Recharge project tasked me with integrating key visual design principles into a wellness application aimed at promoting positive behaviour change. Through user research and feedback analysis, We customized the application to align with user preferences and leveraged expertise in UX design to create a personalized user experience. The result was increased user engagement.
 image: /images/proj-momentum-recharge.jpg
 toc: false
 categories: [Behavioural-Design, Data-Visualisation, UX-Research, Wellness]

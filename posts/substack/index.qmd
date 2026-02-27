@@ -13,5 +13,5 @@ listing:
     feed: true
     image-height: 200px
     image-align: right
-    fields: [author, title, description, date, categories, image]
+    fields: [title, description, date, categories, image]
 ---

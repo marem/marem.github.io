@@ -1,7 +1,9 @@
 ---
 title: "Vantage HIV"
+subtitle: "Improving ARV and PrEP adherence through a comprehensive behavioural journey."
 date: 2022-11-01
-description: "Improving ARV and PrEP adherence through a comprehensive behavioural journey."
+description: |
+    In the Vantage HIV Project, I assisted in the challenge of low adherence to antiretroviral (ARV) medication and pre-exposure prophylaxis (PrEP) usage among adolescent girls and young women at risk of HIV. I collaborated with the BCA team to create a comprehensive behavioural journey. Touchpoints were linked to key motivations. Through community radio spots, social media messaging, and personalised reminders, the project successfully improved adherence, aligning nudges with specific motivations. This case study illustrates the power of behavioural design in public health, demonstrating how strategic touchpoints can drive meaningful behaviour change in vulnerable populations.
 image: /images/proj-vantage-hiv.jpg
 toc: false
 categories: [Behavioural-Design, UX-Research, Healthcare, Social-Impact]

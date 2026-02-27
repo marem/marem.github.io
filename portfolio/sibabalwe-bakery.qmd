@@ -1,7 +1,9 @@
 ---
 title: "Sibabalwe Bakery"
+subtitle: "Behavioural Intervention for Safe Energy Adoption & Cookstove Transition"
 date: 2017-10-01
-description: "Behavioural Intervention for Safe Energy Adoption & Cookstove Transition"
+description: |
+    The Sibabalwe Bakery campaign was implemented to promote safe flame-based cooking practices. The behavioural intervention utilised a novel community-based bread-baking concept. Households in South Africa use dangerous and inefficient cookstoves facing significant health risks. In mitigation, we employed co-creative workshops and emo-demo campaigns, ultimately influencing motivations linked to cooking with fire resulting in positive shift in cookstove ownership patterns.
 image: /images/proj-sibabalwe-bakery.jpg
 toc: false
 categories: [Behavioural-Research, Strategic-Design, Sustainability, Community-Intervention]
