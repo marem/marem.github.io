@@ -28,6 +28,8 @@ title-slide-attributes:
 
 ##  {#slide-1}
 
+<audio data-autoplay src="audio/slide-1.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Welcome & Introduction
@@ -78,6 +80,8 @@ title-slide-attributes:
 
 ##  {#slide-2}
 
+<audio data-autoplay src="audio/slide-2.mp3"></audio>
+
 :::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### What frustrates you most?
@@ -119,6 +123,8 @@ title-slide-attributes:
 ------------------------------------------------------------------------
 
 ##  {#slide-3}
+
+<audio data-autoplay src="audio/slide-3.mp3"></audio>
 
 :::::: columns
 ::: {.column .centered style="width: 35%;"}
@@ -175,6 +181,8 @@ title-slide-attributes:
 
 ##  {#slide-4}
 
+<audio data-autoplay src="audio/slide-4.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### What's your research about?
@@ -224,6 +232,8 @@ In pairs, take turns to **describe your current research question**.
 
 ##  {#slide-5}
 
+<audio data-autoplay src="audio/slide-5.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### **LO #1:** *Search & Curate Literature*
@@ -260,6 +270,8 @@ Find **10 peer-reviewed papers** relevant to your topic within 20 minutes.
 ------------------------------------------------------------------------
 
 ##  {#slide-6}
+
+<audio data-autoplay src="audio/slide-6.mp3"></audio>
 
 ::::::: columns
 ::: {.column .centered style="width: 35%;"}
@@ -332,6 +344,8 @@ Return the Boolean query on one line ready for Scopus, Google Scholar, or Elicit
 
 ##  {#slide-7}
 
+<audio data-autoplay src="audio/slide-7.mp3"></audio>
+
 ::::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Creating Prompts
@@ -384,6 +398,8 @@ Return your optimised version.
 
 ##  {#slide-8}
 
+<audio data-autoplay src="audio/slide-8.mp3"></audio>
+
 :::::: columns
 ::: {.column .centered style="width: 35%;"}
 Build and refine LLM prompts for literature discovery.
@@ -425,6 +441,8 @@ Respond only with verifiable results.
 ------------------------------------------------------------------------
 
 ##  {#slide-9}
+
+<audio data-autoplay src="audio/slide-9.mp3"></audio>
 
 :::::: columns
 ::: {.column .centered style="width: 35%;"}
@@ -477,6 +495,8 @@ Using these 10 papers, write a 150-word paragraph that\
 
 ##  {#slide-10}
 
+<audio data-autoplay src="audio/slide-10.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Rapid Peer Feedback
@@ -527,6 +547,8 @@ Strengthen clarity and logic in your literature-gap paragraph.
 ------------------------------------------------------------------------
 
 ##  {#slide-11}
+
+<audio data-autoplay src="audio/slide-11.mp3"></audio>
 
 :::::: columns
 ::: {.column .centered style="width: 35%;"}
@@ -580,6 +602,8 @@ Segment timing: 60 – 70 min Learning Outcome linked: LO #3 (Draft with AI). Fo
 
 ##  {#slide-12}
 
+<audio data-autoplay src="audio/slide-12.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Ethics in Practice — Hallucination & Attribution Challenge
@@ -625,6 +649,8 @@ Segment timing: 70 – 82 min Learning Outcome linked: LO #7 (Ethics & Attributi
 
 ##  {#slide-13}
 
+<audio data-autoplay src="audio/slide-13.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Sharebacks
@@ -656,6 +682,8 @@ Segment timing: 40 min Learning Outcomes linked: Reinforces LO #7 (Ethics & Attr
 
 ##  {#slide-14}
 
+<audio data-autoplay src="audio/slide-14.mp3"></audio>
+
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
 ### Q + A
@@ -677,6 +705,8 @@ Segment timing: 40 min Learning Outcomes linked: Reinforces LO #7 (Ethics & Attr
 ------------------------------------------------------------------------
 
 ##  {#slide-15}
+
+<audio data-autoplay src="audio/slide-15.mp3"></audio>
 
 ::::: columns
 ::: {.column .centered style="width: 35%;"}
