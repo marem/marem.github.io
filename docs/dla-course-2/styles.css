@@ -86,3 +86,25 @@ textarea.course-response { width:100%; min-height:130px; box-sizing:border-box; 
 @media(max-width:620px){
  main.content{padding:8px 10px 24px!important}.stage-progress{overflow-x:auto;grid-template-columns:repeat(7,minmax(76px,1fr))}.hero{min-height:390px}.hero-copy{padding:20px}.resource-grid{grid-template-columns:1fr 1fr}.iframe-nav{display:grid;grid-template-columns:1fr 1fr}.iframe-nav a{text-align:center}.obe-grid,.platform-grid,.grid3{grid-template-columns:1fr!important}
 }
+
+
+/* V9 — full-page Google Sites embedded learning application */
+html.sla-app, html.sla-app body { min-height:100%; }
+html.sla-app { scroll-padding-top:68px; overscroll-behavior-y:none; }
+body { min-height:100vh; min-height:100dvh; overflow-y:auto; scrollbar-gutter:stable; overscroll-behavior-y:contain; -webkit-overflow-scrolling:touch; }
+#quarto-content { min-height:100vh; min-height:100dvh; }
+main.content { min-height:100vh; min-height:100dvh; display:flex; flex-direction:column; width:min(100%,1040px); }
+main.content > .app-nav:last-child { margin-top:auto; }
+.stage-progress { box-shadow:0 1px 0 rgba(15,23,42,.08); margin-bottom:.7rem; }
+.stage-progress a { touch-action:manipulation; }
+.app-link { touch-action:manipulation; }
+.iframe-nav { position:relative; background:#fff; padding-bottom:8px; }
+.is-embedded .embed-utility { display:flex; }
+@media (min-width:900px){
+  .is-embedded main.content { padding-left:24px!important; padding-right:24px!important; }
+}
+@media (max-height:650px) and (min-width:700px){
+  .stage-progress { padding-top:4px; padding-bottom:4px; }
+  .stage-progress a { padding-top:15px; }
+}
+@media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto!important} *{scroll-behavior:auto!important;transition:none!important} }

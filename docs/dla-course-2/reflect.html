@@ -25,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -91,11 +90,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="embed-utility">
-<a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a>
-</div>
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+
 <nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a> <a data-progress-page="understand" class="" href="understand.html">Understand</a> <a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a> <a data-progress-page="build" class="" href="build.html">Build</a> <a data-progress-page="test" class="" href="test.html">Test</a> <a data-progress-page="decide" class="" href="decide.html">Decide</a> <a data-progress-page="reflect" class="active" href="reflect.html">Reflect</a>
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="active" href="reflect.html">Reflect</a>
 </nav>
 <section id="revisit-your-initial-judgement" class="level2 state-box">
 <h2 data-anchor-id="revisit-your-initial-judgement">Revisit your initial judgement</h2>
@@ -108,111 +112,129 @@ ul.task-list li input[type="checkbox"] {
 <p>Use the completed model only after you have built, tested and checked your own work. Compare formulas and reasoning; do not replace your work with the reference values.</p>
 <p><a href="downloads/SU_DLA_Solar_Completed_Reference_Workbook_V8.xlsx" class="course-button alt" download="">Download completed reference workbook</a></p>
 </section>
-<div class="next">
-<strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.
-</div>
-<div class="iframe-nav">
-<a class="course-button alt" href="decide.html">← Decide</a><a class="course-button" href="index.html">Course home</a>
-</div>
+<div class="next"><strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.</div>
+
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="decide.html">← Back</a>
+<a class="course-button alt app-link" href="index.html">Return to Start</a>
+</nav>
 
 
 
 </main> <!-- /main -->
 <script>
-(function(){
- const KEY='slaSolarV8';
- const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}};
- const write=s=>localStorage.setItem(KEY,JSON.stringify(s));
- const state=read();
- const page=(location.pathname.split('/').pop()||'index.html').replace('.html','');
- const order=['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
- state.visited=Array.from(new Set([...(state.visited||[]),page])); write(state);
- document.querySelectorAll('[data-progress-page]').forEach(el=>{
-   const p=el.dataset.progressPage; if(state.visited.includes(p)) el.classList.add('visited');
- });
- document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
-   if(state.prediction===r.value) r.checked=true;
-   r.addEventListener('change',()=>{const s=read();s.prediction=r.value;write(s);const o=document.querySelector('#prediction-status');if(o)o.textContent='Saved: '+r.value+'. Revisit this on Reflect.';});
- });
- const prior=document.querySelector('#prior-prediction'); if(prior) prior.textContent=state.prediction||'No prediction was saved on this device.';
- const refl=document.querySelector('#final-reflection'); if(refl){refl.value=state.reflection||'';refl.addEventListener('input',()=>{const s=read();s.reflection=refl.value;write(s);});}
- document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
-   const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
-   const picked=document.querySelector('input[name="'+name+'"]:checked');
-   const fb=document.querySelector('#'+name+'-feedback');
-   if(!fb)return; fb.hidden=false;
-   if(!picked){fb.textContent='Choose an option first.';return;}
-   fb.innerHTML=picked.value===ans?'<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.':'<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
- }));
- document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{localStorage.removeItem(KEY);location.reload();}));
+(function () {
+  'use strict';
+  const KEY = 'slaSolarV9';
+  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
+  const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
+  let memory = {};
+
+  function storage(){
+    try { localStorage.setItem('__sla_test','1'); localStorage.removeItem('__sla_test'); return localStorage; }
+    catch(e){ try { sessionStorage.setItem('__sla_test','1'); sessionStorage.removeItem('__sla_test'); return sessionStorage; } catch(e2){ return null; } }
+  }
+  const store = storage();
+  function read(){
+    if(!store) return memory;
+    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+  }
+  function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
+  function mutate(fn){ const s=read(); fn(s); write(s); return s; }
+
+  // App-like navigation: every course page begins at the top of the iframe.
+  if ('scrollRestoration' in history) history.scrollRestoration='manual';
+  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  document.addEventListener('DOMContentLoaded', topNow, {once:true});
+  window.addEventListener('pageshow', topNow);
+  requestAnimationFrame(topNow);
+
+  const state=mutate(s=>{
+    s.visited=Array.from(new Set([...(s.visited||[]), page]));
+    s.lastPage=page;
+    s.lastVisit=Date.now();
+  });
+
+  // Progress state.
+  document.querySelectorAll('[data-progress-page]').forEach(el=>{
+    const p=el.dataset.progressPage;
+    if((state.visited||[]).includes(p)) el.classList.add('visited');
+    if(p===page){ el.classList.add('active'); el.setAttribute('aria-current','page'); }
+  });
+
+  // Internal course links always remain in the iframe (_self), never escape to Google Sites.
+  document.querySelectorAll('a[href]').forEach(a=>{
+    const raw=a.getAttribute('href')||'';
+    if(!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return;
+    let u; try { u=new URL(raw, location.href); } catch(e){ return; }
+    const sameOrigin=u.origin===location.origin;
+    const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
+    const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
+    if(isPage){
+      a.setAttribute('target','_self');
+      a.addEventListener('click', function(ev){
+        if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
+        ev.preventDefault();
+        mutate(s=>{s.leavingPage=page;s.leftAt=Date.now();});
+        topNow();
+        location.assign(u.href);
+      });
+    }
+  });
+
+  // Persist initial prediction.
+  document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
+    const s=read(); if(s.prediction===r.value) r.checked=true;
+    r.addEventListener('change',()=>{
+      mutate(x=>{x.prediction=r.value;});
+      const o=document.querySelector('#prediction-status');
+      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+    });
+  });
+  const prior=document.querySelector('#prior-prediction');
+  if(prior) prior.textContent=read().prediction || 'No prediction was saved on this device.';
+
+  // Persist reflection continuously.
+  const refl=document.querySelector('#final-reflection');
+  if(refl){
+    refl.value=read().reflection||'';
+    refl.addEventListener('input',()=>mutate(s=>{s.reflection=refl.value;}));
+  }
+
+  // Persist checklist state where checkboxes have data-state-key.
+  document.querySelectorAll('input[type="checkbox"][data-state-key]').forEach(cb=>{
+    const key=cb.dataset.stateKey; cb.checked=!!(read().checks||{})[key];
+    cb.addEventListener('change',()=>mutate(s=>{s.checks=s.checks||{};s.checks[key]=cb.checked;}));
+  });
+
+  // Formative answer feedback.
+  document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
+    const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
+    const picked=document.querySelector('input[name="'+name+'"]:checked');
+    const fb=document.querySelector('#'+name+'-feedback');
+    if(!fb) return; fb.hidden=false;
+    if(!picked){fb.textContent='Choose an option first.';return;}
+    fb.innerHTML=picked.value===ans
+      ? '<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.'
+      : '<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
+  }));
+
+  // Reset only when explicitly requested.
+  document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{
+    if(store){ try{store.removeItem(KEY);}catch(e){} } memory={}; topNow(); location.assign('index.html');
+  }));
+
+  // Add embedded-app class for CSS and a small fallback when storage is blocked.
+  document.documentElement.classList.add('sla-app');
+  if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
+  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
-        }
-        return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/marcelmare\.com\/sla-course\/");
+        var filterRegex = new RegExp("https:\/\/marcelmare\.com\/dla-course-2\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -226,11 +248,6 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

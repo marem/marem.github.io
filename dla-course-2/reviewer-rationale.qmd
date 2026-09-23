@@ -7,7 +7,9 @@ format:
     page-layout: full
 ---
 
+```{=html}
 <div class="embed-utility"><a href="index.html">← Return to learner course</a></div>
+
 <section class="obe"><div class="obe-head">South African OBE design statement</div><div class="obe-body">
 <h2>Constructive alignment is made visible</h2>
 <p>The activity is organised around explicit intended learning outcomes, authentic learning activities, formative checkpoints, associated assessment criteria and observable evidence of achievement. The narrative is the professional context through which the outcomes are developed; it does not replace the curriculum structure.</p>
@@ -19,6 +21,7 @@ format:
 <h2>One case, one evolving model, one professional decision</h2>
 <p>The activity is structured as a continuous workplace narrative. The learner receives imperfect supplier information, constructs a transparent spreadsheet model, encounters a challenge to an assumption, stress-tests the model, communicates a recommendation and reflects on transfer.</p>
 <p>The five-step arc is <strong>Understand → Build → Test → Decide → Reflect</strong>. The separate Spreadsheet Essentials bridge supports true beginners in either Microsoft Excel or Google Sheets without turning the activity into a generic software tutorial.</p></section>
+```
 
 <h2>Constructive alignment</h2>
 <table><tr><th>Intended learning outcome</th><th>Learning activity</th><th>Evidence of achievement</th></tr>
@@ -31,6 +34,8 @@ format:
 
 <h2>SAICA competency alignment</h2>
 <p>This activity is designed to evidence publicly documented SAICA competencies associated with the former CA2025 framework, now described by SAICA as the <strong>CA of the Future</strong> Competency Framework. It particularly integrates:</p>
+
+```{=html}
 <div class="grid3">
 <div class="card"><h3>Digital acumen</h3><p>Digital user skills: using technology as an enabler of decision-making; data analysis and spreadsheet modelling; deliberate use of formulas, references and visual communication.</p></div>
 <div class="card"><h3>Decision-making acumen</h3><p>Analytical and critical thinking, weighing alternatives, integrated thinking, numerical reasoning and judgement.</p></div>
@@ -38,6 +43,7 @@ format:
 
 <div class="card accent" style="margin-top:14px"><h3>Why this is Digital- and Leadership Acumen</h3>
 <p>Digital acumen is treated as more than software proficiency. The learner uses a spreadsheet (Excel or Google Sheets) to structure information, make logic auditable, interrogate uncertainty and communicate evidence. Leadership/professional acumen enters when the learner must make a qualified recommendation despite competing criteria and incomplete evidence.</p></div>
+```
 
 <h2>Associated assessment criteria & formative feedback</h2>
 <table><tr><th>Criterion</th><th>Developing</th><th>Competent</th><th>Strong</th></tr>
@@ -47,7 +53,9 @@ format:
 <tr><td>Professional judgement</td><td>Weakly evidenced</td><td>Evidence-based with limitation</td><td>Balances evidence, uncertainty and information needs</td></tr>
 <tr><td>Scepticism/reflection</td><td>Accepts claims at face value</td><td>Identifies need for verification</td><td>Specifies credible evidence and explains why it matters</td></tr></table>
 
+```{=html}
 <div class="warn"><strong>Alignment note:</strong> this is a non-credit application demonstration. The public sources support alignment with Stellenbosch's Digital- and Leadership Acumen context and SAICA's competency language, but exact module-level constructive alignment would require the formally approved module outcomes and assessment plan.</div>
+```
 
 <h2>Publicly documented curriculum context</h2>
 <ul>
@@ -57,13 +65,13 @@ format:
 </ul>
 <p class="tiny">Sources for reviewer verification: SAICA CA of the Future / Competencies Defined; SAICA IAC competency framework; Stellenbosch School of Accountancy programme information.</p>
 
+```{=html}
 <div class="platform-note">
   <div class="label">Platform design rationale</div>
   <h3>Spreadsheet reasoning is the competence; software menus are scaffolding</h3>
   <p>The activity deliberately preserves identical formulas, sheet names and cell addresses across Microsoft Excel and Google Sheets. Platform-specific guidance is limited to interface operations such as opening/saving, number formatting, filling formulas and chart creation.</p>
   <p>This allows the learner to demonstrate transferable digital acumen rather than success being contingent on prior familiarity with one vendor interface.</p>
 </div>
-
 
 <section class="interactive"><div class="label">V7 interaction design</div>
 <h2>Interactivity is tied to evidence of learning</h2>
@@ -76,3 +84,4 @@ format:
 <a class="course-button alt app-link" href="index.html">← Back</a>
 <span></span>
 </nav>
+```

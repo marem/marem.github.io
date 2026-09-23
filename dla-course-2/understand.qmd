@@ -7,7 +7,9 @@ format:
     page-layout: full
 ---
 
+```{=html}
 <div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+
 <nav class="stage-progress" aria-label="Course progress">
 <a data-progress-page="index" class="" href="index.html">Start</a>
 <a data-progress-page="understand" class="active" href="understand.html">Understand</a>
@@ -17,6 +19,7 @@ format:
 <a data-progress-page="decide" class="" href="decide.html">Decide</a>
 <a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
 </nav>
+```
 
 ::: {.interactive}
 ## Before you open the spreadsheet …
@@ -29,9 +32,13 @@ Which measure would you inspect first if you had to advise the Financial Directo
 <label class="choice"><input type="radio" name="initialMetric" value="Annual saving"> Annual saving</label>
 <label class="choice"><input type="radio" name="initialMetric" value="Payback"> Payback</label>
 
+```{=html}
 <div id="prediction-status" class="small-note">Your choice is saved automatically on this device. You will revisit it on Reflect.</div>
+```
+
 :::
 
+```{=html}
 <div class="page-visual"><img src="assets/02_proposals_comparison.png" alt="Three-proposal visual comparison"></div>
 
 <section class="obe"><div class="obe-head">Purpose → Outcome → Evidence</div><div class="obe-body">
@@ -42,25 +49,34 @@ Which measure would you inspect first if you had to advise the Financial Directo
 </div></section>
 
 <div class="thread"><strong>Story so far:</strong> You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.</div>
+
 <section class="story"><div class="label">The case · The proposals arrive</div>
 <h2>Price is only one part of the decision</h2>
 <p>A larger PV system can generate more electricity, but Cape Manufacturing only saves money on solar electricity it can use when it is produced. This makes <strong>self-consumption</strong> the bridge between technical output and economic value.</p>
 <p>If a system generates 100 kWh while the factory can use only 80 kWh, its self-consumption is 80%. In this simplified case, unused generation has no economic value.</p></section>
+```
+
 <table><tr><th>Proposal</th><th>A</th><th>B</th><th>C</th></tr>
 <tr><td>Installed cost</td><td>R650,000</td><td>R820,000</td><td>R990,000</td></tr>
 <tr><td>System size</td><td>60 kWp</td><td>80 kWp</td><td>100 kWp</td></tr>
 <tr><td>Year-1 generation</td><td>92,000 kWh</td><td>121,000 kWh</td><td>147,000 kWh</td></tr>
 <tr><td>Self-consumption</td><td>90%</td><td>85%</td><td>78%</td></tr>
 <tr><td>Year-1 maintenance</td><td>R9,000</td><td>R11,000</td><td>R14,000</td></tr></table>
+
+```{=html}
 <div class="excel"><div class="label">Excel instruction · read cells, do not calculate yet</div><h3>Use the Case Data sheet as your source of truth</h3>
 <ol><li>Click the <strong>Case Data</strong> sheet.</li><li>Economic assumptions are in <span class="cell">A3:E9</span>. Click <span class="cell">B4</span>: the Formula Bar should show <strong>2.8</strong>, the tariff in R/kWh.</li><li>Proposal inputs are in <span class="cell">A12:F17</span>. System A is column <span class="cell">B</span>, B is <span class="cell">C</span>, C is <span class="cell">D</span>.</li><li>Click <span class="cell">D15</span> (147,000 kWh) and then <span class="cell">D16</span> (78%). Note that the cell address changes in the Name Box.</li></ol>
 <p><strong>Useful habit:</strong> never retype an input elsewhere if a formula can reference the original cell. This improves auditability and reduces inconsistent assumptions.</p></div>
+
 <div class="formative"><div class="label">Formative checkpoint · prediction before calculation</div>
 <p>If you had only 30 seconds, which metric would you look at first: <strong>Installed Cost, Size, Gross Generation, Annual Saving, or Payback?</strong></p>
 <p>Write down your choice and one reason. You will revisit it at the end.</p></div>
+```
+
 <details><summary>Formative feedback · concept check: which system generates most, and which has highest self-consumption?</summary>
 <p>System C has the highest gross generation (147,000 kWh). System A has the highest self-consumption (90%). Those facts do not, by themselves, identify the best investment.</p></details>
 
+```{=html}
 <div class="platform-note">
   <div class="label">Excel + Google Sheets · same task</div>
   <div class="platform-grid">
@@ -76,3 +92,4 @@ Which measure would you inspect first if you had to advise the Financial Directo
 <a class="course-button alt app-link" href="index.html">← Back</a>
 <a class="course-button app-link" href="spreadsheet-essentials.html">Next: Spreadsheet Essentials →</a>
 </nav>
+```

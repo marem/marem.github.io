@@ -7,7 +7,9 @@ format:
     page-layout: full
 ---
 
+```{=html}
 <div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+
 <nav class="stage-progress" aria-label="Course progress">
 <a data-progress-page="index" class="active" href="index.html">Start</a>
 <a data-progress-page="understand" class="" href="understand.html">Understand</a>
@@ -22,6 +24,7 @@ format:
 <img src="assets/00-western-cape-industrial-solar-hero.png" alt="Industrial rooftop solar installation in a Western Cape setting">
 <div class="hero-copy"><div class="course-kicker">Digital Acumen · Cape Manufacturing</div><h1>Should We Invest in Solar?</h1><p><strong>A real decision. Real data. Applied spreadsheet skills.</strong></p><p>You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose — and how confident are you in the numbers?</p><div class="meta-strip"><span>65–80 minutes</span><span>Beginner spreadsheet level</span><span>Excel or Google Sheets</span></div></div>
 </div>
+```
 
 <!-- <div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div> -->
 
@@ -34,15 +37,18 @@ format:
 ::: {.course-card}
 ## Course toolkit
 
+```{=html}
 <div class="resource-grid">
 <a class="resource-tile" href="downloads/SU_DLA_Solar_Student_Workbook_V8.xlsx" download><strong>Student workbook</strong><span>.xlsx · download</span></a>
 <a class="resource-tile" href="downloads/Cape_Manufacturing_Case_Brief.pdf" target="_blank"><strong>Case brief</strong><span>PDF · open</span></a>
 <a class="resource-tile" href="downloads/Spreadsheet_Quick_Reference_Excel_Google_Sheets.pdf" target="_blank"><strong>Quick reference</strong><span>Excel + Sheets</span></a>
 <a class="resource-tile" href="downloads/Formula_Troubleshooting_Card.pdf" target="_blank"><strong>Formula help</strong><span>PDF · diagnostic</span></a>
 </div>
+```
+
 :::
 
-
+```{=html}
 <section class="obe">
 <div class="obe-head">Learning contract · outcomes-based education</div>
 <div class="obe-body">
@@ -83,7 +89,6 @@ format:
 </div>
 </div></section>
 
-
 <div class="platform-note">
   <div class="label">Choose your spreadsheet platform</div>
   <h3>Microsoft Excel or Google Sheets</h3>
@@ -100,14 +105,18 @@ format:
 <p>Cape Manufacturing is a Western Cape industrial producer. Electricity is a material operating cost, tariffs are expected to rise, and management is considering rooftop solar PV as a way to reduce grid purchases and improve energy resilience.</p>
 <p>Three suppliers have submitted proposals. Each looks attractive for a different reason. The Financial Director does not want a sales comparison; she wants a transparent commercial analysis that can be challenged before capital is committed.</p>
 <p><strong>You are the Junior Commercial Analyst / Trainee Accountant.</strong> You have been asked to turn the proposals into an Excel model, test a key assumption and prepare a concise recommendation.</p></section>
+
 <div class="caseq"><div class="label">The question you must answer</div><strong>Which solar proposal should Cape Manufacturing take forward, and what must management verify before signing a contract?</strong></div>
+
 <div class="grid3">
 <div class="card"><h3>1 · Build evidence</h3><p>Translate technical proposal data into comparable financial measures.</p></div>
 <div class="card"><h3>2 · Challenge the model</h3><p>Stress-test an assumption that could change the decision.</p></div>
 <div class="card"><h3>3 · Advise management</h3><p>Make a ≤100-word recommendation supported by evidence and professional scepticism.</p></div></div>
+
 <div class="excel"><div class="label">Excel orientation · before you begin</div><h3>Open the workbook and find your way around</h3>
 <ol><li>Open <strong>SU_DLA_Solar_Student_Workbook_V8.xlsx</strong> in Microsoft Excel, or upload it to Google Drive and open it with Google Sheets.</li><li>Click the <span class="cell">Start Here</span> sheet tab. Read <span class="cell">A4</span> and the learning outcomes in <span class="cell">A10:A16</span>.</li><li>Notice the five workbook tabs: <strong>Start Here, Case Data, Your Model, Test Assumptions, Recommendation</strong>.</li><li><strong>Excel:</strong> save a working copy with your name. <strong>Google Sheets:</strong> make/save a Google Sheets copy with your name.</li></ol>
 <p class="tiny">You do not need prior Excel experience. The course will tell you which sheet and cell to use at each step.</p></div>
+
 <div class="output"><strong>By the end:</strong> one auditable Excel model, one management chart, one sensitivity test and one concise executive recommendation.</div>
 
 <div class="sa-context"><div class="label">South African commercial context</div>
@@ -119,3 +128,4 @@ format:
 <span></span>
 <a class="course-button app-link" href="understand.html">Next: Start the case →</a>
 </nav>
+```

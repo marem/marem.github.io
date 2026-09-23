@@ -25,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -52,35 +51,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -120,130 +90,66 @@ window.Quarto = {
 </header>
 
 
-<div class="embed-utility">
-<a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a>
-</div>
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+
 <nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a> <a data-progress-page="understand" class="" href="understand.html">Understand</a> <a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a> <a data-progress-page="build" class="" href="build.html">Build</a> <a data-progress-page="test" class="active" href="test.html">Test</a> <a data-progress-page="decide" class="" href="decide.html">Decide</a> <a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="active" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
 </nav>
-<div class="message">
-<div class="meta">
-13:15 · Thandi Jacobs · Production Manager
-</div>
-<strong>I’m not convinced by Supplier C’s 78% self-consumption assumption.</strong>
-<p>
-Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?
-</p>
-</div>
-<section class="obe">
-<div class="obe-head">
-Purpose → Outcome → Activity → Evidence
-</div>
-<div class="obe-body">
-<p>
-<strong>Purpose of this stage:</strong> move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.
-</p>
-<p>
-<strong>Outcome for this stage:</strong> <strong>Evaluate the sensitivity of an investment decision to a material operational assumption and interpret the implications for management.</strong>
-</p>
-<p>
-<strong>You will demonstrate this by:</strong> distinguishing payback from NPV; changing System C’s self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.
-</p>
-<p>
-<strong>Evidence:</strong> completed <span class="cell">Test Assumptions!A7:E14</span>, crossover interpretation and an evidence requirement concerning the factory load profile.
-</p>
-</div>
-</section>
+
+<div class="message"><div class="meta">13:15 · Thandi Jacobs · Production Manager</div>
+<strong>I'm not convinced by Supplier C's 78% self-consumption assumption.</strong>
+<p>Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?</p></div>
+
+<section class="obe"><div class="obe-head">Purpose → Outcome → Activity → Evidence</div><div class="obe-body">
+<p><strong>Purpose of this stage:</strong> move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.</p>
+<p><strong>Outcome for this stage:</strong> <strong>Evaluate the sensitivity of an investment decision to a material operational assumption and interpret the implications for management.</strong></p>
+<p><strong>You will demonstrate this by:</strong> distinguishing payback from NPV; changing System C's self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.</p>
+<p><strong>Evidence:</strong> completed <span class="cell">Test Assumptions!A7:E14</span>, crossover interpretation and an evidence requirement concerning the factory load profile.</p>
+</div></section>
+
 <div class="platform-note">
-<div class="label">
-Excel + Google Sheets · Test
+  <div class="label">Excel + Google Sheets · Test</div>
+  <p>The <span class="cell">SUMPRODUCT</span>, <span class="cell">ROW</span>, <span class="cell">MAX</span>, <span class="cell">MATCH</span> and <span class="cell">CHOOSE</span> formulas below are written once and used unchanged in both applications.</p>
+  <div class="platform-grid">
+    <div class="platform"><strong>Excel</strong>Enter formulas in <span class="cell">B8:E8</span>; select the row and drag the fill handle down to row 14. Format <span class="cell">B8:D14</span> as rand currency.</div>
+    <div class="platform"><strong>Google Sheets</strong>Enter the same formulas in <span class="cell">B8:E8</span>; drag the fill handle down to row 14, or select <span class="cell">B8:E14</span> and use <strong>Fill down</strong> / <span class="kbd">Ctrl+D</span>. Format <span class="cell">B8:D14</span> via Format → Number → Currency.</div>
+  </div>
+  <div class="same"><strong>Do not “translate” the formulas.</strong> Sheet names, apostrophes, dollar signs and cell addresses remain exactly as printed.</div>
 </div>
-<p>
-The <span class="cell">SUMPRODUCT</span>, <span class="cell">ROW</span>, <span class="cell">MAX</span>, <span class="cell">MATCH</span> and <span class="cell">CHOOSE</span> formulas below are written once and used unchanged in both applications.
-</p>
-<div class="platform-grid">
-<pre><code>&lt;div class="platform"&gt;&lt;strong&gt;Excel&lt;/strong&gt;Enter formulas in &lt;span class="cell"&gt;B8:E8&lt;/span&gt;; select the row and drag the fill handle down to row 14. Format &lt;span class="cell"&gt;B8:D14&lt;/span&gt; as rand currency.&lt;/div&gt;
-&lt;div class="platform"&gt;&lt;strong&gt;Google Sheets&lt;/strong&gt;Enter the same formulas in &lt;span class="cell"&gt;B8:E8&lt;/span&gt;; drag the fill handle down to row 14, or select &lt;span class="cell"&gt;B8:E14&lt;/span&gt; and use &lt;strong&gt;Fill down&lt;/strong&gt; / &lt;span class="kbd"&gt;Ctrl+D&lt;/span&gt;. Format &lt;span class="cell"&gt;B8:D14&lt;/span&gt; via Format → Number → Currency.&lt;/div&gt;</code></pre>
-</div>
-<div class="same">
-<strong>Do not “translate” the formulas.</strong> Sheet names, apostrophes, dollar signs and cell addresses remain exactly as printed.
-</div>
-</div>
-<div class="thread">
-<strong>Story so far:</strong> Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.
-</div>
-<section class="story">
-<div class="label">
-The case · Operations challenges the supplier assumption
-</div>
-<h2>
-“Will we really use 78% of System C’s output?”
-</h2>
-<p>
-Simple payback favours System A at about <strong>2.92 years</strong>. A 20-year discounted cash-flow view tells a different story: under the base assumptions, System C has the highest NPV at about <strong>R2.871 million</strong>.
-</p>
-<p>
-Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.
-</p>
-<p>
-The Production Manager now questions System C’s 78% self-consumption. Your task is to stress-test that assumption.
-</p>
-</section>
-<div class="caseq">
-<div class="label">
-Decision question
-</div>
-<strong>Does System C still create the most long-term value if Cape Manufacturing cannot use as much of its solar output as the supplier expects?</strong>
-</div>
-<div class="excel">
-<div class="label">
-Excel instruction · sensitivity table
-</div>
-<h3>
-Work on the Test Assumptions sheet
-</h3>
-<p>
-The scenario rates are already entered in <span class="cell">A8:A14</span>: 78%, 75%, 72%, 70%, 68%, 65%, 60%.
-</p>
-<p>
-Enter the following formulas in row 8. The formulas use <span class="cell">SUMPRODUCT</span> to value 20 years of escalating savings, degradation, maintenance and discounting. For this short course, you are <strong>using</strong> the discounted-cash-flow engine rather than being assessed on constructing it from first principles.
-</p>
-<p>
-<strong>NPV A — Test Assumptions!B8</strong>
-</p>
-<div class="formula">
-=SUMPRODUCT((‘Case Data’!$B<span class="math inline">\(15*(1-'Case Data'!\)</span>B$7)<sup>(ROW($1:<span class="math inline">\(20)-1)*'Case Data'!\)</span>B<span class="math inline">\(16*'Case Data'!\)</span>B<span class="math inline">\(4*(1+'Case Data'!\)</span>B$5)</sup>(ROW($1:<span class="math inline">\(20)-1)-'Case Data'!\)</span>B<span class="math inline">\(17*(1+'Case Data'!\)</span>B$8)<sup>(ROW($1:<span class="math inline">\(20)-1))/(1+'Case Data'!\)</span>B$6)</sup>ROW($1:<span class="math inline">\(20))-'Case Data'!\)</span>B$13
-</div>
-<p>
-<strong>NPV B — Test Assumptions!C8</strong>
-</p>
-<div class="formula">
-=SUMPRODUCT((‘Case Data’!$C<span class="math inline">\(15*(1-'Case Data'!\)</span>B$7)<sup>(ROW($1:<span class="math inline">\(20)-1)*'Case Data'!\)</span>C<span class="math inline">\(16*'Case Data'!\)</span>B<span class="math inline">\(4*(1+'Case Data'!\)</span>B$5)</sup>(ROW($1:<span class="math inline">\(20)-1)-'Case Data'!\)</span>C<span class="math inline">\(17*(1+'Case Data'!\)</span>B$8)<sup>(ROW($1:<span class="math inline">\(20)-1))/(1+'Case Data'!\)</span>B$6)</sup>ROW($1:<span class="math inline">\(20))-'Case Data'!\)</span>C$13
-</div>
-<p>
-<strong>NPV C — Test Assumptions!D8</strong>
-</p>
-<div class="formula">
-=SUMPRODUCT((‘Case Data’!$D<span class="math inline">\(15*(1-'Case Data'!\)</span>B$7)^(ROW($1:<span class="math inline">\(20)-1)*\)</span>A8*‘Case Data’!$B<span class="math inline">\(4*(1+'Case Data'!\)</span>B$5)<sup>(ROW($1:<span class="math inline">\(20)-1)-'Case Data'!\)</span>D<span class="math inline">\(17*(1+'Case Data'!\)</span>B$8)</sup>(ROW($1:<span class="math inline">\(20)-1))/(1+'Case Data'!\)</span>B$6)^ROW($1:<span class="math inline">\(20))-'Case Data'!\)</span>D$13
-</div>
-<p>
-<strong>Highest NPV — Test Assumptions!E8</strong>
-</p>
-<div class="formula">
-=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),“System A”,“System B”,“System C”)
-</div>
-<ol>
-<li>
-After entering the four formulas in <span class="cell">B8:E8</span>, select them.
-</li>
-<li>
-Drag the fill handle down through row 14. Because System C’s formula uses <span class="cell">$A8</span>, the scenario row changes while column A stays fixed.
-</li>
-<li>
-Format <span class="cell">B8:D14</span> as rand currency with no decimals.
-</li>
-</ol>
-</div>
+
+<div class="thread"><strong>Story so far:</strong> Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.</div>
+
+<section class="story"><div class="label">The case · Operations challenges the supplier assumption</div>
+<h2>“Will we really use 78% of System C's output?”</h2>
+<p>Simple payback favours System A at about <strong>2.92 years</strong>. A 20-year discounted cash-flow view tells a different story: under the base assumptions, System C has the highest NPV at about <strong>R2.871 million</strong>.</p>
+<p>Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.</p>
+<p>The Production Manager now questions System C's 78% self-consumption. Your task is to stress-test that assumption.</p></section>
+
+<div class="caseq"><div class="label">Decision question</div><strong>Does System C still create the most long-term value if Cape Manufacturing cannot use as much of its solar output as the supplier expects?</strong></div>
+
+<div class="excel"><div class="label">Excel instruction · sensitivity table</div><h3>Work on the Test Assumptions sheet</h3>
+<p>The scenario rates are already entered in <span class="cell">A8:A14</span>: 78%, 75%, 72%, 70%, 68%, 65%, 60%.</p>
+<p>Enter the following formulas in row 8. The formulas use <span class="cell">SUMPRODUCT</span> to value 20 years of escalating savings, degradation, maintenance and discounting. For this short course, you are <strong>using</strong> the discounted-cash-flow engine rather than being assessed on constructing it from first principles.</p>
+
+<p><strong>NPV A — Test Assumptions!B8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$B$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$B$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$B$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$B$13</div>
+
+<p><strong>NPV B — Test Assumptions!C8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$C$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$C$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$C$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$C$13</div>
+
+<p><strong>NPV C — Test Assumptions!D8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$D$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*$A8*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$D$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$D$13</div>
+
+<p><strong>Highest NPV — Test Assumptions!E8</strong></p>
+<div class="formula">=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"System A","System B","System C")</div>
+
+<ol><li>After entering the four formulas in <span class="cell">B8:E8</span>, select them.</li><li>Drag the fill handle down through row 14. Because System C's formula uses <span class="cell">$A8</span>, the scenario row changes while column A stays fixed.</li><li>Format <span class="cell">B8:D14</span> as rand currency with no decimals.</li></ol></div>
 <table>
 <tbody><tr>
 <th>
@@ -334,156 +240,145 @@ System B
 </td>
 </tr>
 </tbody></table>
-<div class="formative">
-<div class="label">
-Formative checkpoint · find the crossover
-</div>
-<p>
-Compare columns <span class="cell">C</span> and <span class="cell">D</span> in rows <span class="cell">8:14</span>. The switch occurs between 75% and 72%.
-</p>
-<details>
-<summary>
-Formative feedback · check your conclusion
-</summary>
-<p>
-System B overtakes System C at approximately <strong>74%</strong> self-consumption. The modelled crossover is about <strong>73.96%</strong>.
-</p>
-</details>
-</div>
-<div class="card accent">
-<h3>
-Interrogate the assumption, not just the number
-</h3>
-<p>
-Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?
-</p>
-<details>
-<summary>
-Why half-hourly data?
-</summary>
-<p>
-Self-consumption depends on <strong>when</strong> electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory’s load profile.
-</p>
-</details>
-</div>
-<div class="output">
-<strong>Evidence produced:</strong> completed sensitivity table <span class="cell">Test Assumptions!A7:E14</span> and a reasoned view on the operational data management still needs.
-</div>
-<div class="next">
-<strong>Next:</strong> turn conflicting evidence and uncertainty into an executive recommendation.
-</div>
-<div class="page-visual">
-<img src="assets/04_sensitivity_crossover.png" alt="Sensitivity crossover chart for Proposal C self-consumption">
-</div>
+<div class="formative"><div class="label">Formative checkpoint · find the crossover</div>
+<p>Compare columns <span class="cell">C</span> and <span class="cell">D</span> in rows <span class="cell">8:14</span>. The switch occurs between 75% and 72%.</p>
+<details><summary>Formative feedback · check your conclusion</summary><p>System B overtakes System C at approximately <strong>74%</strong> self-consumption. The modelled crossover is about <strong>73.96%</strong>.</p></details></div>
+
+<div class="card accent"><h3>Interrogate the assumption, not just the number</h3>
+<p>Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?</p>
+<details><summary>Why half-hourly data?</summary><p>Self-consumption depends on <strong>when</strong> electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory's load profile.</p></details></div>
+
+<div class="output"><strong>Evidence produced:</strong> completed sensitivity table <span class="cell">Test Assumptions!A7:E14</span> and a reasoned view on the operational data management still needs.</div>
+
+<div class="next"><strong>Next:</strong> turn conflicting evidence and uncertainty into an executive recommendation.</div>
+
+<div class="page-visual"><img src="assets/04_sensitivity_crossover.png" alt="Sensitivity crossover chart for Proposal C self-consumption"></div>
 <section id="what-should-management-do-with-the-crossover-result" class="level3 interactive">
 <h3 data-anchor-id="what-should-management-do-with-the-crossover-result">What should management do with the crossover result?</h3>
-<label class="choice"><input type="radio" name="cross" value="a"> Reject Proposal C immediately.</label> <label class="choice"><input type="radio" name="cross" value="b"> Accept the supplier’s 78% assumption.</label> <label class="choice"><input type="radio" name="cross" value="c"> Obtain better evidence about the factory load profile.</label> <label class="choice"><input type="radio" name="cross" value="d"> Choose Proposal A because it has the shortest payback.</label> <button type="button" class="btn" data-group="cross" data-check-answer="c">Check my reasoning</button>
-<div id="cross-feedback" class="formative" hidden="">
-
-</div>
+<p><label class="choice"><input type="radio" name="cross" value="a"> Reject Proposal C immediately.</label> <label class="choice"><input type="radio" name="cross" value="b"> Accept the supplier’s 78% assumption.</label> <label class="choice"><input type="radio" name="cross" value="c"> Obtain better evidence about the factory load profile.</label> <label class="choice"><input type="radio" name="cross" value="d"> Choose Proposal A because it has the shortest payback.</label> <button type="button" class="btn" data-group="cross" data-check-answer="c">Check my reasoning</button></p>
+<div id="cross-feedback" class="formative" hidden=""></div>
 </section>
-<div class="iframe-nav">
-<a class="course-button alt" href="build.html">← Build the model</a><a class="course-button" href="decide.html">Next: Decide →</a>
-</div>
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="build.html">← Back</a>
+<a class="course-button app-link" href="decide.html">Next: Decide →</a>
+</nav>
 
 
 
 </main> <!-- /main -->
 <script>
-(function(){
- const KEY='slaSolarV8';
- const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}};
- const write=s=>localStorage.setItem(KEY,JSON.stringify(s));
- const state=read();
- const page=(location.pathname.split('/').pop()||'index.html').replace('.html','');
- const order=['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
- state.visited=Array.from(new Set([...(state.visited||[]),page])); write(state);
- document.querySelectorAll('[data-progress-page]').forEach(el=>{
-   const p=el.dataset.progressPage; if(state.visited.includes(p)) el.classList.add('visited');
- });
- document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
-   if(state.prediction===r.value) r.checked=true;
-   r.addEventListener('change',()=>{const s=read();s.prediction=r.value;write(s);const o=document.querySelector('#prediction-status');if(o)o.textContent='Saved: '+r.value+'. Revisit this on Reflect.';});
- });
- const prior=document.querySelector('#prior-prediction'); if(prior) prior.textContent=state.prediction||'No prediction was saved on this device.';
- const refl=document.querySelector('#final-reflection'); if(refl){refl.value=state.reflection||'';refl.addEventListener('input',()=>{const s=read();s.reflection=refl.value;write(s);});}
- document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
-   const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
-   const picked=document.querySelector('input[name="'+name+'"]:checked');
-   const fb=document.querySelector('#'+name+'-feedback');
-   if(!fb)return; fb.hidden=false;
-   if(!picked){fb.textContent='Choose an option first.';return;}
-   fb.innerHTML=picked.value===ans?'<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.':'<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
- }));
- document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{localStorage.removeItem(KEY);location.reload();}));
+(function () {
+  'use strict';
+  const KEY = 'slaSolarV9';
+  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
+  const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
+  let memory = {};
+
+  function storage(){
+    try { localStorage.setItem('__sla_test','1'); localStorage.removeItem('__sla_test'); return localStorage; }
+    catch(e){ try { sessionStorage.setItem('__sla_test','1'); sessionStorage.removeItem('__sla_test'); return sessionStorage; } catch(e2){ return null; } }
+  }
+  const store = storage();
+  function read(){
+    if(!store) return memory;
+    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+  }
+  function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
+  function mutate(fn){ const s=read(); fn(s); write(s); return s; }
+
+  // App-like navigation: every course page begins at the top of the iframe.
+  if ('scrollRestoration' in history) history.scrollRestoration='manual';
+  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  document.addEventListener('DOMContentLoaded', topNow, {once:true});
+  window.addEventListener('pageshow', topNow);
+  requestAnimationFrame(topNow);
+
+  const state=mutate(s=>{
+    s.visited=Array.from(new Set([...(s.visited||[]), page]));
+    s.lastPage=page;
+    s.lastVisit=Date.now();
+  });
+
+  // Progress state.
+  document.querySelectorAll('[data-progress-page]').forEach(el=>{
+    const p=el.dataset.progressPage;
+    if((state.visited||[]).includes(p)) el.classList.add('visited');
+    if(p===page){ el.classList.add('active'); el.setAttribute('aria-current','page'); }
+  });
+
+  // Internal course links always remain in the iframe (_self), never escape to Google Sites.
+  document.querySelectorAll('a[href]').forEach(a=>{
+    const raw=a.getAttribute('href')||'';
+    if(!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return;
+    let u; try { u=new URL(raw, location.href); } catch(e){ return; }
+    const sameOrigin=u.origin===location.origin;
+    const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
+    const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
+    if(isPage){
+      a.setAttribute('target','_self');
+      a.addEventListener('click', function(ev){
+        if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
+        ev.preventDefault();
+        mutate(s=>{s.leavingPage=page;s.leftAt=Date.now();});
+        topNow();
+        location.assign(u.href);
+      });
+    }
+  });
+
+  // Persist initial prediction.
+  document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
+    const s=read(); if(s.prediction===r.value) r.checked=true;
+    r.addEventListener('change',()=>{
+      mutate(x=>{x.prediction=r.value;});
+      const o=document.querySelector('#prediction-status');
+      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+    });
+  });
+  const prior=document.querySelector('#prior-prediction');
+  if(prior) prior.textContent=read().prediction || 'No prediction was saved on this device.';
+
+  // Persist reflection continuously.
+  const refl=document.querySelector('#final-reflection');
+  if(refl){
+    refl.value=read().reflection||'';
+    refl.addEventListener('input',()=>mutate(s=>{s.reflection=refl.value;}));
+  }
+
+  // Persist checklist state where checkboxes have data-state-key.
+  document.querySelectorAll('input[type="checkbox"][data-state-key]').forEach(cb=>{
+    const key=cb.dataset.stateKey; cb.checked=!!(read().checks||{})[key];
+    cb.addEventListener('change',()=>mutate(s=>{s.checks=s.checks||{};s.checks[key]=cb.checked;}));
+  });
+
+  // Formative answer feedback.
+  document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
+    const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
+    const picked=document.querySelector('input[name="'+name+'"]:checked');
+    const fb=document.querySelector('#'+name+'-feedback');
+    if(!fb) return; fb.hidden=false;
+    if(!picked){fb.textContent='Choose an option first.';return;}
+    fb.innerHTML=picked.value===ans
+      ? '<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.'
+      : '<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
+  }));
+
+  // Reset only when explicitly requested.
+  document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{
+    if(store){ try{store.removeItem(KEY);}catch(e){} } memory={}; topNow(); location.assign('index.html');
+  }));
+
+  // Add embedded-app class for CSS and a small fallback when storage is blocked.
+  document.documentElement.classList.add('sla-app');
+  if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
+  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
-        }
-        return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/marcelmare\.com\/sla-course\/");
+        var filterRegex = new RegExp("https:\/\/marcelmare\.com\/dla-course-2\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -497,11 +392,6 @@ Self-consumption depends on <strong>when</strong> electricity is used relative t
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
