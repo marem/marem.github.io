@@ -9,6 +9,7 @@ main.content { max-width:var(--max); }
 h1,h2,h3 { color:var(--navy); letter-spacing:-.015em; }
 h1 { font-weight:750; }
 .lead { font-size:1.18rem; color:#334155; max-width:850px; }
+.label { text-transform:uppercase; font-weight:700; }
 .course-kicker { text-transform:uppercase; letter-spacing:.12em; font-size:.76rem; font-weight:800; color:var(--muted); }
 .course-card,.obe,.interactive,.message,.sa-context,.formative,.evidence {
   border:1px solid var(--line); border-radius:12px; padding:1.1rem 1.25rem; margin:1.25rem 0; background:var(--paper);
