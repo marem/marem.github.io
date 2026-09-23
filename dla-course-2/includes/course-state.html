@@ -1,0 +1,29 @@
+<script>
+(function(){
+ const KEY='slaSolarV8';
+ const read=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}};
+ const write=s=>localStorage.setItem(KEY,JSON.stringify(s));
+ const state=read();
+ const page=(location.pathname.split('/').pop()||'index.html').replace('.html','');
+ const order=['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
+ state.visited=Array.from(new Set([...(state.visited||[]),page])); write(state);
+ document.querySelectorAll('[data-progress-page]').forEach(el=>{
+   const p=el.dataset.progressPage; if(state.visited.includes(p)) el.classList.add('visited');
+ });
+ document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
+   if(state.prediction===r.value) r.checked=true;
+   r.addEventListener('change',()=>{const s=read();s.prediction=r.value;write(s);const o=document.querySelector('#prediction-status');if(o)o.textContent='Saved: '+r.value+'. Revisit this on Reflect.';});
+ });
+ const prior=document.querySelector('#prior-prediction'); if(prior) prior.textContent=state.prediction||'No prediction was saved on this device.';
+ const refl=document.querySelector('#final-reflection'); if(refl){refl.value=state.reflection||'';refl.addEventListener('input',()=>{const s=read();s.reflection=refl.value;write(s);});}
+ document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
+   const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
+   const picked=document.querySelector('input[name="'+name+'"]:checked');
+   const fb=document.querySelector('#'+name+'-feedback');
+   if(!fb)return; fb.hidden=false;
+   if(!picked){fb.textContent='Choose an option first.';return;}
+   fb.innerHTML=picked.value===ans?'<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.':'<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
+ }));
+ document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{localStorage.removeItem(KEY);location.reload();}));
+})();
+</script>

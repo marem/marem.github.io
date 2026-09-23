@@ -1,0 +1,44 @@
+<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="active" href="reflect.html">Reflect</a>
+</nav>
+
+::: {.state-box}
+## Revisit your initial judgement
+
+Your initial prediction on this device was: **<span id="prior-prediction">Loading…</span>**
+
+What changed in your reasoning after building and stress-testing the model?
+
+<textarea id="final-reflection" class="course-response" placeholder="Write 2–4 sentences. Your response is saved locally on this device."></textarea>
+:::
+
+::: {.course-card}
+## Reference model — after completion
+
+Use the completed model only after you have built, tested and checked your own work. Compare formulas and reasoning; do not replace your work with the reference values.
+
+[Download completed reference workbook](downloads/SU_DLA_Solar_Completed_Reference_Workbook_V8.xlsx){.course-button .alt download=""}
+:::
+
+---
+title: "05 · Reflect"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<div class="next"><strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.</div>
+
+
+
+
+<div class="iframe-nav"><a class="course-button alt" href="decide.html">← Decide</a><a class="course-button" href="index.html">Course home</a></div>

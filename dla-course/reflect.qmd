@@ -1,0 +1,31 @@
+---
+title: "05 · Reflect"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: true
+---
+
+<div class="progress"><span class="done">UNDERSTAND</span><span class="done">BUILD</span><span class="done">TEST</span><span class="done">DECIDE</span><span class="active">REFLECT</span></div>
+
+
+::: {.course-card}
+## Reference model — release after completion
+
+Use the completed model only after you have built, tested and checked your own work. Compare formulas and reasoning; do not replace your work with the reference values.
+
+[Download completed reference workbook](downloads/SU_DLA_Solar_Completed_Reference_Workbook_V7.xlsx){.course-button .alt download=""}
+:::
+
+<main class="wrap">
+
+
+
+<div class="next"><strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.</div>
+</main>
+
+
+::: {.course-nav}
+[← Course home](index.qmd){.course-button .alt}
+[Reviewer rationale](reviewer-rationale.qmd){.course-button}
+:::

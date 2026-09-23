@@ -14,3 +14,7 @@ __pycache__/
 *.swo
 
 /.quarto/
+
+# Standalone course builds are published from docs/.
+/dla-course/_site/
+/dla-course-2/_site/

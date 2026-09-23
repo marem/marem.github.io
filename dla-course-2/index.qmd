@@ -1,0 +1,125 @@
+<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="active" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+</nav>
+
+<div class="hero">
+<img src="assets/00-western-cape-industrial-solar-hero.png" alt="Industrial rooftop solar installation in a Western Cape setting">
+<div class="hero-copy"><div class="course-kicker">Digital Acumen · Cape Manufacturing</div><h1>Should We Invest in Solar?</h1><p><strong>A real decision. Real data. Applied spreadsheet skills.</strong></p><p>You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose — and how confident are you in the numbers?</p><div class="meta-strip"><span>65–80 minutes</span><span>Beginner spreadsheet level</span><span>Excel or Google Sheets</span></div></div>
+</div>
+
+::: {.course-video}
+
+{{< video assets/intro-video.mp4 >}}
+
+:::
+
+<!-- 
+<div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div> -->
+
+::: {.course-card}
+## Course toolkit
+
+<div class="resource-grid">
+<a class="resource-tile" href="downloads/SU_DLA_Solar_Student_Workbook_V8.xlsx" download><strong>Student workbook</strong><span>.xlsx · download</span></a>
+<a class="resource-tile" href="downloads/Cape_Manufacturing_Case_Brief.pdf" target="_blank"><strong>Case brief</strong><span>PDF · open</span></a>
+<a class="resource-tile" href="downloads/Spreadsheet_Quick_Reference_Excel_Google_Sheets.pdf" target="_blank"><strong>Quick reference</strong><span>Excel + Sheets</span></a>
+<a class="resource-tile" href="downloads/Formula_Troubleshooting_Card.pdf" target="_blank"><strong>Formula help</strong><span>PDF · diagnostic</span></a>
+</div>
+:::
+
+
+---
+title: "Should We Invest in Solar?"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+
+
+<section class="obe">
+<div class="obe-head">Learning contract · outcomes-based education</div>
+<div class="obe-body">
+<h2>What is this activity about?</h2>
+<p>This micro-learning activity develops your ability to use spreadsheet technology to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.</p>
+<p><strong>The purpose is not simply to learn spreadsheet formulas.</strong> The purpose is to develop applied digital, analytical and decision-making competence: using a digital tool appropriately, understanding the assumptions behind the output, and exercising judgement when the evidence is incomplete.</p>
+
+<h2>Learning outcomes</h2>
+<p><strong>On successful completion of this activity, you should be able to:</strong></p>
+<ol>
+<li><strong>Interpret</strong> financial and operational information relevant to a capital-investment decision.</li>
+<li><strong>Construct</strong> a structured spreadsheet model using appropriate formulas, cell references and number formats.</li>
+<li><strong>Calculate and compare</strong> useful generation, annual savings and simple payback across alternative proposals.</li>
+<li><strong>Use and interpret</strong> discounted cash-flow information and sensitivity analysis to evaluate the effect of changing a material assumption.</li>
+<li><strong>Create</strong> an appropriate visualisation that communicates decision-relevant information clearly.</li>
+<li><strong>Evaluate</strong> assumptions and supplier claims using professional scepticism and identify additional evidence required.</li>
+<li><strong>Formulate and communicate</strong> a concise, evidence-based recommendation that recognises commercial trade-offs and uncertainty.</li>
+<li><strong>Reflect on</strong> the strengths and limitations of the model and transfer the modelling approach to another business decision.</li>
+</ol>
+
+<h2>What evidence will you produce?</h2>
+<table><tr><th>Evidence of learning</th><th>Capability demonstrated</th></tr>
+<tr><td>Structured spreadsheet model</td><td>Digital, numerical and practical competence</td></tr>
+<tr><td>Correct formulas and references</td><td>Spreadsheet accuracy and auditability</td></tr>
+<tr><td>Executive comparison chart</td><td>Visual communication</td></tr>
+<tr><td>Sensitivity analysis</td><td>Analytical and critical thinking</td></tr>
+<tr><td>≤100-word management recommendation</td><td>Decision-making and professional communication</td></tr>
+<tr><td>Evidence request concerning Supplier C</td><td>Professional scepticism</td></tr>
+<tr><td>Guided reflection</td><td>Reflexive competence and transfer</td></tr></table>
+
+<h2>How you will learn</h2>
+<p>The activity follows one unfolding management problem through five stages: <strong>Understand → Build → Test → Decide → Reflect</strong>. A short <strong>Spreadsheet Essentials</strong> bridge supports learners who are new to Excel or Google Sheets.</p>
+<div class="obe-grid">
+<div class="card"><strong>Foundational competence · KNOW</strong><p>Understand the business problem, terminology, data and assumptions.</p></div>
+<div class="card"><strong>Practical competence · DO</strong><p>Build the spreadsheet, calculate measures and communicate outputs.</p></div>
+<div class="card"><strong>Reflexive competence · ADAPT & JUDGE</strong><p>Stress-test assumptions, evaluate evidence, recommend and transfer the reasoning.</p></div>
+<div class="card"><strong>Formative learning</strong><p>Use checkpoints and reference values to diagnose errors before moving on.</p></div>
+</div>
+</div></section>
+
+
+<div class="platform-note">
+  <div class="label">Choose your spreadsheet platform</div>
+  <h3>Microsoft Excel or Google Sheets</h3>
+  <p>The workbook logic, formulas, sheet names and cell addresses are the same in both platforms. The course shows both interfaces wherever the menu path or workflow differs.</p>
+  <div class="platform-grid">
+    <div class="platform"><strong>Microsoft Excel</strong>Open the supplied <span class="cell">.xlsx</span> workbook directly. Save a working copy before entering formulas.</div>
+    <div class="platform"><strong>Google Sheets</strong>Upload the supplied <span class="cell">.xlsx</span> file to Google Drive, open it with Google Sheets, then use <strong>File → Save as Google Sheets</strong> if you want a native Sheets copy. Keep the original workbook unchanged.</div>
+  </div>
+  <div class="same"><strong>Important:</strong> formulas such as <span class="cell">='Case Data'!B15*'Case Data'!B16</span>, <span class="cell">$B$4</span>, <span class="cell">RANK.EQ</span>, <span class="cell">SUMPRODUCT</span>, <span class="cell">MATCH</span> and <span class="cell">CHOOSE</span> are used identically in this activity.</div>
+</div>
+
+<section class="story"><div class="label">The case · Monday morning</div>
+<h2>Cape Manufacturing has a capital-allocation decision to make</h2>
+<p>Cape Manufacturing is a Western Cape industrial producer. Electricity is a material operating cost, tariffs are expected to rise, and management is considering rooftop solar PV as a way to reduce grid purchases and improve energy resilience.</p>
+<p>Three suppliers have submitted proposals. Each looks attractive for a different reason. The Financial Director does not want a sales comparison; she wants a transparent commercial analysis that can be challenged before capital is committed.</p>
+<p><strong>You are the Junior Commercial Analyst / Trainee Accountant.</strong> You have been asked to turn the proposals into an Excel model, test a key assumption and prepare a concise recommendation.</p></section>
+<div class="caseq"><div class="label">The question you must answer</div><strong>Which solar proposal should Cape Manufacturing take forward, and what must management verify before signing a contract?</strong></div>
+<div class="grid3">
+<div class="card"><h3>1 · Build evidence</h3><p>Translate technical proposal data into comparable financial measures.</p></div>
+<div class="card"><h3>2 · Challenge the model</h3><p>Stress-test an assumption that could change the decision.</p></div>
+<div class="card"><h3>3 · Advise management</h3><p>Make a ≤100-word recommendation supported by evidence and professional scepticism.</p></div></div>
+<div class="excel"><div class="label">Excel orientation · before you begin</div><h3>Open the workbook and find your way around</h3>
+<ol><li>Open <strong>SU_DLA_Solar_Student_Workbook_V8.xlsx</strong> in Microsoft Excel, or upload it to Google Drive and open it with Google Sheets.</li><li>Click the <span class="cell">Start Here</span> sheet tab. Read <span class="cell">A4</span> and the learning outcomes in <span class="cell">A10:A16</span>.</li><li>Notice the five workbook tabs: <strong>Start Here, Case Data, Your Model, Test Assumptions, Recommendation</strong>.</li><li><strong>Excel:</strong> save a working copy with your name. <strong>Google Sheets:</strong> make/save a Google Sheets copy with your name.</li></ol>
+<p class="tiny">You do not need prior Excel experience. The course will tell you which sheet and cell to use at each step.</p></div>
+<div class="output"><strong>By the end:</strong> one auditable Excel model, one management chart, one sensitivity test and one concise executive recommendation.</div>
+
+<div class="sa-context"><div class="label">South African commercial context</div>
+<p>Cape Manufacturing is a fictional Western Cape industrial producer. All monetary values are in South African rand (R). The electricity tariff, escalation rate and other financial parameters are <strong>teaching-case assumptions</strong>, not forecasts of South African tariffs or investment conditions. Unless stated otherwise, use the figures exactly as provided and do not introduce VAT, tax, financing or feed-in revenue into the model.</p></div>
+
+<div class="next"><strong>Next:</strong> understand the business data before touching the model.</div>
+
+
+
+
+
+<div class="iframe-nav"><span></span><a class="course-button" href="understand.html">Start the case →</a></div>

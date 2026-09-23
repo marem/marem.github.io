@@ -1,0 +1,92 @@
+---
+title: "03 · Test"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: true
+---
+
+<div class="progress"><span class="done">UNDERSTAND</span><span class="done">BUILD</span><span class="active">TEST</span><span class="">DECIDE</span><span class="">REFLECT</span></div>
+
+![](assets/04_sensitivity_crossover.png){.learning-asset fig-alt="Sensitivity chart comparing Proposal B and Proposal C NPV as Proposal C self-consumption falls"}
+
+<main class="wrap">
+
+<div class="message"><div class="meta">13:15 · Thandi Jacobs · Production Manager</div>
+<strong>I'm not convinced by Supplier C's 78% self-consumption assumption.</strong>
+<p>Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?</p></div>
+
+
+
+<section class="obe"><div class="obe-head">Purpose → Outcome → Activity → Evidence</div><div class="obe-body">
+<p><strong>Purpose of this stage:</strong> move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.</p>
+<p><strong>Outcome for this stage:</strong> <strong>Evaluate the sensitivity of an investment decision to a material operational assumption and interpret the implications for management.</strong></p>
+<p><strong>You will demonstrate this by:</strong> distinguishing payback from NPV; changing System C's self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.</p>
+<p><strong>Evidence:</strong> completed <span class="cell">Test Assumptions!A7:E14</span>, crossover interpretation and an evidence requirement concerning the factory load profile.</p>
+</div></section>
+
+
+<div class="platform-note">
+  <div class="label">Excel + Google Sheets · Test</div>
+  <p>The <span class="cell">SUMPRODUCT</span>, <span class="cell">ROW</span>, <span class="cell">MAX</span>, <span class="cell">MATCH</span> and <span class="cell">CHOOSE</span> formulas below are written once and used unchanged in both applications.</p>
+  <div class="platform-grid">
+    <div class="platform"><strong>Excel</strong>Enter formulas in <span class="cell">B8:E8</span>; select the row and drag the fill handle down to row 14. Format <span class="cell">B8:D14</span> as rand currency.</div>
+    <div class="platform"><strong>Google Sheets</strong>Enter the same formulas in <span class="cell">B8:E8</span>; drag the fill handle down to row 14, or select <span class="cell">B8:E14</span> and use <strong>Fill down</strong> / <span class="kbd">Ctrl+D</span>. Format <span class="cell">B8:D14</span> via Format → Number → Currency.</div>
+  </div>
+  <div class="same"><strong>Do not “translate” the formulas.</strong> Sheet names, apostrophes, dollar signs and cell addresses remain exactly as printed.</div>
+</div>
+
+<div class="thread"><strong>Story so far:</strong> Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.</div>
+<section class="story"><div class="label">The case · Operations challenges the supplier assumption</div>
+<h2>“Will we really use 78% of System C's output?”</h2>
+<p>Simple payback favours System A at about <strong>2.92 years</strong>. A 20-year discounted cash-flow view tells a different story: under the base assumptions, System C has the highest NPV at about <strong>R2.871 million</strong>.</p>
+<p>Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.</p>
+<p>The Production Manager now questions System C's 78% self-consumption. Your task is to stress-test that assumption.</p></section>
+<div class="caseq"><div class="label">Decision question</div><strong>Does System C still create the most long-term value if Cape Manufacturing cannot use as much of its solar output as the supplier expects?</strong></div>
+
+<div class="excel"><div class="label">Excel instruction · sensitivity table</div><h3>Work on the Test Assumptions sheet</h3>
+<p>The scenario rates are already entered in <span class="cell">A8:A14</span>: 78%, 75%, 72%, 70%, 68%, 65%, 60%.</p>
+<p>Enter the following formulas in row 8. The formulas use <span class="cell">SUMPRODUCT</span> to value 20 years of escalating savings, degradation, maintenance and discounting. For this short course, you are <strong>using</strong> the discounted-cash-flow engine rather than being assessed on constructing it from first principles.</p>
+
+<p><strong>NPV A — Test Assumptions!B8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$B$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$B$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$B$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$B$13</div>
+
+<p><strong>NPV B — Test Assumptions!C8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$C$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$C$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$C$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$C$13</div>
+
+<p><strong>NPV C — Test Assumptions!D8</strong></p>
+<div class="formula">=SUMPRODUCT(('Case Data'!$D$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*$A8*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$D$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$D$13</div>
+
+<p><strong>Highest NPV — Test Assumptions!E8</strong></p>
+<div class="formula">=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"System A","System B","System C")</div>
+
+<ol><li>After entering the four formulas in <span class="cell">B8:E8</span>, select them.</li><li>Drag the fill handle down through row 14. Because System C's formula uses <span class="cell">$A8</span>, the scenario row changes while column A stays fixed.</li><li>Format <span class="cell">B8:D14</span> as rand currency with no decimals.</li></ol></div>
+
+<table><tr><th>C self-consumption</th><th>Expected NPV C</th><th>Highest NPV</th></tr>
+<tr><td>78%</td><td>≈ R2.871m</td><td>System C</td></tr>
+<tr><td>75%</td><td>≈ R2.716m</td><td>System C</td></tr>
+<tr><td>72%</td><td>≈ R2.561m</td><td>System B</td></tr>
+<tr><td>70%</td><td>≈ R2.458m</td><td>System B</td></tr>
+<tr><td>68%</td><td>≈ R2.355m</td><td>System B</td></tr>
+<tr><td>65%</td><td>≈ R2.199m</td><td>System B</td></tr>
+<tr><td>60%</td><td>≈ R1.941m</td><td>System B</td></tr></table>
+
+<div class="formative"><div class="label">Formative checkpoint · find the crossover</div>
+<p>Compare columns <span class="cell">C</span> and <span class="cell">D</span> in rows <span class="cell">8:14</span>. The switch occurs between 75% and 72%.</p>
+<details><summary>Formative feedback · check your conclusion</summary><p>System B overtakes System C at approximately <strong>74%</strong> self-consumption. The modelled crossover is about <strong>73.96%</strong>.</p></details></div>
+
+<div class="card accent"><h3>Interrogate the assumption, not just the number</h3>
+<p>Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?</p>
+<details><summary>Why half-hourly data?</summary><p>Self-consumption depends on <strong>when</strong> electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory's load profile.</p></details></div>
+<div class="output"><strong>Evidence produced:</strong> completed sensitivity table <span class="cell">Test Assumptions!A7:E14</span> and a reasoned view on the operational data management still needs.</div>
+
+
+
+<div class="next"><strong>Next:</strong> turn conflicting evidence and uncertainty into an executive recommendation.</div>
+</main>
+
+
+::: {.course-nav}
+[← Course home](index.qmd){.course-button .alt}
+[Next: 04 · Decide →](decide.qmd){.course-button}
+:::

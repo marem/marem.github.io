@@ -1,0 +1,81 @@
+---
+title: "01 · Understand"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: true
+---
+
+<div class="progress"><span class="active">UNDERSTAND</span><span class="">BUILD</span><span class="">TEST</span><span class="">DECIDE</span><span class="">REFLECT</span></div>
+
+
+::: {.interactive}
+## Commit to a prediction before you calculate
+
+Which measure would you inspect first if you had to advise the Financial Director **before opening the spreadsheet**?
+
+- [ ] Installed cost
+- [ ] System size
+- [ ] Gross generation
+- [ ] Annual saving
+- [ ] Payback
+
+Write your choice in your workbook or notes. **Do not revise it yet.** You will return to this judgement after the sensitivity analysis.
+
+::: {.formative}
+There is no correct answer at this stage. The purpose is to make your initial reasoning visible before the model changes what you know.
+:::
+:::
+
+![](assets/02_proposals_comparison.png){.learning-asset fig-alt="Comparison of installed cost, gross generation and self-consumption for Proposals A, B and C"}
+
+<main class="wrap">
+
+
+
+
+
+<section class="obe"><div class="obe-head">Purpose → Outcome → Evidence</div><div class="obe-body">
+<p><strong>Purpose of this stage:</strong> establish the commercial meaning of the supplier data before using the spreadsheet.</p>
+<p><strong>Outcome for this stage:</strong> After completing this stage, you should be able to <strong>interpret the case data and explain how self-consumption affects the economic value of solar generation</strong>.</p>
+<p><strong>You will demonstrate this by:</strong> distinguishing installed capacity, gross generation and useful generation; identifying the case assumptions; and explaining why a larger system is not automatically the better investment.</p>
+<p><strong>Evidence:</strong> your prediction response and concept-check explanation.</p>
+</div></section>
+
+<div class="thread"><strong>Story so far:</strong> You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.</div>
+<section class="story"><div class="label">The case · The proposals arrive</div>
+<h2>Price is only one part of the decision</h2>
+<p>A larger PV system can generate more electricity, but Cape Manufacturing only saves money on solar electricity it can use when it is produced. This makes <strong>self-consumption</strong> the bridge between technical output and economic value.</p>
+<p>If a system generates 100 kWh while the factory can use only 80 kWh, its self-consumption is 80%. In this simplified case, unused generation has no economic value.</p></section>
+<table><tr><th>Proposal</th><th>A</th><th>B</th><th>C</th></tr>
+<tr><td>Installed cost</td><td>R650,000</td><td>R820,000</td><td>R990,000</td></tr>
+<tr><td>System size</td><td>60 kWp</td><td>80 kWp</td><td>100 kWp</td></tr>
+<tr><td>Year-1 generation</td><td>92,000 kWh</td><td>121,000 kWh</td><td>147,000 kWh</td></tr>
+<tr><td>Self-consumption</td><td>90%</td><td>85%</td><td>78%</td></tr>
+<tr><td>Year-1 maintenance</td><td>R9,000</td><td>R11,000</td><td>R14,000</td></tr></table>
+<div class="excel"><div class="label">Excel instruction · read cells, do not calculate yet</div><h3>Use the Case Data sheet as your source of truth</h3>
+<ol><li>Click the <strong>Case Data</strong> sheet.</li><li>Economic assumptions are in <span class="cell">A3:E9</span>. Click <span class="cell">B4</span>: the Formula Bar should show <strong>2.8</strong>, the tariff in R/kWh.</li><li>Proposal inputs are in <span class="cell">A12:F17</span>. System A is column <span class="cell">B</span>, B is <span class="cell">C</span>, C is <span class="cell">D</span>.</li><li>Click <span class="cell">D15</span> (147,000 kWh) and then <span class="cell">D16</span> (78%). Note that the cell address changes in the Name Box.</li></ol>
+<p><strong>Useful habit:</strong> never retype an input elsewhere if a formula can reference the original cell. This improves auditability and reduces inconsistent assumptions.</p></div>
+<div class="formative"><div class="label">Formative checkpoint · prediction before calculation</div>
+<p>If you had only 30 seconds, which metric would you look at first: <strong>Installed Cost, Size, Gross Generation, Annual Saving, or Payback?</strong></p>
+<p>Write down your choice and one reason. You will revisit it at the end.</p></div>
+<details><summary>Formative feedback · concept check: which system generates most, and which has highest self-consumption?</summary>
+<p>System C has the highest gross generation (147,000 kWh). System A has the highest self-consumption (90%). Those facts do not, by themselves, identify the best investment.</p></details>
+
+<div class="platform-note">
+  <div class="label">Excel + Google Sheets · same task</div>
+  <div class="platform-grid">
+    <div class="platform"><strong>Excel</strong>Use the sheet tabs at the bottom. Click a cell and read its address in the <strong>Name Box</strong>; read/edit the formula in the <strong>Formula Bar</strong>.</div>
+    <div class="platform"><strong>Google Sheets</strong>Use the sheet tabs at the bottom. Click a cell and read its address in the <strong>Name box</strong> at the left of the formula bar; read/edit the formula in the formula bar.</div>
+  </div>
+  <p>For this page there is no platform-specific calculation. The cell references <span class="cell">Case Data!B4</span>, <span class="cell">D15</span> and <span class="cell">D16</span> mean the same thing in both.</p>
+</div>
+
+<div class="next"><strong>Next:</strong> learn the few Excel moves needed to build the model confidently.</div>
+</main>
+
+
+::: {.course-nav}
+[← Course home](index.qmd){.course-button .alt}
+[Next: Spreadsheet Essentials →](spreadsheet-essentials.qmd){.course-button}
+:::

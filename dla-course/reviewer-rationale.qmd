@@ -1,0 +1,78 @@
+---
+title: "Reviewer Rationale"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: true
+---
+
+<div class="progress"><span class="done">UNDERSTAND</span><span class="done">BUILD</span><span class="done">TEST</span><span class="done">DECIDE</span><span class="active">REFLECT</span></div>
+
+
+<main class="wrap">
+
+
+<section class="obe"><div class="obe-head">South African OBE design statement</div><div class="obe-body">
+<h2>Constructive alignment is made visible</h2>
+<p>The activity is organised around explicit intended learning outcomes, authentic learning activities, formative checkpoints, associated assessment criteria and observable evidence of achievement. The narrative is the professional context through which the outcomes are developed; it does not replace the curriculum structure.</p>
+<p>The design deliberately integrates <strong>foundational competence</strong> (understanding concepts and assumptions), <strong>practical competence</strong> (performing spreadsheet and analytical tasks) and <strong>reflexive competence</strong> (adapting reasoning, evaluating uncertainty and transferring learning).</p>
+<p>The activity is best described as <strong>designed in accordance with South African outcomes-based and constructive-alignment principles</strong>. It should not be represented as independently “CHE accredited” or as an NQF-registered qualification. Exact formal module-level alignment would require the approved Stellenbosch module outcomes, assessment plan and institutional curriculum documentation.</p>
+</div></section>
+
+<section class="story"><div class="label">Reviewer note</div>
+<h2>One case, one evolving model, one professional decision</h2>
+<p>The activity is structured as a continuous workplace narrative. The learner receives imperfect supplier information, constructs a transparent spreadsheet model, encounters a challenge to an assumption, stress-tests the model, communicates a recommendation and reflects on transfer.</p>
+<p>The five-step arc is <strong>Understand → Build → Test → Decide → Reflect</strong>. The separate Spreadsheet Essentials bridge supports true beginners in either Microsoft Excel or Google Sheets without turning the activity into a generic software tutorial.</p></section>
+
+<h2>Constructive alignment</h2>
+<table><tr><th>Intended learning outcome</th><th>Learning activity</th><th>Evidence of achievement</th></tr>
+<tr><td>Interpret business and technical inputs</td><td>Understand proposals and self-consumption</td><td>Prediction + concept check</td></tr>
+<tr><td>Use spreadsheet tools purposefully</td><td>Cross-sheet references, relative/absolute references, formulas, formatting</td><td>Your Model!B4:D8</td></tr>
+<tr><td>Analyse alternatives</td><td>Payback and NPV comparison</td><td>Model + chart</td></tr>
+<tr><td>Interrogate assumptions</td><td>Self-consumption sensitivity</td><td>Test Assumptions!A7:E14</td></tr>
+<tr><td>Exercise judgement and scepticism</td><td>Executive brief + evidence request</td><td>Recommendation!A7 and A22</td></tr>
+<tr><td>Reflect and transfer</td><td>Explain, verify, generalise</td><td>Guided reflection</td></tr></table>
+
+<h2>SAICA competency alignment</h2>
+<p>This activity is designed to evidence publicly documented SAICA competencies associated with the former CA2025 framework, now described by SAICA as the <strong>CA of the Future</strong> Competency Framework. It particularly integrates:</p>
+<div class="grid3">
+<div class="card"><h3>Digital acumen</h3><p>Digital user skills: using technology as an enabler of decision-making; data analysis and spreadsheet modelling; deliberate use of formulas, references and visual communication.</p></div>
+<div class="card"><h3>Decision-making acumen</h3><p>Analytical and critical thinking, weighing alternatives, integrated thinking, numerical reasoning and judgement.</p></div>
+<div class="card"><h3>Professional scepticism</h3><p>Questioning supplier assumptions and unsupported claims, identifying evidence gaps and withholding reliance until appropriate evidence is obtained.</p></div></div>
+
+<div class="card accent" style="margin-top:14px"><h3>Why this is Digital- and Leadership Acumen</h3>
+<p>Digital acumen is treated as more than software proficiency. The learner uses a spreadsheet (Excel or Google Sheets) to structure information, make logic auditable, interrogate uncertainty and communicate evidence. Leadership/professional acumen enters when the learner must make a qualified recommendation despite competing criteria and incomplete evidence.</p></div>
+
+<h2>Associated assessment criteria & formative feedback</h2>
+<table><tr><th>Criterion</th><th>Developing</th><th>Competent</th><th>Strong</th></tr>
+<tr><td>Excel model</td><td>Material formula/reference errors</td><td>Core calculations correct</td><td>Accurate, structured and auditable</td></tr>
+<tr><td>Analysis</td><td>Describes outputs</td><td>Compares alternatives and assumptions</td><td>Explains trade-offs and sensitivity</td></tr>
+<tr><td>Visual communication</td><td>Chart does not support decision</td><td>Relevant comparison is clear</td><td>Visual choice sharpens decision</td></tr>
+<tr><td>Professional judgement</td><td>Weakly evidenced</td><td>Evidence-based with limitation</td><td>Balances evidence, uncertainty and information needs</td></tr>
+<tr><td>Scepticism/reflection</td><td>Accepts claims at face value</td><td>Identifies need for verification</td><td>Specifies credible evidence and explains why it matters</td></tr></table>
+
+<div class="warn"><strong>Alignment note:</strong> this is a non-credit application demonstration. The public sources support alignment with Stellenbosch's Digital- and Leadership Acumen context and SAICA's competency language, but exact module-level constructive alignment would require the formally approved module outcomes and assessment plan.</div>
+
+<h2>Publicly documented curriculum context</h2>
+<ul>
+<li>Stellenbosch School of Accountancy includes Digital- and Leadership Acumen modules in its accountancy programmes, including modules focused on data analytics for accountants.</li>
+<li>SAICA defines digital user skills as using technology ethically to optimise decision-making and business efficiencies, and defines decision-making competencies including analytical thinking, critical thinking, integrated thinking and judgement.</li>
+<li>SAICA describes professional scepticism as questioning information, remaining alert to possible error or fraud, and critically evaluating evidence.</li>
+</ul>
+<p class="tiny">Sources for reviewer verification: SAICA CA of the Future / Competencies Defined; SAICA IAC competency framework; Stellenbosch School of Accountancy programme information.</p>
+
+<div class="platform-note">
+  <div class="label">Platform design rationale</div>
+  <h3>Spreadsheet reasoning is the competence; software menus are scaffolding</h3>
+  <p>The activity deliberately preserves identical formulas, sheet names and cell addresses across Microsoft Excel and Google Sheets. Platform-specific guidance is limited to interface operations such as opening/saving, number formatting, filling formulas and chart creation.</p>
+  <p>This allows the learner to demonstrate transferable digital acumen rather than success being contingent on prior familiarity with one vendor interface.</p>
+</div>
+
+
+<section class="interactive"><div class="label">V7 interaction design</div>
+<h2>Interactivity is tied to evidence of learning</h2>
+<p>The interactive elements are deliberately sparse and purposeful: a pre-model prediction activates prior conceptions; formula reveals support guided practice; management messages maintain authentic workplace narrative; sensitivity interpretation requires judgement rather than calculation alone; the pre-submission checklist makes assessment criteria visible; and the final reflection closes the prediction-feedback-transfer loop.</p>
+<p>Decorative interaction has been avoided. Each interaction either elicits evidence, provides formative feedback, scaffolds performance or strengthens transfer.</p></section>
+
+<div class="next"><strong>Design principle:</strong> technical spreadsheet skills are introduced at the point where the case creates a reason to use them.</div>
+</main>

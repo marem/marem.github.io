@@ -1,0 +1,83 @@
+<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="" href="test.html">Test</a>
+<a data-progress-page="decide" class="active" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+</nav>
+
+<div class="management-brief"><div class="brief-avatar" aria-hidden="true">FD</div><div><div class="meta">15:30 · Financial Director</div><h3>I don't need another spreadsheet. I need your recommendation.</h3><p>Which system should we take forward, why, and what do we still need to verify? Keep it to 100 words.</p></div></div>
+
+---
+title: "04 · Decide"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+
+
+<section class="obe"><div class="obe-head">Purpose → Outcome → Assessment criteria → Evidence</div><div class="obe-body">
+<p><strong>Purpose of this stage:</strong> integrate quantitative evidence, uncertainty and professional scepticism into a concise management recommendation.</p>
+<p><strong>Outcome for this stage:</strong> <strong>Formulate and communicate an evidence-based investment recommendation that integrates quantitative analysis, commercial trade-offs, uncertainty and professional scepticism.</strong></p>
+<p><strong>Associated assessment criteria:</strong> a successful response identifies a proposal; uses at least two correctly interpreted quantitative results; explains one material trade-off; identifies an assumption requiring verification; distinguishes evidence from an unsupported supplier claim; and remains within 100 words.</p>
+<p><strong>Evidence:</strong> recommendation in <span class="cell">Recommendation!A7</span> and professional-scepticism response in <span class="cell">Recommendation!A22</span>.</p>
+</div></section>
+
+
+<div class="platform-note">
+  <div class="label">Excel + Google Sheets · Decide</div>
+  <div class="platform-grid">
+    <div class="platform"><strong>Excel</strong>Enter the recommendation in the response area beginning <span class="cell">Recommendation!A7</span>. Use Home → <strong>Wrap Text</strong> if necessary.</div>
+    <div class="platform"><strong>Google Sheets</strong>Enter the recommendation in the same response area beginning <span class="cell">Recommendation!A7</span>. Use Format → Wrapping → <strong>Wrap</strong> if necessary.</div>
+  </div>
+  <p>Use the workbook cells as evidence rather than retyping numbers from memory. This audit trail is the same in both platforms.</p>
+</div>
+
+<div class="thread"><strong>Story so far:</strong> A is fastest on payback; C creates the greatest base-case NPV; B becomes preferable to C if C's self-consumption falls below roughly 74%.</div>
+<section class="story"><div class="label">The case · The Financial Director wants a recommendation</div>
+<h2>The spreadsheet gives evidence. It does not choose the decision rule.</h2>
+<p>You now have a genuine commercial trade-off. Management needs a recommendation that distinguishes measured results from assumptions still requiring verification.</p></section>
+<table><tr><th>Criterion</th><th>A</th><th>B</th><th>C</th></tr>
+<tr><td>Simple payback</td><td><strong>2.92 y</strong></td><td>2.96 y</td><td>3.22 y</td></tr>
+<tr><td>20-year NPV</td><td>R2.152m</td><td>R2.662m</td><td><strong>R2.871m</strong></td></tr>
+<tr><td>Self-consumption</td><td>90%</td><td>85%</td><td>78%</td></tr>
+<tr><td>Primary exposure</td><td>Lower long-term value</td><td>Middle-ground option</td><td>Utilisation assumption</td></tr></table>
+
+<div class="excel"><div class="label">Excel instruction · use the workbook as evidence</div><h3>Do not retype numbers from memory</h3>
+<ul><li>Payback evidence: <span class="cell">Your Model!B7:D7</span>.</li><li>Base NPV evidence: first scenario row <span class="cell">Test Assumptions!B8:D8</span>.</li><li>Sensitivity evidence: <span class="cell">Test Assumptions!A8:E14</span>.</li><li>Write your final recommendation in the merged response area beginning at <span class="cell">Recommendation!A7</span> (displayed across A7:F13).</li></ul>
+<p>Use <strong>Wrap Text</strong> if needed. Keep the recommendation to 100 words or fewer.</p></div>
+
+<div class="caseq"><div class="label">Executive briefing task · ≤100 words</div><strong>Recommend one proposal to the Financial Director.</strong></div>
+<ol><li>Name the selected proposal.</li><li>Use at least <strong>two quantified pieces of Excel evidence</strong>.</li><li>State one explicit commercial trade-off.</li><li>Name one unverified operational assumption that must be confirmed before contract signature.</li></ol>
+<p><strong>There is no single acceptable recommendation if the reasoning is coherent, quantified and appropriately qualified.</strong></p>
+
+<div class="card accent"><h3>Professional scepticism · Supplier C's environmental claim</h3>
+<p>Supplier C states that its panels have a lower lifecycle environmental impact but provides no independently verified evidence.</p>
+<p><strong>What evidence would you request before allowing the claim to influence the recommendation?</strong></p></div>
+<div class="excel"><div class="label">Excel instruction · record your scepticism response</div>
+<p>Go to <span class="cell">Recommendation!A22</span> (merged across A22:F26) and type your response. Consider lifecycle methodology, manufacturing impacts, expected service life, recyclability, independent certification, system boundaries and the basis of comparison with A and B.</p></div>
+<div class="output"><strong>Evidence produced:</strong> ≤100-word recommendation in <span class="cell">Recommendation!A7</span> + evidence request in <span class="cell">Recommendation!A22</span>.</div>
+
+<section class="interactive">
+<div class="label">Pre-submission check</div>
+<h3>Before you send the briefing</h3>
+<label class="choice"><input type="checkbox"> I selected one proposal.</label>
+<label class="choice"><input type="checkbox"> I used at least two quantified spreadsheet results.</label>
+<label class="choice"><input type="checkbox"> I stated one material commercial trade-off.</label>
+<label class="choice"><input type="checkbox"> I identified one unverified operational assumption.</label>
+<label class="choice"><input type="checkbox"> I treated Supplier C's environmental claim as a claim requiring evidence.</label>
+<label class="choice"><input type="checkbox"> My recommendation is 100 words or fewer.</label>
+</section>
+
+<div class="next"><strong>Next:</strong> audit your outputs, explain the trade-off and transfer the modelling pattern.</div>
+
+
+
+
+<div class="iframe-nav"><a class="course-button alt" href="test.html">← Test the model</a><a class="course-button" href="reflect.html">Next: Reflect →</a></div>

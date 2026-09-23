@@ -1,0 +1,78 @@
+---
+title: "Spreadsheet Essentials"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: true
+---
+
+<div class="progress"><span class="done">UNDERSTAND</span><span class="active">BUILD</span><span class="">TEST</span><span class="">DECIDE</span><span class="">REFLECT</span></div>
+
+![](assets/03_spreadsheet_anatomy.png){.learning-asset fig-alt="Spreadsheet anatomy showing cell address, formula bar, active cell, fill handle and sheet tabs"}
+
+<main class="wrap">
+
+
+
+<section class="obe"><div class="obe-head">Enabling outcomes · spreadsheet readiness</div><div class="obe-body">
+<p><strong>Purpose of this section:</strong> provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel or Google Sheets proficiency is assumed.</p>
+<p><strong>After completing this section, you should be able to:</strong></p>
+<ul><li><strong>identify</strong> a cell using its column and row address;</li>
+<li><strong>enter and edit</strong> a formula;</li>
+<li><strong>reference</strong> data on another worksheet;</li>
+<li><strong>distinguish and apply</strong> relative, absolute and mixed references;</li>
+<li><strong>copy</strong> formulas accurately;</li>
+<li><strong>apply</strong> appropriate number formats; and</li>
+<li><strong>inspect</strong> a formula to identify a possible error.</li></ul>
+<p><strong>Evidence:</strong> a correct first useful-generation calculation in <span class="cell">Your Model!B4:D4</span> and successful readiness check.</p>
+</div></section>
+
+
+<div class="platform-note">
+  <div class="label">Platform guide · keep this beside you</div>
+  <div class="platform-grid">
+    <div class="platform"><strong>Microsoft Excel</strong>
+      <ul><li>Start a formula: type <span class="cell">=</span>.</li>
+      <li>Edit a cell: double-click it or use the Formula Bar.</li>
+      <li>Copy a formula: drag the fill handle; <span class="kbd">Ctrl+D</span> fills down on Windows.</li>
+      <li>Cycle relative/absolute references while editing: <span class="kbd">F4</span>; on Mac, <span class="kbd">F4</span> or <span class="kbd">⌘T</span> depending on keyboard settings.</li>
+      <li>Undo: <span class="kbd">Ctrl+Z</span> / <span class="kbd">⌘Z</span>.</li></ul>
+    </div>
+    <div class="platform"><strong>Google Sheets</strong>
+      <ul><li>Start a formula: type <span class="cell">=</span>.</li>
+      <li>Edit a cell: double-click it or use the formula bar.</li>
+      <li>Copy a formula: drag the fill handle; <span class="kbd">Ctrl+D</span> fills down and <span class="kbd">Ctrl+R</span> fills right on Windows/ChromeOS.</li>
+      <li>Cycle relative/absolute references while editing: <span class="kbd">F4</span>; on many Macs use <span class="kbd">Fn+F4</span>.</li>
+      <li>Undo: <span class="kbd">Ctrl+Z</span> / <span class="kbd">⌘Z</span>. Changes are saved automatically.</li></ul>
+    </div>
+  </div>
+  <div class="same"><strong>Same conceptual rule:</strong> <span class="cell">B15</span> is relative, <span class="cell">$B$4</span> is absolute, and <span class="cell">$A8</span> fixes only the column. Dollar signs have the same meaning in both applications.</div>
+</div>
+
+<div class="thread"><strong>Story so far:</strong> You know what the proposal data mean. Now learn the spreadsheet mechanics needed to turn those inputs into a model.</div>
+<section class="story"><div class="label">Excel bridge · just enough Excel to start modelling</div>
+<h2>You do not need to know Excel or Google Sheets before continuing</h2>
+<p>You need five moves: select a cell, enter a formula, reference another sheet, copy a formula across, and format a result. You will practise each move on the actual Cape Manufacturing workbook.</p></section>
+<div class="grid2">
+<div class="card"><h3>1 · Cells and addresses</h3><p>Columns use letters; rows use numbers. Their intersection is a cell. <span class="cell">B4</span> means column B, row 4.</p><p>Click <strong>Case Data!B4</strong>. The Name Box identifies the active cell.</p></div>
+<div class="card"><h3>2 · Formulas begin with =</h3><p>Excel calculates only when an entry begins with <span class="cell">=</span>.</p><p>Example: <span class="cell">=2+3</span> returns 5. In this course, however, you will reference cells rather than type business inputs into formulas.</p></div>
+<div class="card"><h3>3 · Referencing another sheet</h3><p>A reference such as <span class="cell">'Case Data'!B15</span> means “use the value in cell B15 on the Case Data sheet”.</p><p>The quotation marks appear because the sheet name contains a space.</p></div>
+<div class="card"><h3>4 · Relative vs absolute</h3><p><span class="cell">B15</span> is relative: copied one column right, it becomes <span class="cell">C15</span>.</p><p><span class="cell">$B$4</span> is absolute: copied anywhere, it remains B4. Use this for the shared tariff.</p></div>
+</div>
+<div class="excel"><div class="label">Guided practice · your first live formula</div><h3>Calculate System A useful generation</h3>
+<ol><li>Click the <strong>Your Model</strong> sheet.</li><li>Select the yellow cell <span class="cell">B4</span>.</li><li>Type exactly:</li></ol>
+<div class="formula">='Case Data'!B15*'Case Data'!B16</div>
+<ol start="4"><li>Press <span class="kbd">Enter</span>. You should see <strong>82,800</strong>.</li><li>Click <span class="cell">B4</span> again. Move the pointer to the small square at the bottom-right corner of the selection (the fill handle). Both Excel and Google Sheets use this control.</li><li>Drag the fill handle across to <span class="cell">D4</span>. In Google Sheets you can alternatively select <span class="cell">B4:D4</span> and use <strong>Fill right</strong> / <span class="kbd">Ctrl+R</span> where supported. Excel should adapt the relative references for Systems B and C.</li></ol>
+<details><summary>Check the three values</summary><p><span class="cell">B4 = 82,800</span>, <span class="cell">C4 = 102,850</span>, <span class="cell">D4 = 114,660</span>.</p></details></div>
+<div class="excel"><div class="label">Formatting essentials</div><h3>Values and presentation are different things</h3>
+<ul><li>Use <strong>Currency/Accounting</strong> formatting for rand amounts.</li><li>Use <strong>Percentage</strong> formatting for rates such as 90%.</li><li>Use <strong>Number</strong> with two decimal places for payback years.</li><li>Do not type “R”, “%” or “years” into numeric cells; use number formats so Excel can still calculate with the values.</li></ul></div>
+<div class="warn"><strong>If you make a mistake:</strong> use Undo (<span class="kbd">Ctrl+Z</span> on Windows; <span class="kbd">⌘Z</span> on Mac). A formula can always be edited in the cell or Formula Bar.</div>
+<div class="formative"><strong>Formative readiness check:</strong> you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.</div>
+<div class="next"><strong>Next:</strong> use those moves to complete the commercial model.</div>
+</main>
+
+
+::: {.course-nav}
+[← Course home](index.qmd){.course-button .alt}
+[Next: 02 · Build →](build.qmd){.course-button}
+:::
