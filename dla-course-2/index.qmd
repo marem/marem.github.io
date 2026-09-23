@@ -23,7 +23,13 @@ format:
 <div class="hero-copy"><div class="course-kicker">Digital Acumen · Cape Manufacturing</div><h1>Should We Invest in Solar?</h1><p><strong>A real decision. Real data. Applied spreadsheet skills.</strong></p><p>You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose — and how confident are you in the numbers?</p><div class="meta-strip"><span>65–80 minutes</span><span>Beginner spreadsheet level</span><span>Excel or Google Sheets</span></div></div>
 </div>
 
-<div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div>
+<!-- <div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div> -->
+
+::: {.course-video}
+
+{{< video assets/intro-video.mp4 >}}
+
+:::
 
 ::: {.course-card}
 ## Course toolkit
