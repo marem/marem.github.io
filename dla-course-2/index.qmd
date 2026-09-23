@@ -23,9 +23,9 @@ Digital Acumen · Cape Manufacturing
 
 # Should We Invest in Solar?
 
-**A real decision. Real data. Applied spreadsheet skills.**
+**A real decision is needed. Based on data. Applied spreadsheet skills.**
 
-You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose — and how confident are you in the numbers?
+You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose? How confident are you in the numbers?
 
 ::: meta-strip
 [65–80 minutes]{.meta-item} [Beginner spreadsheet level]{.meta-item} [Excel or Google Sheets]{.meta-item}
@@ -47,13 +47,13 @@ You are a trainee accountant. Three suppliers want nearly R1 million of capital.
 
 :::::::::: obe
 ::: obe-head
-Learning contract · outcomes-based education
+Learning Activity
 :::
 
 :::::::: obe-body
 ## What is this activity about?
 
-This micro-learning activity develops your ability to use spreadsheet technology to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.
+This micro-learning activity develops your ability to use spreadsheets (e.g. Excel) to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.
 
 **The purpose is not simply to learn spreadsheet formulas.** The purpose is to develop applied digital, analytical and decision-making competence: using a digital tool appropriately, understanding the assumptions behind the output, and exercising judgement when the evidence is incomplete.
 
