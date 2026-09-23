@@ -1,0 +1,3 @@
+```{=html}
+<label class="choice"><input type="radio" name="initialMetric" value="Installed cost"> Installed cost</label> <label class="choice"><input type="radio" name="initialMetric" value="System size"> System size</label> <label class="choice"><input type="radio" name="initialMetric" value="Gross generation"> Gross generation</label> <label class="choice"><input type="radio" name="initialMetric" value="Annual saving"> Annual saving</label> <label class="choice"><input type="radio" name="initialMetric" value="Payback"> Payback</label>
+```

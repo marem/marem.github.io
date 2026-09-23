@@ -108,3 +108,12 @@ main.content > .app-nav:last-child { margin-top:auto; }
   .stage-progress a { padding-top:15px; }
 }
 @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto!important} *{scroll-behavior:auto!important;transition:none!important} }
+.spaced-card { margin-top: 12px; }
+.spaced-accent { margin-top: 14px; }
+
+/* Markdown adds paragraph wrappers inside these layout elements. */
+.resource-grid > p, .meta-strip > p { display: contents; }
+.num > p, .label > p, .meta > p, .obe-head > p,
+.course-kicker > p, .formula > p, .brief-avatar > p { margin: 0; }
+.hero > p { margin: 0; }
+.formula code { color: inherit; background: none; padding: 0; }

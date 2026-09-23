@@ -1,0 +1,108 @@
+<script>
+(function () {
+  'use strict';
+  const KEY = 'slaSolarV9';
+  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
+  const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
+  let memory = {};
+
+  function storage(){
+    try { localStorage.setItem('__sla_test','1'); localStorage.removeItem('__sla_test'); return localStorage; }
+    catch(e){ try { sessionStorage.setItem('__sla_test','1'); sessionStorage.removeItem('__sla_test'); return sessionStorage; } catch(e2){ return null; } }
+  }
+  const store = storage();
+  function read(){
+    if(!store) return memory;
+    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+  }
+  function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
+  function mutate(fn){ const s=read(); fn(s); write(s); return s; }
+
+  // App-like navigation: every course page begins at the top of the iframe.
+  if ('scrollRestoration' in history) history.scrollRestoration='manual';
+  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  document.addEventListener('DOMContentLoaded', topNow, {once:true});
+  window.addEventListener('pageshow', topNow);
+  requestAnimationFrame(topNow);
+
+  const state=mutate(s=>{
+    s.visited=Array.from(new Set([...(s.visited||[]), page]));
+    s.lastPage=page;
+    s.lastVisit=Date.now();
+  });
+
+  // Progress state.
+  document.querySelectorAll('[data-progress-page]').forEach(el=>{
+    const p=el.dataset.progressPage;
+    if((state.visited||[]).includes(p)) el.classList.add('visited');
+    if(p===page){ el.classList.add('active'); el.setAttribute('aria-current','page'); }
+  });
+
+  // Internal course links always remain in the iframe (_self), never escape to Google Sites.
+  document.querySelectorAll('a[href]').forEach(a=>{
+    const raw=a.getAttribute('href')||'';
+    if(!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return;
+    let u; try { u=new URL(raw, location.href); } catch(e){ return; }
+    const sameOrigin=u.origin===location.origin;
+    const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
+    const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
+    if(isPage){
+      a.setAttribute('target','_self');
+      a.addEventListener('click', function(ev){
+        if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
+        ev.preventDefault();
+        mutate(s=>{s.leavingPage=page;s.leftAt=Date.now();});
+        topNow();
+        location.assign(u.href);
+      });
+    }
+  });
+
+  // Persist initial prediction.
+  document.querySelectorAll('input[name="initialMetric"]').forEach(r=>{
+    const s=read(); if(s.prediction===r.value) r.checked=true;
+    r.addEventListener('change',()=>{
+      mutate(x=>{x.prediction=r.value;});
+      const o=document.querySelector('#prediction-status');
+      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+    });
+  });
+  const prior=document.querySelector('#prior-prediction');
+  if(prior) prior.textContent=read().prediction || 'No prediction was saved on this device.';
+
+  // Persist reflection continuously.
+  const refl=document.querySelector('#final-reflection');
+  if(refl){
+    refl.value=read().reflection||'';
+    refl.addEventListener('input',()=>mutate(s=>{s.reflection=refl.value;}));
+  }
+
+  // Persist checklist state where checkboxes have data-state-key.
+  document.querySelectorAll('input[type="checkbox"][data-state-key]').forEach(cb=>{
+    const key=cb.dataset.stateKey; cb.checked=!!(read().checks||{})[key];
+    cb.addEventListener('change',()=>mutate(s=>{s.checks=s.checks||{};s.checks[key]=cb.checked;}));
+  });
+
+  // Formative answer feedback.
+  document.querySelectorAll('[data-check-answer]').forEach(btn=>btn.addEventListener('click',()=>{
+    const name=btn.dataset.group, ans=btn.dataset.checkAnswer;
+    const picked=document.querySelector('input[name="'+name+'"]:checked');
+    const fb=document.querySelector('#'+name+'-feedback');
+    if(!fb) return; fb.hidden=false;
+    if(!picked){fb.textContent='Choose an option first.';return;}
+    fb.innerHTML=picked.value===ans
+      ? '<strong>Yes.</strong> The crossover makes the utilisation assumption decision-relevant. Management needs better time-matched load evidence before relying on it.'
+      : '<strong>Reconsider.</strong> The crossover does not automatically accept or reject a proposal. It identifies an assumption that needs better evidence.';
+  }));
+
+  // Reset only when explicitly requested.
+  document.querySelectorAll('[data-reset-course]').forEach(b=>b.addEventListener('click',()=>{
+    if(store){ try{store.removeItem(KEY);}catch(e){} } memory={}; topNow(); location.assign('index.html');
+  }));
+
+  // Add embedded-app class for CSS and a small fallback when storage is blocked.
+  document.documentElement.classList.add('sla-app');
+  if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
+  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
+})();
+</script>

@@ -7,31 +7,23 @@ format:
     page-layout: full
 ---
 
-```{=html}
-<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+::: embed-utility
+[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
+:::
 
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="" href="build.html">Build</a>
-<a data-progress-page="test" class="" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="active" href="reflect.html">Reflect</a>
-</nav>
-```
+{{< include includes/_reflect-progress-nav.qmd >}}
 
-::: {.state-box}
+::: {#revisit-your-initial-judgement .state-box}
 ## Revisit your initial judgement
 
-Your initial prediction on this device was: **<span id="prior-prediction">Loading…</span>**
+Your initial prediction on this device was: **[Loading…]{#prior-prediction}**
 
 What changed in your reasoning after building and stress-testing the model?
 
-<textarea id="final-reflection" class="course-response" placeholder="Write 2–4 sentences. Your response is saved locally on this device."></textarea>
+{{< include includes/_reflect-reflection-input.qmd >}}
 :::
 
-::: {.course-card}
+::: {#reference-model-after-completion .course-card}
 ## Reference model — after completion
 
 Use the completed model only after you have built, tested and checked your own work. Compare formulas and reasoning; do not replace your work with the reference values.
@@ -39,11 +31,8 @@ Use the completed model only after you have built, tested and checked your own w
 [Download completed reference workbook](downloads/SU_DLA_Solar_Completed_Reference_Workbook_V8.xlsx){.course-button .alt download=""}
 :::
 
-```{=html}
-<div class="next"><strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.</div>
+::: next
+**Course complete:** the reviewer page explains the curriculum logic behind the activity.
+:::
 
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="decide.html">← Back</a>
-<a class="course-button alt app-link" href="index.html">Return to Start</a>
-</nav>
-```
+{{< include includes/_reflect-page-nav.qmd >}}

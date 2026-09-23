@@ -1,44 +1,53 @@
-# sla-course
+# SLA Course V9 — iframe-first Quarto learning application
 
-Quarto website version of **Should We Invest in Solar? Capital Budgeting, Sensitivity Analysis and Managerial Judgement**.
+Published URL: `https://marcelmare.com/dla-course-2/`
 
-## Structure
+This build is designed to occupy effectively the entire content area of a Google Sites **full-page embed**. Google Sites supplies the outer institutional shell; Quarto behaves as the learning application.
 
-- `_quarto.yml` — website configuration
-- `styles.css` — all course styling
-- `index.qmd` — Start
-- `understand.qmd`
-- `spreadsheet-essentials.qmd`
-- `build.qmd`
-- `test.qmd`
-- `decide.qmd`
-- `reflect.qmd`
-- `reviewer-rationale.qmd`
-- `assets/` — instructional PNGs
-- `downloads/` — learner PDFs and Excel workbooks
+## Google Sites
 
-## Deploy at marcelmare.com/sla-course/
+1. Publish the Quarto project to `https://marcelmare.com/dla-course-2/`.
+2. In Google Sites create/use a **Full page embed**.
+3. Embed `https://marcelmare.com/dla-course-2/`.
+4. Do not duplicate the seven Quarto learning stages as Google Sites pages.
+5. Publish and test the Google Site, not only editor preview.
 
-Copy this entire folder to the repository root as `sla-course/`.
+## Navigation behaviour
 
-From the repository root:
+- Start → Understand → Spreadsheet Essentials → Build → Test → Decide → Reflect remains inside the iframe.
+- Course links are forced to `_self`.
+- Each new course page resets the iframe scroll position to the top.
+- Browser history scroll restoration is disabled for course pages so Back/Forward does not reopen halfway down a lesson.
+- Downloads remain normal downloads; PDFs/resources may open separately where explicitly requested.
+- The “Open course in new window” utility remains available as an accessibility/full-screen escape hatch.
 
-```bash
-quarto render sla-course
-```
+## Learner state
 
-If your main marcelmare.com project is already a Quarto website, you may instead integrate these pages into the parent site's navigation. This package is intentionally self-contained so it can first be tested independently.
+`includes/course-state.html` stores:
+
+- visited stages;
+- initial prediction;
+- final reflection;
+- supported checklist state.
+
+Storage uses `localStorage` when available, falls back to `sessionStorage`, then degrades safely to in-memory state if third-party iframe storage is restricted.
 
 ## Intro video
 
-The Start page contains a clearly marked placeholder. Replace it with your existing video embed. For a local MP4, place the file under `sla-course/assets/` and use:
+Place `intro-video.mp4` in `assets/` and replace the placeholder in `index.qmd` with:
 
 ```markdown
-{{< video assets/your-intro-video.mp4 >}}
+::: {.course-video}
+{{< video assets/intro-video.mp4 >}}
+:::
 ```
 
-For YouTube/Vimeo, use the appropriate Quarto video shortcode or iframe.
+## Render
 
-## Important
+From this folder:
 
-The student workbook is available from Start. The completed reference workbook is linked only from Reflect.
+```bash
+quarto render
+```
+
+The rendered site is written to `_site/`.

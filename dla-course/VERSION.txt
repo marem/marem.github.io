@@ -1,0 +1,3 @@
+V9.1 — Full-page iframe Quarto package
+Canonical URL: https://marcelmare.com/dla-course-2/
+Project folder: dla-course-2

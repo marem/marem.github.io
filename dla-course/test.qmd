@@ -3,20 +3,26 @@ title: "03 · Test"
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
-    toc: true
+    toc: false
+    page-layout: full
 ---
 
-<div class="progress"><span class="done">UNDERSTAND</span><span class="done">BUILD</span><span class="active">TEST</span><span class="">DECIDE</span><span class="">REFLECT</span></div>
+```{=html}
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
 
-![](assets/04_sensitivity_crossover.png){.learning-asset fig-alt="Sensitivity chart comparing Proposal B and Proposal C NPV as Proposal C self-consumption falls"}
-
-<main class="wrap">
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="active" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+</nav>
 
 <div class="message"><div class="meta">13:15 · Thandi Jacobs · Production Manager</div>
 <strong>I'm not convinced by Supplier C's 78% self-consumption assumption.</strong>
 <p>Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?</p></div>
-
-
 
 <section class="obe"><div class="obe-head">Purpose → Outcome → Activity → Evidence</div><div class="obe-body">
 <p><strong>Purpose of this stage:</strong> move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.</p>
@@ -24,7 +30,6 @@ format:
 <p><strong>You will demonstrate this by:</strong> distinguishing payback from NPV; changing System C's self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.</p>
 <p><strong>Evidence:</strong> completed <span class="cell">Test Assumptions!A7:E14</span>, crossover interpretation and an evidence requirement concerning the factory load profile.</p>
 </div></section>
-
 
 <div class="platform-note">
   <div class="label">Excel + Google Sheets · Test</div>
@@ -37,11 +42,13 @@ format:
 </div>
 
 <div class="thread"><strong>Story so far:</strong> Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.</div>
+
 <section class="story"><div class="label">The case · Operations challenges the supplier assumption</div>
 <h2>“Will we really use 78% of System C's output?”</h2>
 <p>Simple payback favours System A at about <strong>2.92 years</strong>. A 20-year discounted cash-flow view tells a different story: under the base assumptions, System C has the highest NPV at about <strong>R2.871 million</strong>.</p>
 <p>Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.</p>
 <p>The Production Manager now questions System C's 78% self-consumption. Your task is to stress-test that assumption.</p></section>
+
 <div class="caseq"><div class="label">Decision question</div><strong>Does System C still create the most long-term value if Cape Manufacturing cannot use as much of its solar output as the supplier expects?</strong></div>
 
 <div class="excel"><div class="label">Excel instruction · sensitivity table</div><h3>Work on the Test Assumptions sheet</h3>
@@ -61,6 +68,7 @@ format:
 <div class="formula">=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"System A","System B","System C")</div>
 
 <ol><li>After entering the four formulas in <span class="cell">B8:E8</span>, select them.</li><li>Drag the fill handle down through row 14. Because System C's formula uses <span class="cell">$A8</span>, the scenario row changes while column A stays fixed.</li><li>Format <span class="cell">B8:D14</span> as rand currency with no decimals.</li></ol></div>
+```
 
 <table><tr><th>C self-consumption</th><th>Expected NPV C</th><th>Highest NPV</th></tr>
 <tr><td>78%</td><td>≈ R2.871m</td><td>System C</td></tr>
@@ -71,6 +79,7 @@ format:
 <tr><td>65%</td><td>≈ R2.199m</td><td>System B</td></tr>
 <tr><td>60%</td><td>≈ R1.941m</td><td>System B</td></tr></table>
 
+```{=html}
 <div class="formative"><div class="label">Formative checkpoint · find the crossover</div>
 <p>Compare columns <span class="cell">C</span> and <span class="cell">D</span> in rows <span class="cell">8:14</span>. The switch occurs between 75% and 72%.</p>
 <details><summary>Formative feedback · check your conclusion</summary><p>System B overtakes System C at approximately <strong>74%</strong> self-consumption. The modelled crossover is about <strong>73.96%</strong>.</p></details></div>
@@ -78,15 +87,31 @@ format:
 <div class="card accent"><h3>Interrogate the assumption, not just the number</h3>
 <p>Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?</p>
 <details><summary>Why half-hourly data?</summary><p>Self-consumption depends on <strong>when</strong> electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory's load profile.</p></details></div>
+
 <div class="output"><strong>Evidence produced:</strong> completed sensitivity table <span class="cell">Test Assumptions!A7:E14</span> and a reasoned view on the operational data management still needs.</div>
 
-
-
 <div class="next"><strong>Next:</strong> turn conflicting evidence and uncertainty into an executive recommendation.</div>
-</main>
 
+<div class="page-visual"><img src="assets/04_sensitivity_crossover.png" alt="Sensitivity crossover chart for Proposal C self-consumption"></div>
+```
 
-::: {.course-nav}
-[← Course home](index.qmd){.course-button .alt}
-[Next: 04 · Decide →](decide.qmd){.course-button}
+::: {.interactive}
+### What should management do with the crossover result?
+<label class="choice"><input type="radio" name="cross" value="a"> Reject Proposal C immediately.</label>
+<label class="choice"><input type="radio" name="cross" value="b"> Accept the supplier's 78% assumption.</label>
+<label class="choice"><input type="radio" name="cross" value="c"> Obtain better evidence about the factory load profile.</label>
+<label class="choice"><input type="radio" name="cross" value="d"> Choose Proposal A because it has the shortest payback.</label>
+<button type="button" class="btn" data-group="cross" data-check-answer="c">Check my reasoning</button>
+
+```{=html}
+<div id="cross-feedback" class="formative" hidden></div>
+```
+
 :::
+
+```{=html}
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="build.html">← Back</a>
+<a class="course-button app-link" href="decide.html">Next: Decide →</a>
+</nav>
+```

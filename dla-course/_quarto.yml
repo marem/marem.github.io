@@ -7,40 +7,22 @@ project:
 
 website:
   title: "Digital Acumen | Solar Investment Case"
-  site-url: "https://marcelmare.com/sla-course/"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Start
-      - href: understand.qmd
-        text: Understand
-      - href: spreadsheet-essentials.qmd
-        text: Spreadsheet Essentials
-      - href: build.qmd
-        text: Build
-      - href: test.qmd
-        text: Test
-      - href: decide.qmd
-        text: Decide
-      - href: reflect.qmd
-        text: Reflect
-    right:
-      - href: reviewer-rationale.qmd
-        text: Reviewer rationale
-  page-footer:
-    left: "Cape Manufacturing is a fictional South African teaching case."
-    right: "Digital Acumen learning activity"
+  site-url: "https://marcelmare.com/dla-course-2/"
+  search: false
+  navbar: false
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    toc-depth: 3
+    toc: false
+    page-layout: full
     smooth-scroll: true
-    code-copy: true
-    anchor-sections: true
-    link-external-newwindow: true
+    code-copy: false
+    anchor-sections: false
+    link-external-newwindow: false
+    include-after-body:
+      - includes/course-state.html
 
 execute:
   freeze: auto

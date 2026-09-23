@@ -2,6 +2,15 @@
 
 Published URL: `https://marcelmare.com/dla-course-2/`
 
+## Editing the course
+
+- Edit lesson content in the eight top-level `.qmd` pages using Markdown headings, lists, tables, links, and inline code for formulas.
+- Quarto fenced divisions (`::: class-name`) apply layout classes without HTML div tags in the lesson text.
+- Keep visual styling in `styles.css`.
+- Navigation and interactive form markup live in the named `.qmd` partials under `includes/`, referenced with Quarto include shortcodes. The partials wrap their HTML in raw HTML fences.
+- Learner-state behaviour remains in `includes/course-state.html`.
+- Render with `quarto render dla-course-2`, then copy `dla-course-2/_site/.` into `docs/dla-course-2/` for the published output. The publishing workflow also performs these steps.
+
 This build is designed to occupy effectively the entire content area of a Google Sites **full-page embed**. Google Sites supplies the outer institutional shell; Quarto behaves as the learning application.
 
 ## Google Sites

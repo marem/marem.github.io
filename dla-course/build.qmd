@@ -3,20 +3,28 @@ title: "02 · Build"
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
-    toc: true
+    toc: false
+    page-layout: full
 ---
 
-<div class="progress"><span class="done">UNDERSTAND</span><span class="active">BUILD</span><span class="">TEST</span><span class="">DECIDE</span><span class="">REFLECT</span></div>
+```{=html}
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
 
-![](assets/05_evidence_to_decision.png){.learning-asset fig-alt="Flow from inputs through modelling and sensitivity testing to managerial judgement and recommendation"}
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="active" href="build.html">Build</a>
+<a data-progress-page="test" class="" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+</nav>
 
-<main class="wrap">
+<div class="page-visual"><img src="assets/05_evidence_to_decision.png" alt="Model to management information diagram"></div>
 
 <div class="message"><div class="meta">09:40 · Financial Director</div>
 <strong>Before we discuss NPV, give me a clean Year-1 comparison.</strong>
 <p>I want to see what each system produces economically, what it saves after maintenance, and how quickly the capital is recovered. Keep the model traceable to the source data.</p></div>
-
-
 
 <section class="obe"><div class="obe-head">Purpose → Outcome → Activity → Evidence</div><div class="obe-body">
 <p><strong>Purpose of this stage:</strong> convert supplier and case data into comparable financial measures using an auditable spreadsheet structure.</p>
@@ -24,7 +32,6 @@ format:
 <p><strong>You will demonstrate this by:</strong> calculating useful generation, gross and net Year-1 savings and simple payback; applying relative and absolute references appropriately; formatting outputs consistently; and creating a decision-relevant visual.</p>
 <p><strong>Evidence:</strong> completed <span class="cell">Your Model!B4:D8</span>, one comparison chart and a one-sentence visual-design rationale.</p>
 </div></section>
-
 
 <div class="platform-note">
   <div class="label">Excel + Google Sheets · Build</div>
@@ -36,6 +43,7 @@ format:
 </div>
 
 <div class="thread"><strong>Story so far:</strong> You understand the inputs and have entered your first formula. Now complete the chain from operating data to payback.</div>
+
 <section class="story"><div class="label">The case · The Financial Director wants comparable numbers</div>
 <h2>Turn three supplier proposals into one auditable model</h2>
 <p>Management needs a common basis for comparison. Build the logic in the <strong>Your Model</strong> sheet: useful generation → gross saving → net saving → simple payback.</p></section>
@@ -78,13 +86,13 @@ format:
 </div>
 <ol start="3"><li>Give the chart a decision-focused title such as <strong>Simple payback by proposal</strong>.</li><li>Remove anything that does not help a manager compare the three systems.</li></ol>
 <p><strong>Write one sentence:</strong> “I chose to show ___ because ___.”</p></div>
+
 <div class="output"><strong>Evidence produced:</strong> completed <span class="cell">Your Model!B4:D8</span> + one chart + one-sentence design rationale.</div>
 
 <div class="next"><strong>Next:</strong> management challenges an assumption. Test whether your conclusion survives.</div>
-</main>
 
-
-::: {.course-nav}
-[← Course home](index.qmd){.course-button .alt}
-[Next: 03 · Test →](test.qmd){.course-button}
-:::
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="spreadsheet-essentials.html">← Back</a>
+<a class="course-button app-link" href="test.html">Next: Test the model →</a>
+</nav>
+```

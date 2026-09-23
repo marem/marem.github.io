@@ -7,89 +7,119 @@ format:
     page-layout: full
 ---
 
-```{=html}
-<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+::: embed-utility
+[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
+:::
 
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="active" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="" href="build.html">Build</a>
-<a data-progress-page="test" class="" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
-</nav>
-```
+{{< include includes/_understand-progress-nav.qmd >}}
 
-::: {.interactive}
+:::: {#before-you-open-the-spreadsheet .interactive}
 ## Before you open the spreadsheet …
 
 Which measure would you inspect first if you had to advise the Financial Director?
 
-<label class="choice"><input type="radio" name="initialMetric" value="Installed cost"> Installed cost</label>
-<label class="choice"><input type="radio" name="initialMetric" value="System size"> System size</label>
-<label class="choice"><input type="radio" name="initialMetric" value="Gross generation"> Gross generation</label>
-<label class="choice"><input type="radio" name="initialMetric" value="Annual saving"> Annual saving</label>
-<label class="choice"><input type="radio" name="initialMetric" value="Payback"> Payback</label>
+{{< include includes/_understand-prediction-input.qmd >}}
 
-```{=html}
-<div id="prediction-status" class="small-note">Your choice is saved automatically on this device. You will revisit it on Reflect.</div>
-```
+::: {#prediction-status .small-note}
+Your choice is saved automatically on this device. You will revisit it on Reflect.
+:::
+::::
 
+::: page-visual
+![](assets/02_proposals_comparison.png){fig-alt="Three-proposal visual comparison"}
 :::
 
-```{=html}
-<div class="page-visual"><img src="assets/02_proposals_comparison.png" alt="Three-proposal visual comparison"></div>
+::::: obe
+::: obe-head
+Purpose → Outcome → Evidence
+:::
 
-<section class="obe"><div class="obe-head">Purpose → Outcome → Evidence</div><div class="obe-body">
-<p><strong>Purpose of this stage:</strong> establish the commercial meaning of the supplier data before using the spreadsheet.</p>
-<p><strong>Outcome for this stage:</strong> After completing this stage, you should be able to <strong>interpret the case data and explain how self-consumption affects the economic value of solar generation</strong>.</p>
-<p><strong>You will demonstrate this by:</strong> distinguishing installed capacity, gross generation and useful generation; identifying the case assumptions; and explaining why a larger system is not automatically the better investment.</p>
-<p><strong>Evidence:</strong> your prediction response and concept-check explanation.</p>
-</div></section>
+::: obe-body
+**Purpose of this stage:** establish the commercial meaning of the supplier data before using the spreadsheet.
 
-<div class="thread"><strong>Story so far:</strong> You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.</div>
+**Outcome for this stage:** After completing this stage, you should be able to **interpret the case data and explain how self-consumption affects the economic value of solar generation**.
 
-<section class="story"><div class="label">The case · The proposals arrive</div>
-<h2>Price is only one part of the decision</h2>
-<p>A larger PV system can generate more electricity, but Cape Manufacturing only saves money on solar electricity it can use when it is produced. This makes <strong>self-consumption</strong> the bridge between technical output and economic value.</p>
-<p>If a system generates 100 kWh while the factory can use only 80 kWh, its self-consumption is 80%. In this simplified case, unused generation has no economic value.</p></section>
-```
+**You will demonstrate this by:** distinguishing installed capacity, gross generation and useful generation; identifying the case assumptions; and explaining why a larger system is not automatically the better investment.
 
-<table><tr><th>Proposal</th><th>A</th><th>B</th><th>C</th></tr>
-<tr><td>Installed cost</td><td>R650,000</td><td>R820,000</td><td>R990,000</td></tr>
-<tr><td>System size</td><td>60 kWp</td><td>80 kWp</td><td>100 kWp</td></tr>
-<tr><td>Year-1 generation</td><td>92,000 kWh</td><td>121,000 kWh</td><td>147,000 kWh</td></tr>
-<tr><td>Self-consumption</td><td>90%</td><td>85%</td><td>78%</td></tr>
-<tr><td>Year-1 maintenance</td><td>R9,000</td><td>R11,000</td><td>R14,000</td></tr></table>
+**Evidence:** your prediction response and concept-check explanation.
+:::
+:::::
 
-```{=html}
-<div class="excel"><div class="label">Excel instruction · read cells, do not calculate yet</div><h3>Use the Case Data sheet as your source of truth</h3>
-<ol><li>Click the <strong>Case Data</strong> sheet.</li><li>Economic assumptions are in <span class="cell">A3:E9</span>. Click <span class="cell">B4</span>: the Formula Bar should show <strong>2.8</strong>, the tariff in R/kWh.</li><li>Proposal inputs are in <span class="cell">A12:F17</span>. System A is column <span class="cell">B</span>, B is <span class="cell">C</span>, C is <span class="cell">D</span>.</li><li>Click <span class="cell">D15</span> (147,000 kWh) and then <span class="cell">D16</span> (78%). Note that the cell address changes in the Name Box.</li></ol>
-<p><strong>Useful habit:</strong> never retype an input elsewhere if a formula can reference the original cell. This improves auditability and reduces inconsistent assumptions.</p></div>
+::: thread
+**Story so far:** You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.
+:::
 
-<div class="formative"><div class="label">Formative checkpoint · prediction before calculation</div>
-<p>If you had only 30 seconds, which metric would you look at first: <strong>Installed Cost, Size, Gross Generation, Annual Saving, or Payback?</strong></p>
-<p>Write down your choice and one reason. You will revisit it at the end.</p></div>
-```
+:::: story
+::: label
+The case · The proposals arrive
+:::
 
-<details><summary>Formative feedback · concept check: which system generates most, and which has highest self-consumption?</summary>
-<p>System C has the highest gross generation (147,000 kWh). System A has the highest self-consumption (90%). Those facts do not, by themselves, identify the best investment.</p></details>
+## Price is only one part of the decision
 
-```{=html}
-<div class="platform-note">
-  <div class="label">Excel + Google Sheets · same task</div>
-  <div class="platform-grid">
-    <div class="platform"><strong>Excel</strong>Use the sheet tabs at the bottom. Click a cell and read its address in the <strong>Name Box</strong>; read/edit the formula in the <strong>Formula Bar</strong>.</div>
-    <div class="platform"><strong>Google Sheets</strong>Use the sheet tabs at the bottom. Click a cell and read its address in the <strong>Name box</strong> at the left of the formula bar; read/edit the formula in the formula bar.</div>
-  </div>
-  <p>For this page there is no platform-specific calculation. The cell references <span class="cell">Case Data!B4</span>, <span class="cell">D15</span> and <span class="cell">D16</span> mean the same thing in both.</p>
-</div>
+A larger PV system can generate more electricity, but Cape Manufacturing only saves money on solar electricity it can use when it is produced. This makes **self-consumption** the bridge between technical output and economic value.
 
-<div class="next"><strong>Next:</strong> learn the few Excel moves needed to build the model confidently.</div>
+If a system generates 100 kWh while the factory can use only 80 kWh, its self-consumption is 80%. In this simplified case, unused generation has no economic value.
+::::
 
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="index.html">← Back</a>
-<a class="course-button app-link" href="spreadsheet-essentials.html">Next: Spreadsheet Essentials →</a>
-</nav>
-```
+| Proposal           | A          | B           | C           |
+|--------------------|------------|-------------|-------------|
+| Installed cost     | R650,000   | R820,000    | R990,000    |
+| System size        | 60 kWp     | 80 kWp      | 100 kWp     |
+| Year-1 generation  | 92,000 kWh | 121,000 kWh | 147,000 kWh |
+| Self-consumption   | 90%        | 85%         | 78%         |
+| Year-1 maintenance | R9,000     | R11,000     | R14,000     |
+
+:::: excel
+::: label
+Excel instruction · read cells, do not calculate yet
+:::
+
+### Use the Case Data sheet as your source of truth
+
+1.  Click the **Case Data** sheet.
+2.  Economic assumptions are in `A3:E9`{.cell}. Click `B4`{.cell}: the Formula Bar should show **2.8**, the tariff in R/kWh.
+3.  Proposal inputs are in `A12:F17`{.cell}. System A is column `B`{.cell}, B is `C`{.cell}, C is `D`{.cell}.
+4.  Click `D15`{.cell} (147,000 kWh) and then `D16`{.cell} (78%). Note that the cell address changes in the Name Box.
+
+**Useful habit:** never retype an input elsewhere if a formula can reference the original cell. This improves auditability and reduces inconsistent assumptions.
+::::
+
+:::: formative
+::: label
+Formative checkpoint · prediction before calculation
+:::
+
+If you had only 30 seconds, which metric would you look at first: **Installed Cost, Size, Gross Generation, Annual Saving, or Payback?**
+
+Write down your choice and one reason. You will revisit it at the end.
+::::
+
+::: {.callout-note collapse="true"}
+## Formative feedback · concept check: which system generates most, and which has highest self-consumption?
+
+System C has the highest gross generation (147,000 kWh). System A has the highest self-consumption (90%). Those facts do not, by themselves, identify the best investment.
+:::
+
+::::::: platform-note
+::: label
+Excel + Google Sheets · same task
+:::
+
+::::: platform-grid
+::: platform
+**Excel** Use the sheet tabs at the bottom. Click a cell and read its address in the **Name Box**; read/edit the formula in the **Formula Bar**.
+:::
+
+::: platform
+**Google Sheets** Use the sheet tabs at the bottom. Click a cell and read its address in the **Name box** at the left of the formula bar; read/edit the formula in the formula bar.
+:::
+:::::
+
+For this page there is no platform-specific calculation. The cell references `Case Data!B4`{.cell}, `D15`{.cell} and `D16`{.cell} mean the same thing in both.
+:::::::
+
+::: next
+**Next:** learn the few Excel moves needed to build the model confidently.
+:::
+
+{{< include includes/_understand-page-nav.qmd >}}
