@@ -1,14 +1,3 @@
-<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="" href="build.html">Build</a>
-<a data-progress-page="test" class="active" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
-</nav>
-
 ---
 title: "03 · Test"
 description: "Cape Manufacturing solar investment case — Digital Acumen"
@@ -18,8 +7,16 @@ format:
     page-layout: full
 ---
 
-
-
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+<nav class="stage-progress" aria-label="Course progress">
+<a data-progress-page="index" class="" href="index.html">Start</a>
+<a data-progress-page="understand" class="" href="understand.html">Understand</a>
+<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
+<a data-progress-page="build" class="" href="build.html">Build</a>
+<a data-progress-page="test" class="active" href="test.html">Test</a>
+<a data-progress-page="decide" class="" href="decide.html">Decide</a>
+<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
+</nav>
 
 <div class="message"><div class="meta">13:15 · Thandi Jacobs · Production Manager</div>
 <strong>I'm not convinced by Supplier C's 78% self-consumption assumption.</strong>
@@ -109,4 +106,7 @@ format:
 <div id="cross-feedback" class="formative" hidden></div>
 :::
 
-<div class="iframe-nav"><a class="course-button alt" href="build.html">← Build the model</a><a class="course-button" href="decide.html">Next: Decide →</a></div>
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="build.html">← Back</a>
+<a class="course-button app-link" href="decide.html">Next: Decide →</a>
+</nav>

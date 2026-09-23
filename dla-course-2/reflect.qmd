@@ -1,4 +1,13 @@
-<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+---
+title: "05 · Reflect"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
 <nav class="stage-progress" aria-label="Course progress">
 <a data-progress-page="index" class="" href="index.html">Start</a>
 <a data-progress-page="understand" class="" href="understand.html">Understand</a>
@@ -27,18 +36,9 @@ Use the completed model only after you have built, tested and checked your own w
 [Download completed reference workbook](downloads/SU_DLA_Solar_Completed_Reference_Workbook_V8.xlsx){.course-button .alt download=""}
 :::
 
----
-title: "05 · Reflect"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
-format:
-  html:
-    toc: false
-    page-layout: full
----
-
 <div class="next"><strong>Course complete:</strong> the reviewer page explains the curriculum logic behind the activity.</div>
 
-
-
-
-<div class="iframe-nav"><a class="course-button alt" href="decide.html">← Decide</a><a class="course-button" href="index.html">Course home</a></div>
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="decide.html">← Back</a>
+<a class="course-button alt app-link" href="index.html">Return to Start</a>
+</nav>

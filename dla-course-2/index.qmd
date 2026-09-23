@@ -1,4 +1,13 @@
-<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+---
+title: "Should We Invest in Solar?"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
 <nav class="stage-progress" aria-label="Course progress">
 <a data-progress-page="index" class="active" href="index.html">Start</a>
 <a data-progress-page="understand" class="" href="understand.html">Understand</a>
@@ -14,14 +23,7 @@
 <div class="hero-copy"><div class="course-kicker">Digital Acumen · Cape Manufacturing</div><h1>Should We Invest in Solar?</h1><p><strong>A real decision. Real data. Applied spreadsheet skills.</strong></p><p>You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose — and how confident are you in the numbers?</p><div class="meta-strip"><span>65–80 minutes</span><span>Beginner spreadsheet level</span><span>Excel or Google Sheets</span></div></div>
 </div>
 
-::: {.course-video}
-
-{{< video assets/intro-video.mp4 >}}
-
-:::
-
-<!-- 
-<div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div> -->
+<div class="video-slot"><div><strong>INTRO VIDEO PLACEHOLDER</strong><br>Your existing 60–90 second course introduction goes here.<br><span class="small-note">Replace this block with your Quarto video shortcode or responsive iframe.</span></div></div>
 
 ::: {.course-card}
 ## Course toolkit
@@ -33,17 +35,6 @@
 <a class="resource-tile" href="downloads/Formula_Troubleshooting_Card.pdf" target="_blank"><strong>Formula help</strong><span>PDF · diagnostic</span></a>
 </div>
 :::
-
-
----
-title: "Should We Invest in Solar?"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
-format:
-  html:
-    toc: false
-    page-layout: full
----
-
 
 
 <section class="obe">
@@ -118,8 +109,7 @@ format:
 
 <div class="next"><strong>Next:</strong> understand the business data before touching the model.</div>
 
-
-
-
-
-<div class="iframe-nav"><span></span><a class="course-button" href="understand.html">Start the case →</a></div>
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<span></span>
+<a class="course-button app-link" href="understand.html">Next: Start the case →</a>
+</nav>

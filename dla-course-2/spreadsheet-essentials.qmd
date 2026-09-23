@@ -1,4 +1,13 @@
-<div class="embed-utility"><a href="https://marcelmare.com/sla-course/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
+---
+title: "Spreadsheet Essentials"
+description: "Cape Manufacturing solar investment case — Digital Acumen"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<div class="embed-utility"><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></div>
 <nav class="stage-progress" aria-label="Course progress">
 <a data-progress-page="index" class="" href="index.html">Start</a>
 <a data-progress-page="understand" class="" href="understand.html">Understand</a>
@@ -10,20 +19,6 @@
 </nav>
 
 <div class="page-visual"><img src="assets/03_spreadsheet_anatomy.png" alt="Annotated spreadsheet interface showing the course-critical controls"></div>
----
-title: "Spreadsheet Essentials"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
-format:
-  html:
-    toc: false
-    page-layout: full
----
-
-
-
-
-
-
 <section class="obe"><div class="obe-head">Enabling outcomes · spreadsheet readiness</div><div class="obe-body">
 <p><strong>Purpose of this section:</strong> provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel or Google Sheets proficiency is assumed.</p>
 <p><strong>After completing this section, you should be able to:</strong></p>
@@ -80,7 +75,7 @@ format:
 <div class="formative"><strong>Formative readiness check:</strong> you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.</div>
 <div class="next"><strong>Next:</strong> use those moves to complete the commercial model.</div>
 
-
-
-
-<div class="iframe-nav"><a class="course-button alt" href="understand.html">← Understand</a><a class="course-button" href="build.html">Next: Build the model →</a></div>
+<nav class="iframe-nav app-nav" aria-label="Page navigation">
+<a class="course-button alt app-link" href="understand.html">← Back</a>
+<a class="course-button app-link" href="build.html">Next: Build the model →</a>
+</nav>

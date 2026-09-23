@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Digital Acumen | Solar Investment Case"
-  site-url: "https://marcelmare.com/sla-course/"
+  site-url: "https://marcelmare.com/dla-course-2/"
   search: false
   navbar: false
 
@@ -16,12 +16,13 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    smooth-scroll: true
-    code-copy: true
-    anchor-sections: false
-    link-external-newwindow: true
     page-layout: full
-    include-after-body: includes/course-state.html
+    smooth-scroll: true
+    code-copy: false
+    anchor-sections: false
+    link-external-newwindow: false
+    include-after-body:
+      - includes/course-state.html
 
 execute:
   freeze: auto
