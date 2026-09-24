@@ -37,14 +37,6 @@ You are a trainee accountant. Three suppliers want nearly R1 million of capital.
 {{< video assets/intro-video.mp4 >}}
 :::
 
-:::: {#course-toolkit .course-card}
-## Course toolkit
-
-::: resource-grid
-[**Student workbook** .xlsx · download](downloads/SU_DLA_Solar_Student_Workbook_V8.xlsx){.resource-tile download=""} [**Case brief** PDF · open](downloads/Cape_Manufacturing_Case_Brief.pdf){.resource-tile target="_blank"} [**Quick reference** Excel + Sheets](downloads/Spreadsheet_Quick_Reference_Excel_Google_Sheets.pdf){.resource-tile target="_blank"} [**Formula help** PDF · diagnostic](downloads/Formula_Troubleshooting_Card.pdf){.resource-tile target="_blank"}
-:::
-::::
-
 :::::::::: obe
 ::: obe-head
 Learning Activity
@@ -70,7 +62,7 @@ This micro-learning activity develops your ability to use spreadsheets (e.g. Exc
 7.  **Formulate and communicate** a concise, evidence-based recommendation that recognises commercial trade-offs and uncertainty.
 8.  **Reflect on** the strengths and limitations of the model and transfer the modelling approach to another business decision.
 
-## What evidence will you produce?
+## What will you produce?
 
 | Evidence of learning | Capability demonstrated |
 |----|----|
@@ -88,33 +80,56 @@ The activity follows one unfolding management problem through five stages: **Und
 
 ::::::: obe-grid
 ::: card
-**Foundational competence · KNOW**
-
+::: label
+<br>
+Foundational competence · KNOW
+:::
 Understand the business problem, terminology, data and assumptions.
 :::
 
 ::: card
-**Practical competence · DO**
-
+::: label
+<br>
+Practical competence · DO
+:::
 Build the spreadsheet, calculate measures and communicate outputs.
 :::
 
 ::: card
-**Reflexive competence · ADAPT & JUDGE**
-
+::: label
+<br>
+Reflexive competence · ADAPT & JUDGE
+:::
 Stress-test assumptions, evaluate evidence, recommend and transfer the reasoning.
 :::
 
 ::: card
-**Formative learning**
-
+::: label
+<br>
+Formative learning
+:::
 Use checkpoints and reference values to diagnose errors before moving on.
 :::
 :::::::
 ::::::::
 ::::::::::
 
+---
+
 :::::::: platform-note
+::: label
+Download the Course Files
+:::
+
+### Course toolkit
+:::: {#course-toolkit .course-card}
+::: resource-grid
+[**Student workbook** .xlsx · download](downloads/SU_DLA_Solar_Student_Workbook_V8.xlsx){.resource-tile download=""} [**Case brief** PDF · open](downloads/Cape_Manufacturing_Case_Brief.pdf){.resource-tile target="_blank"} [**Quick reference** Excel + Sheets](downloads/Spreadsheet_Quick_Reference_Excel_Google_Sheets.pdf){.resource-tile target="_blank"} [**Formula help** PDF · diagnostic](downloads/Formula_Troubleshooting_Card.pdf){.resource-tile target="_blank"}
+:::
+::::
+
+---
+
 ::: label
 Choose your spreadsheet platform
 :::
@@ -138,12 +153,14 @@ The workbook logic, formulas, sheet names and cell addresses are the same in bot
 :::
 ::::::::
 
+---
+
 :::: story
 ::: label
-The case · Monday morning
+The case · Monday morning is now
 :::
 
-## Cape Manufacturing has a capital-allocation decision to make
+### Cape Manufacturing has a capital-allocation decision to make
 
 Cape Manufacturing is a Western Cape industrial producer. Electricity is a material operating cost, tariffs are expected to rise, and management is considering rooftop solar PV as a way to reduce grid purchases and improve energy resilience.
 
@@ -152,33 +169,48 @@ Three suppliers have submitted proposals. Each looks attractive for a different 
 **You are the Junior Commercial Analyst / Trainee Accountant.** You have been asked to turn the proposals into an Excel model, test a key assumption and prepare a concise recommendation.
 ::::
 
+---
+
 :::: caseq
 ::: label
 The question you must answer
 :::
 
-**Which solar proposal should Cape Manufacturing take forward, and what must management verify before signing a contract?**
+### Which solar proposal should Cape Manufacturing take forward, and what must management verify before signing a contract?
+<br>
 ::::
 
 :::::: grid3
 ::: card
-### 1 · Build evidence
+::: label
+<br>
+1 · Build evidence
+:::
 
 Translate technical proposal data into comparable financial measures.
 :::
 
 ::: card
-### 2 · Challenge the model
+::: label
+<br>
+2 · Challenge the model
+:::
 
 Stress-test an assumption that could change the decision.
 :::
 
 ::: card
-### 3 · Advise management
+::: label
+<br>
+3 · Advise management
+:::
 
 Make a ≤100-word recommendation supported by evidence and professional scepticism.
 :::
 ::::::
+
+<br>
+---
 
 :::: excel
 ::: label
@@ -186,13 +218,13 @@ Excel orientation · before you begin
 :::
 
 ### Open the workbook and find your way around
-
+::: output
+You do not need prior Excel experience. The course will tell you which sheet and cell to use at each step:
+:::
 1.  Open **SU_DLA_Solar_Student_Workbook_V8.xlsx** in Microsoft Excel, or upload it to Google Drive and open it with Google Sheets.
 2.  Click the `Start Here`{.cell} sheet tab. Read `A4`{.cell} and the learning outcomes in `A10:A16`{.cell}.
 3.  Notice the five workbook tabs: **Start Here, Case Data, Your Model, Test Assumptions, Recommendation**.
 4.  **Excel:** save a working copy with your name. **Google Sheets:** make/save a Google Sheets copy with your name.
-
-You do not need prior Excel experience. The course will tell you which sheet and cell to use at each step.
 ::::
 
 ::: output
@@ -204,11 +236,13 @@ You do not need prior Excel experience. The course will tell you which sheet and
 South African commercial context
 :::
 
-Cape Manufacturing is a fictional Western Cape industrial producer. All monetary values are in South African rand (R). The electricity tariff, escalation rate and other financial parameters are **teaching-case assumptions**, not forecasts of South African tariffs or investment conditions. Unless stated otherwise, use the figures exactly as provided and do not introduce VAT, tax, financing or feed-in revenue into the model.
+Cape Manufacturing is a fictional Western Cape industrial producer. All monetary values are in South African Rand (R). The electricity tariff, escalation rate and other financial parameters are **assumptions**, not forecasts of South African tariffs or investment conditions. Unless stated otherwise, use the figures exactly as provided and do not introduce VAT, tax, financing or feed-in revenue into the model. Let's keep it simple and focused on the spreadsheet skills and decision-making process.
 ::::
 
+---
+
 ::: next
-**Next:** understand the business data before touching the model.
+**Next:** let's understand the business data before touching the model.
 :::
 
 {{< include includes/_index-page-nav.qmd >}}
