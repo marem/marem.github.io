@@ -38,12 +38,12 @@ You are a trainee accountant. Three suppliers want nearly R1 million of capital.
 :::
 
 :::::::::: obe
-::: obe-head
+::: label
 Learning Activity
 :::
 
 :::::::: obe-body
-## What is this activity about?
+## What is this excercise all about?
 
 This micro-learning activity develops your ability to use spreadsheets (e.g. Excel) to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.
 
@@ -117,6 +117,9 @@ Use checkpoints and reference values to diagnose errors before moving on.
 ---
 
 :::::::: platform-note
+
+:::::::::: obe
+
 ::: label
 Download the Course Files
 :::
@@ -128,7 +131,9 @@ Download the Course Files
 :::
 ::::
 
----
+::::::::::
+
+:::::::::: obe
 
 ::: label
 Choose your spreadsheet platform
@@ -151,9 +156,12 @@ The workbook logic, formulas, sheet names and cell addresses are the same in bot
 ::: same
 **Important:** formulas such as `='Case Data'!B15*'Case Data'!B16`{.cell}, `$B$4`{.cell}, `RANK.EQ`{.cell}, `SUMPRODUCT`{.cell}, `MATCH`{.cell} and `CHOOSE`{.cell} are used identically in this activity.
 :::
+
+::::::::::
+
 ::::::::
 
----
+:::::::::: obe
 
 :::: story
 ::: label
@@ -169,7 +177,9 @@ Three suppliers have submitted proposals. Each looks attractive for a different 
 **You are the Junior Commercial Analyst / Trainee Accountant.** You have been asked to turn the proposals into an Excel model, test a key assumption and prepare a concise recommendation.
 ::::
 
----
+::::::::::
+
+:::::::::: obe
 
 :::: caseq
 ::: label
@@ -209,8 +219,9 @@ Make a ≤100-word recommendation supported by evidence and professional sceptic
 :::
 ::::::
 
-<br>
----
+::::::::::
+
+:::::::::: obe
 
 :::: excel
 ::: label
@@ -230,6 +241,8 @@ You do not need prior Excel experience. The course will tell you which sheet and
 ::: output
 **By the end:** one auditable Excel model, one management chart, one sensitivity test and one concise executive recommendation.
 :::
+
+::::::::::
 
 :::: sa-context
 ::: label
