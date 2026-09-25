@@ -1,5 +1,7 @@
 ---
 title: "Spreadsheet Essentials"
+course-page: spreadsheet-essentials
+course-intro: "Practise the spreadsheet moves you need, then enter your first live formula."
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
@@ -7,15 +9,7 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
 
-{{< include includes/_spreadsheet-essentials-progress-nav.qmd >}}
-
-::: page-visual
-![](assets/03_spreadsheet_anatomy.png){fig-alt="Annotated spreadsheet interface showing the course-critical controls"}
-:::
 
 ::::: obe
 ::: obe-head
@@ -38,6 +32,21 @@ Enabling outcomes · spreadsheet readiness
 **Evidence:** a correct first useful-generation calculation in `Your Model!B4:D4`{.cell} and successful readiness check.
 :::
 :::::
+
+:::: spreadsheet-reference
+::: label
+Spreadsheet anatomy · four controls to recognise
+:::
+
+| Control | What it tells you |
+|---|---|
+| Name Box | The selected cell address: `B4` |
+| Formula Bar | The calculation: `='Case Data'!B15*'Case Data'!B16` |
+| Active cell | The result in `B4`: **82,800** |
+| Fill handle | The small square at the bottom-right of the selection; drag it across to copy the formula. |
+
+The sheet tabs take you between **Start Here**, **Case Data**, **Your Model**, **Test Assumptions** and **Recommendation**.
+::::
 
 :::::::: platform-note
 ::: label
@@ -170,4 +179,3 @@ Formatting essentials
 **Next:** use those moves to complete the commercial model.
 :::
 
-{{< include includes/_spreadsheet-essentials-page-nav.qmd >}}

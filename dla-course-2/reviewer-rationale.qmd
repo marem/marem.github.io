@@ -1,15 +1,13 @@
 ---
 title: "Reviewer Rationale"
+course-page: reviewer-rationale
+course-intro: "Review the learning design, assessment criteria and curriculum rationale."
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
     toc: false
     page-layout: full
 ---
-
-::: embed-utility
-[← Return to learner course](index.html)
-:::
 
 ::::: obe
 ::: obe-head
@@ -130,4 +128,3 @@ Decorative interaction has been avoided. Each interaction either elicits evidenc
 **Design principle:** technical spreadsheet skills are introduced at the point where the case creates a reason to use them.
 :::
 
-{{< include includes/_reviewer-rationale-page-nav.qmd >}}

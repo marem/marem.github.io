@@ -1,5 +1,7 @@
 ---
-title: "04 · Decide"
+title: "Decide"
+course-page: decide
+course-intro: "Use your results to write a concise, qualified management recommendation."
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
@@ -7,11 +9,6 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
-
-{{< include includes/_decide-progress-nav.qmd >}}
 
 :::::: management-brief
 ::: {.brief-avatar aria-hidden="true"}
@@ -24,7 +21,7 @@ FD
 15:30 · Financial Director
 :::
 
-### I don't need another spreadsheet. I need your recommendation.
+**I don't need another spreadsheet. I need your recommendation.**
 
 Which system should we take forward, why, and what do we still need to verify? Keep it to 100 words.
 
@@ -150,4 +147,3 @@ Pre-submission check
 **Next:** audit your outputs, explain the trade-off and transfer the modelling pattern.
 :::
 
-{{< include includes/_decide-page-nav.qmd >}}

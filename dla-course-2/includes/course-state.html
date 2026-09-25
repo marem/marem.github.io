@@ -2,7 +2,6 @@
 (function () {
   'use strict';
   const KEY = 'slaSolarV9';
-  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
   const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
   let memory = {};
 
@@ -20,7 +19,7 @@
 
   // App-like navigation: every course page begins at the top of the iframe.
   if ('scrollRestoration' in history) history.scrollRestoration='manual';
-  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  function topNow(){ if(location.hash) return; try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
   document.addEventListener('DOMContentLoaded', topNow, {once:true});
   window.addEventListener('pageshow', topNow);
   requestAnimationFrame(topNow);
@@ -38,24 +37,21 @@
     if(p===page){ el.classList.add('active'); el.setAttribute('aria-current','page'); }
   });
 
-  // Internal course links always remain in the iframe (_self), never escape to Google Sites.
-  document.querySelectorAll('a[href]').forEach(a=>{
-    const raw=a.getAttribute('href')||'';
-    if(!raw || raw.startsWith('#') || raw.startsWith('mailto:') || raw.startsWith('tel:')) return;
-    let u; try { u=new URL(raw, location.href); } catch(e){ return; }
-    const sameOrigin=u.origin===location.origin;
-    const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
-    const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
-    if(isPage){
-      a.setAttribute('target','_self');
-      a.addEventListener('click', function(ev){
-        if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
-        ev.preventDefault();
-        mutate(s=>{s.leavingPage=page;s.leftAt=Date.now();});
-        topNow();
-        location.assign(u.href);
-      });
+  // Normal browser navigation preserves explicit new-window links and downloads.
+  document.querySelectorAll('a[target="_blank"]').forEach(a => a.rel = 'noopener noreferrer');
+  const journey = document.querySelector('.course-journey details');
+  const narrow = window.matchMedia('(max-width: 700px)');
+  function sizeJourney() { if(journey) journey.open = !narrow.matches; }
+  sizeJourney();
+  narrow.addEventListener('change', sizeJourney);
+  document.querySelectorAll('.table-scroll').forEach(region => {
+    function update() {
+      const overflow = region.scrollWidth > region.clientWidth;
+      region.tabIndex = overflow ? 0 : -1;
+      const hint = region.previousElementSibling;
+      if(hint && hint.classList.contains('table-scroll-hint')) hint.hidden = !overflow;
     }
+    new ResizeObserver(update).observe(region);
   });
 
   // Persist initial prediction.
@@ -64,7 +60,7 @@
     r.addEventListener('change',()=>{
       mutate(x=>{x.prediction=r.value;});
       const o=document.querySelector('#prediction-status');
-      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+      if(o) o.textContent=(store ? 'Saved: ' : 'Selected for this page view: ')+r.value+'.'+(store ? ' You will revisit this on Reflect.' : ' Storage is unavailable; keep your own note for Reflect.');
     });
   });
   const prior=document.querySelector('#prior-prediction');
@@ -103,6 +99,6 @@
   // Add embedded-app class for CSS and a small fallback when storage is blocked.
   document.documentElement.classList.add('sla-app');
   if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
-  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
+  if(!store) document.querySelectorAll('[data-storage-note]').forEach(n => n.textContent='Browser storage is unavailable. Keep a copy of your response before leaving this page.');
 })();
 </script>

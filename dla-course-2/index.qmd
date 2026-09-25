@@ -1,17 +1,14 @@
 ---
 title: "Should We Invest in Solar?"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+course-page: index
+course-intro: "Use spreadsheet evidence to advise Cape Manufacturing on a solar investment."
+description: "Develop your Digital Acumen with Excel: Cape Manufacturing solar investment case study"
 format:
   html:
     toc: false
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
-
-{{< include includes/_index-progress-nav.qmd >}}
 
 :::::: hero
 ![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
@@ -21,9 +18,7 @@ format:
 Digital Acumen · Cape Manufacturing
 :::
 
-# Should We Invest in Solar?
-
-**A real decision is needed. Based on data. Applied spreadsheet skills.**
+**A real decision is needed. Based on data. Applying spreadsheet skills.**
 
 You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose? How confident are you in the numbers?
 
@@ -37,13 +32,13 @@ You are a trainee accountant. Three suppliers want nearly R1 million of capital.
 {{< video assets/intro-video.mp4 >}}
 :::
 
-:::::::::: obe
+:::::::::: course-section
 ::: label
 Learning Activity
 :::
 
 :::::::: obe-body
-## What is this excercise all about?
+## What is this exercise all about?
 
 This micro-learning activity develops your ability to use spreadsheets (e.g. Excel) to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.
 
@@ -81,7 +76,6 @@ The activity follows one unfolding management problem through five stages: **Und
 ::::::: obe-grid
 ::: card
 ::: label
-<br>
 Foundational competence · KNOW
 :::
 Understand the business problem, terminology, data and assumptions.
@@ -89,7 +83,6 @@ Understand the business problem, terminology, data and assumptions.
 
 ::: card
 ::: label
-<br>
 Practical competence · DO
 :::
 Build the spreadsheet, calculate measures and communicate outputs.
@@ -97,7 +90,6 @@ Build the spreadsheet, calculate measures and communicate outputs.
 
 ::: card
 ::: label
-<br>
 Reflexive competence · ADAPT & JUDGE
 :::
 Stress-test assumptions, evaluate evidence, recommend and transfer the reasoning.
@@ -105,7 +97,6 @@ Stress-test assumptions, evaluate evidence, recommend and transfer the reasoning
 
 ::: card
 ::: label
-<br>
 Formative learning
 :::
 Use checkpoints and reference values to diagnose errors before moving on.
@@ -116,9 +107,9 @@ Use checkpoints and reference values to diagnose errors before moving on.
 
 ---
 
-:::::::: platform-note
+:::::::: course-section
 
-:::::::::: obe
+:::::::::: course-section
 
 ::: label
 Download the Course Files
@@ -133,7 +124,7 @@ Download the Course Files
 
 ::::::::::
 
-:::::::::: obe
+:::::::::: course-section
 
 ::: label
 Choose your spreadsheet platform
@@ -161,7 +152,7 @@ The workbook logic, formulas, sheet names and cell addresses are the same in bot
 
 ::::::::
 
-:::::::::: obe
+:::::::::: course-section
 
 :::: story
 ::: label
@@ -179,7 +170,7 @@ Three suppliers have submitted proposals. Each looks attractive for a different 
 
 ::::::::::
 
-:::::::::: obe
+:::::::::: course-section
 
 :::: caseq
 ::: label
@@ -187,13 +178,11 @@ The question you must answer
 :::
 
 ### Which solar proposal should Cape Manufacturing take forward, and what must management verify before signing a contract?
-<br>
 ::::
 
 :::::: grid3
 ::: card
 ::: label
-<br>
 1 · Build evidence
 :::
 
@@ -202,7 +191,6 @@ Translate technical proposal data into comparable financial measures.
 
 ::: card
 ::: label
-<br>
 2 · Challenge the model
 :::
 
@@ -211,7 +199,6 @@ Stress-test an assumption that could change the decision.
 
 ::: card
 ::: label
-<br>
 3 · Advise management
 :::
 
@@ -221,7 +208,7 @@ Make a ≤100-word recommendation supported by evidence and professional sceptic
 
 ::::::::::
 
-:::::::::: obe
+:::::::::: course-section
 
 :::: excel
 ::: label
@@ -252,10 +239,7 @@ South African commercial context
 Cape Manufacturing is a fictional Western Cape industrial producer. All monetary values are in South African Rand (R). The electricity tariff, escalation rate and other financial parameters are **assumptions**, not forecasts of South African tariffs or investment conditions. Unless stated otherwise, use the figures exactly as provided and do not introduce VAT, tax, financing or feed-in revenue into the model. Let's keep it simple and focused on the spreadsheet skills and decision-making process.
 ::::
 
----
-
 ::: next
 **Next:** let's understand the business data before touching the model.
 :::
 
-{{< include includes/_index-page-nav.qmd >}}

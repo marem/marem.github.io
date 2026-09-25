@@ -1,5 +1,7 @@
 ---
-title: "05 · Reflect"
+title: "Reflect"
+course-page: reflect
+course-intro: "Revisit your initial judgement and compare your completed work with the reference model."
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
@@ -7,16 +9,11 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
-
-{{< include includes/_reflect-progress-nav.qmd >}}
 
 ::: {#revisit-your-initial-judgement .state-box}
 ## Revisit your initial judgement
 
-Your initial prediction on this device was: **[Loading…]{#prior-prediction}**
+Your initial prediction on this device was: **[No saved prediction is available.]{#prior-prediction}**
 
 What changed in your reasoning after building and stress-testing the model?
 
@@ -32,7 +29,6 @@ Use the completed model only after you have built, tested and checked your own w
 :::
 
 ::: next
-**Course complete:** the reviewer page explains the curriculum logic behind the activity.
+**Course complete:** return to any stage to review your work. [Reviewer Rationale](reviewer-rationale.qmd) explains the curriculum logic behind the activity.
 :::
 
-{{< include includes/_reflect-page-nav.qmd >}}

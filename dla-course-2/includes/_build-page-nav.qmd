@@ -1,6 +1,0 @@
-```{=html}
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="spreadsheet-essentials.html">← Back</a>
-<a class="course-button app-link" href="test.html">Next: Test the model →</a>
-</nav>
-```

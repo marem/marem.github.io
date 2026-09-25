@@ -1,3 +1,5 @@
 ```{=html}
-<textarea id="final-reflection" class="course-response" placeholder="Write 2–4 sentences. Your response is saved locally on this device."></textarea>
+<label for="final-reflection">Your reflection</label>
+<p id="reflection-help" class="small-note" data-storage-note>Write 2–4 sentences. Your response is saved in this browser when storage is available.</p>
+<textarea id="final-reflection" class="course-response" aria-describedby="reflection-help" rows="5"></textarea>
 ```
