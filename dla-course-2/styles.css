@@ -190,3 +190,16 @@ th,td { overflow-wrap:anywhere; }
 
 .course-start #title-block-header { display:none; }
 .case-study h2 { border:0; padding-bottom:0; }
+
+/* Optional glossary support; native disclosure also works without JavaScript. */
+details.glossary-card { margin:1.25rem 0; padding:1rem 1.25rem; border-radius:12px; background:var(--soft); }
+.glossary-card > summary { color:var(--navy); padding:.25rem 0; }
+.glossary-card .glossary-hint { color:var(--muted); font-size:.85rem; font-weight:400; }
+.glossary-card dl { margin:1rem 0; }
+.glossary-card dt { margin-top:.85rem; font-weight:700; }
+.glossary-card dd { margin:.2rem 0 0; }
+.glossary-card .glossary-reading { border-top:1px solid var(--line); margin-top:1rem; padding-top:1rem; font-size:.92rem; }
+.glossary-card .glossary-reading li { margin-bottom:.85rem; }
+.glossary-card .glossary-reading > :last-child { margin-bottom:0; }
+.glossary-card a { overflow-wrap:anywhere; }
+@media(max-width:620px) { details.glossary-card { padding:.85rem 1rem; } }

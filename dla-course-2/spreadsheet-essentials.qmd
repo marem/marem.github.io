@@ -189,4 +189,46 @@ Formatting essentials
 **Next:** use those moves to complete the commercial model.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Cell reference
+:   An address Excel uses to locate a value, such as B4: column B, row 4.
+
+Relative reference
+:   An Excel reference such as B15 that adjusts with the formula’s new position when copied. Copying one column right changes it to C15.
+
+Absolute reference
+:   An Excel reference such as $B$4 that keeps both its column and row fixed when the formula is copied. The dollar signs lock the reference; they do not indicate currency.
+
+Mixed reference
+:   An Excel reference with only its column or row fixed. In $A8, column A stays fixed while the row can change when copied down.
+
+Formula
+:   An Excel expression beginning with = that calculates a result using values, references, operators or functions.
+
+Worksheet
+:   One tabbed sheet within an Excel workbook, such as Case Data or Your Model.
+
+Cross-sheet reference
+:   An Excel reference to a cell on another worksheet. In 'Case Data'!B15, the sheet name comes before ! and the cell address follows it.
+
+Fill handle
+:   The small square at the bottom-right of an Excel selection, used to copy a formula into adjacent cells. Relative parts of references adjust as the formula is filled.
+
+::: glossary-reading
+**Further reading**
+
+- **Microsoft Support — Switch between relative, absolute, and mixed references**\
+  How Excel cell references behave when formulas are copied.\
+  [Read the resource ↗](https://support.microsoft.com/en-us/excel/switch-between-relative-absolute-and-mixed-references){target="_blank" rel="noopener" aria-label="Read Microsoft Support — Switch between relative, absolute, and mixed references (opens in a new tab)"}
+
+- **Microsoft Support — Overview of formulas in Excel**\
+  Excel formulas, operators and references, including links to other worksheets.\
+  [Read the resource ↗](https://support.microsoft.com/en-us/excel/get-started/overview-of-formulas-in-excel){target="_blank" rel="noopener" aria-label="Read Microsoft Support — Overview of formulas in Excel (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

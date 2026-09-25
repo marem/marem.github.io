@@ -274,4 +274,47 @@ Visual communication task
 **Next:** management challenges an assumption. Test whether your conclusion survives.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Useful generation
+:   Solar electricity the factory uses when it is generated. In this model it equals total Year-1 generation multiplied by self-consumption, measured in kWh.
+
+Gross saving
+:   The cost of grid electricity avoided before deducting maintenance: useful generation multiplied by the tariff. This is a saving, not revenue from selling electricity.
+
+Net Year-1 saving
+:   Gross Year-1 saving after subtracting the model’s Year-1 maintenance cost. It is a modelled cash saving, not accounting profit.
+
+Maintenance cost
+:   The recurring cost of keeping the solar system working. The course deducts the supplied annual maintenance amount from gross savings.
+
+Simple payback period
+:   An estimate of how long savings take to recover the initial cost. Installed cost divided by net Year-1 saving assumes that saving repeats, and ignores discounting and savings after payback.
+
+Ranking
+:   Ordering the proposals by a chosen measure. Here, the shortest payback gets rank 1; that ranking does not establish which proposal has the greatest long-term value.
+
+Auditable model
+:   A model whose results can be traced through formulas to their source inputs and checked. Referencing Case Data helps preserve that traceability.
+
+::: glossary-reading
+**Further reading**
+
+- **ACCA — Investment appraisal**\
+  Further explanation of discounted cash flows and investment appraisal; the worked example goes beyond this course.\
+  [Read the resource ↗](https://www.accaglobal.com/uk/en/student/exam-support-resources/prodipsust-study-resources/technical-articles/investment-appraisal.html){target="_blank" rel="noopener" aria-label="Read ACCA — Investment appraisal (opens in a new tab)"}
+
+- **Microsoft Support — Overview of formulas in Excel**\
+  Excel formulas, operators and references, including links to other worksheets.\
+  [Read the resource ↗](https://support.microsoft.com/en-us/excel/get-started/overview-of-formulas-in-excel){target="_blank" rel="noopener" aria-label="Read Microsoft Support — Overview of formulas in Excel (opens in a new tab)"}
+
+- **Eskom — Tariffs and charges**\
+  South African tariff categories and links to pricing documents; the course tariff remains an illustrative assumption.\
+  [Read the resource ↗](https://www.eskom.co.za/distribution/tariffs-and-charges/){target="_blank" rel="noopener" aria-label="Read Eskom — Tariffs and charges (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

@@ -134,4 +134,46 @@ Microsoft Excel · same task
 **Next:** learn the few Excel moves needed to build the model confidently.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Photovoltaic (PV)
+:   Technology that converts sunlight into electricity, as used in the proposed rooftop solar panels.
+
+kW and kWp
+:   A kilowatt (kW) measures power: the rate of producing or using energy. Kilowatt-peak (kWp) states a solar array’s rated power under standard test conditions, not its guaranteed output at all times.
+
+Kilowatt-hour (kWh)
+:   A unit of energy: 1 kWh is the energy produced or used at a steady power of 1 kW for one hour. It measures an amount over time, unlike kW or kWp.
+
+Year-1 generation
+:   The total electricity expected from the system in its first year, measured in kWh. Only the portion the factory can use when generated reduces grid purchases in this case.
+
+Self-consumption
+:   The proportion of solar electricity Cape Manufacturing uses itself when it is generated, rather than exporting or wasting it. Higher self-consumption generally increases savings in this model.
+
+Electricity tariff
+:   The price charged for electricity; this model uses a single assumed rand amount per kWh of grid electricity avoided. Real South African bills can include other charges.
+
+Installed cost
+:   The upfront amount for purchasing and installing the solar system. Annual maintenance is a separate cost in the case data.
+
+Auditability
+:   The ability to trace a result back through its formulas to the original inputs, so someone else can check it.
+
+::: glossary-reading
+**Further reading**
+
+- **City of Cape Town — Going solar**\
+  Local guidance on solar photovoltaic generation and reducing grid electricity purchases.\
+  [Read the resource ↗](https://www.capetown.gov.za/solarpv){target="_blank" rel="noopener" aria-label="Read City of Cape Town — Going solar (opens in a new tab)"}
+
+- **Eskom — Tariffs and charges**\
+  South African tariff categories and links to pricing documents; the course tariff remains an illustrative assumption.\
+  [Read the resource ↗](https://www.eskom.co.za/distribution/tariffs-and-charges/){target="_blank" rel="noopener" aria-label="Read Eskom — Tariffs and charges (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

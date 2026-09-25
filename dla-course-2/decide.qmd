@@ -145,4 +145,46 @@ Pre-submission check
 **Next:** audit your outputs, explain the trade-off and transfer the modelling pattern.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Professional judgement
+:   Applying relevant knowledge and weighing evidence, uncertainty and business priorities to reach a reasoned conclusion. The highest modelled NPV is one input into that judgement.
+
+Professional scepticism
+:   A questioning approach that critically assesses evidence and notices gaps or inconsistencies. Request support for Supplier C’s claim without assuming it is either true or dishonest.
+
+Decision criterion
+:   A measure or requirement used to compare alternatives, such as recovery speed, long-term value or environmental impact. Different criteria can favour different proposals.
+
+Commercial trade-off
+:   Accepting less of one business benefit to obtain more of another, such as slower cost recovery in exchange for higher modelled long-term value.
+
+Operational assumption
+:   An input about how the factory or system will operate that is used in the model but still needs evidence. C’s assumed self-consumption is material because changing it can change the ranking.
+
+Lifecycle assessment
+:   A structured assessment of potential environmental impacts across a product’s life, from raw materials and manufacturing through use and end-of-life treatment. A fair comparison needs a consistent method and basis of comparison.
+
+System boundary
+:   The stages and processes included in an environmental assessment. Excluding manufacturing or disposal can change the apparent impact, so the proposals need comparable boundaries.
+
+Independent certification
+:   Confirmation by a separate certifying body that specified requirements have been met. Its scope and criteria must support the particular claim being assessed; a certificate alone does not establish lower lifecycle impact.
+
+::: glossary-reading
+**Further reading**
+
+- **Accountancy SA — Professional scepticism explained**\
+  South African accountancy context for questioning and critically assessing evidence, illustrated through auditing.\
+  [Read the resource ↗](https://www.accountancysa.org.za/professional-scepticism-explained/){target="_blank" rel="noopener" aria-label="Read Accountancy SA — Professional scepticism explained (opens in a new tab)"}
+
+- **ISO — ISO 14040:2006: Environmental management — Life cycle assessment — Principles and framework**\
+  Free overview of the lifecycle-assessment framework, including scope and critical review; the full standard is paid.\
+  [Read the resource ↗](https://www.iso.org/standard/37456.html){target="_blank" rel="noopener" aria-label="Read ISO — ISO 14040:2006: Environmental management — Life cycle assessment — Principles and framework (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

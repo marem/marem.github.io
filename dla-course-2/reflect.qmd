@@ -67,4 +67,34 @@ Use the completed model only after you have built, tested and checked your own w
 **Completed:** built evidence, tested assumptions and communicated a qualified recommendation. Carry this analytical pattern into your next investment decision.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Reflection
+:   Examining how evidence and experience changed your reasoning, and what you would do differently next time. Here, connect your initial view to a specific model result or sensitivity finding.
+
+Transfer of learning
+:   Applying a method learned in one setting to a different problem. The inputs-to-recommendation pattern can support another investment decision, with assumptions adapted to that case.
+
+Assumption
+:   An input or condition accepted for modelling purposes that may still need verification. A calculation based on it does not turn it into verified evidence.
+
+Qualified recommendation
+:   Advice that states the conditions or uncertainties affecting it, such as verifying self-consumption before committing. It supports a decision without claiming that approval or verification has already occurred.
+
+::: glossary-reading
+**Further reading**
+
+- **University of Edinburgh — What? So what? Now what?**\
+  A short framework for interpreting an experience and applying the learning in future.\
+  [Read the resource ↗](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what){target="_blank" rel="noopener" aria-label="Read University of Edinburgh — What? So what? Now what? (opens in a new tab)"}
+
+- **University of Edinburgh — Revisiting reflections**\
+  How returning to earlier reflections can reveal changes in understanding.\
+  [Read the resource ↗](https://reflection.ed.ac.uk/reflectors-toolkit/producing-reflections/revisit-reflections){target="_blank" rel="noopener" aria-label="Read University of Edinburgh — Revisiting reflections (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

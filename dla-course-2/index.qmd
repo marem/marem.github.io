@@ -116,4 +116,40 @@ Cape Manufacturing is a fictional Western Cape industrial producer. All monetary
 **Next:** understand the business data before building the model.
 :::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Auditable model
+:   A model whose inputs, formulas and results can be traced and checked by another person. It does not mean the workbook has undergone a formal audit.
+
+Professional judgement
+:   Applying relevant knowledge and weighing evidence, uncertainty and business priorities to reach a reasoned conclusion.
+
+Professional scepticism
+:   A questioning approach that critically assesses evidence and notices gaps or inconsistencies. It does not mean automatically distrusting a supplier.
+
+Simple payback period
+:   An estimate of how long savings take to recover the initial cost. This course uses installed cost divided by net Year-1 saving, without discounting future savings.
+
+Net present value (NPV)
+:   The value today of expected future net cash flows, less the initial investment. It helps compare long-term financial value under the chosen assumptions.
+
+Sensitivity analysis
+:   Testing how a model result changes when an assumption changes. Here, you explore whether lower use of System C’s solar output changes the preferred proposal.
+
+::: glossary-reading
+**Further reading**
+
+- **Accountancy SA — Professional scepticism explained**\
+  South African accountancy context for questioning and critically assessing evidence, illustrated through auditing.\
+  [Read the resource ↗](https://www.accountancysa.org.za/professional-scepticism-explained/){target="_blank" rel="noopener" aria-label="Read Accountancy SA — Professional scepticism explained (opens in a new tab)"}
+
+- **ACCA — Investment appraisal**\
+  Further explanation of discounted cash flows and investment appraisal; the worked example goes beyond this course.\
+  [Read the resource ↗](https://www.accaglobal.com/uk/en/student/exam-support-resources/prodipsust-study-resources/technical-articles/investment-appraisal.html){target="_blank" rel="noopener" aria-label="Read ACCA — Investment appraisal (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}

@@ -163,4 +163,50 @@ Self-consumption depends on **when** electricity is used relative to solar gener
 :::
 ::::
 
+<details class="glossary-card">
+<summary>Glossary &amp; further reading <span class="glossary-hint">· optional</span></summary>
+
+Discounted cash flow and present value
+:   Discounted cash flow converts future net cash flows into equivalent values today using a discount rate. Each converted amount is its present value; here the cash flows are net electricity savings.
+
+Net present value (NPV)
+:   NPV adds the present values of future net cash flows and subtracts the initial investment. A positive NPV indicates modelled value creation relative to the chosen discount rate; it is not accounting profit or automatic approval to invest.
+
+Discount rate
+:   The required rate of return used to convert future cash flows into today’s value. A higher rate reduces the present value of a given future saving; it is distinct from electricity tariff escalation.
+
+Sensitivity analysis and scenario
+:   Sensitivity analysis tests how changing an assumption affects a result; a scenario is one set of assumed inputs. Each row here tests a different self-consumption rate for C while other inputs stay fixed, without predicting which rate will occur.
+
+Crossover point
+:   The input value at which two proposals have equal NPV and their ranking switches on either side. Here it concerns C versus B, not the point at which either proposal’s NPV becomes zero.
+
+Self-consumption and load profile
+:   Self-consumption is the proportion of solar electricity the factory uses when generated. Its load profile shows electricity demand over time, allowing demand to be matched against solar production.
+
+Tariff escalation
+:   The assumed increase in the electricity price from one year to the next. It raises the value of each kWh of avoided grid purchases in the model; it is not a forecast of South African tariffs.
+
+Generation degradation
+:   A gradual reduction in the electricity a solar system can generate as it ages. The supplied model applies an assumed annual reduction over its analysis period.
+
+::: glossary-reading
+**Further reading**
+
+- **ACCA — Investment appraisal**\
+  Further explanation of discounted cash flows and investment appraisal; the worked example goes beyond this course.\
+  [Read the resource ↗](https://www.accaglobal.com/uk/en/student/exam-support-resources/prodipsust-study-resources/technical-articles/investment-appraisal.html){target="_blank" rel="noopener" aria-label="Read ACCA — Investment appraisal (opens in a new tab)"}
+
+- **Microsoft Support — Introduction to What-If Analysis**\
+  How changing inputs affects formula results; optional background on tools beyond the supplied sensitivity table.\
+  [Read the resource ↗](https://support.microsoft.com/en-us/excel/introduction-to-what-if-analysis){target="_blank" rel="noopener" aria-label="Read Microsoft Support — Introduction to What-If Analysis (opens in a new tab)"}
+
+- **City of Cape Town — Going solar**\
+  Local guidance on solar photovoltaic generation and reducing grid electricity purchases.\
+  [Read the resource ↗](https://www.capetown.gov.za/solarpv){target="_blank" rel="noopener" aria-label="Read City of Cape Town — Going solar (opens in a new tab)"}
+
+:::
+
+</details>
+
 {{< include includes/_course-page-nav.qmd >}}
