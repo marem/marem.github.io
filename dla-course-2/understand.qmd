@@ -1,7 +1,5 @@
 ---
-title: "Understand"
-course-page: understand
-course-intro: "Read the proposals and connect solar generation to economic value."
+title: "01 · Understand"
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
@@ -9,6 +7,11 @@ format:
     page-layout: full
 ---
 
+::: embed-utility
+[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
+:::
+
+{{< include includes/_understand-progress-nav.qmd >}}
 
 :::: {#before-you-open-the-spreadsheet .interactive}
 ## Before you open the spreadsheet …
@@ -17,11 +20,14 @@ Which measure would you inspect first if you had to advise the Financial Directo
 
 {{< include includes/_understand-prediction-input.qmd >}}
 
-::: {#prediction-status .small-note role="status" data-storage-note=""}
+::: {#prediction-status .small-note}
 Your choice is saved automatically on this device. You will revisit it on Reflect.
 :::
 ::::
 
+::: page-visual
+![](assets/02_proposals_comparison.png){fig-alt="Three-proposal visual comparison"}
+:::
 
 ::::: obe
 ::: obe-head
@@ -38,10 +44,6 @@ Purpose → Outcome → Evidence
 **Evidence:** your prediction response and concept-check explanation.
 :::
 :::::
-
-::: page-visual
-![Higher cost and generation do not automatically mean a better investment.](assets/02_proposals_comparison.png){fig-alt="Installed costs: A R650,000, B R820,000, C R990,000. Generation increases from A to C, while self-consumption falls from 90% to 78%."}
-:::
 
 ::: thread
 **Story so far:** You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.
@@ -120,3 +122,4 @@ For this page there is no platform-specific calculation. The cell references `Ca
 **Next:** learn the few Excel moves needed to build the model confidently.
 :::
 
+{{< include includes/_understand-page-nav.qmd >}}

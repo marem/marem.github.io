@@ -17,17 +17,12 @@ format:
     css: styles.css
     toc: false
     page-layout: full
-    smooth-scroll: false
-    template-partials:
-      - includes/title-block.html
+    smooth-scroll: true
     code-copy: false
     anchor-sections: false
     link-external-newwindow: false
     include-after-body:
       - includes/course-state.html
-
-filters:
-  - filters/course-shell.lua
 
 execute:
   freeze: auto

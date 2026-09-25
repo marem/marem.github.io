@@ -1,5 +1,3 @@
 ```{=html}
-<fieldset><legend>Choose the next management action</legend>
 <label class="choice"><input type="radio" name="cross" value="a"> Reject Proposal C immediately.</label> <label class="choice"><input type="radio" name="cross" value="b"> Accept the supplier's 78% assumption.</label> <label class="choice"><input type="radio" name="cross" value="c"> Obtain better evidence about the factory load profile.</label> <label class="choice"><input type="radio" name="cross" value="d"> Choose Proposal A because it has the shortest payback.</label> <button type="button" class="btn" data-group="cross" data-check-answer="c">Check my reasoning</button>
-</fieldset>
 ```

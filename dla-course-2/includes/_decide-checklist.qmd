@@ -1,11 +1,9 @@
 ```{=html}
-<fieldset><legend>Check your recommendation</legend>
-<label class="choice"><input type="checkbox" data-state-key="brief-1"> I selected one proposal.</label>
-<label class="choice"><input type="checkbox" data-state-key="brief-2"> I used at least two quantified spreadsheet results.</label>
-<label class="choice"><input type="checkbox" data-state-key="brief-3"> I stated one material commercial trade-off.</label>
-<label class="choice"><input type="checkbox" data-state-key="brief-4"> I identified one unverified operational assumption.</label>
-<label class="choice"><input type="checkbox" data-state-key="brief-5"> I treated Supplier C's environmental claim as a claim requiring evidence.</label>
-<label class="choice"><input type="checkbox" data-state-key="brief-6"> My recommendation is 100 words or fewer.</label>
+<label class="choice"><input type="checkbox"> I selected one proposal.</label>
+<label class="choice"><input type="checkbox"> I used at least two quantified spreadsheet results.</label>
+<label class="choice"><input type="checkbox"> I stated one material commercial trade-off.</label>
+<label class="choice"><input type="checkbox"> I identified one unverified operational assumption.</label>
+<label class="choice"><input type="checkbox"> I treated Supplier C's environmental claim as a claim requiring evidence.</label>
+<label class="choice"><input type="checkbox"> My recommendation is 100 words or fewer.</label>
 
-</fieldset>
 ```

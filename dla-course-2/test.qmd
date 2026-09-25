@@ -1,7 +1,5 @@
 ---
-title: "Test"
-course-page: test
-course-intro: "Challenge the self-consumption assumption and see when the preferred proposal changes."
+title: "03 · Test"
 description: "Cape Manufacturing solar investment case — Digital Acumen"
 format:
   html:
@@ -9,6 +7,11 @@ format:
     page-layout: full
 ---
 
+::: embed-utility
+[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
+:::
+
+{{< include includes/_test-progress-nav.qmd >}}
 
 :::: message
 ::: meta
@@ -169,7 +172,7 @@ Self-consumption depends on **when** electricity is used relative to solar gener
 :::
 
 ::: page-visual
-![The crossover makes the utilisation assumption material to the decision.](assets/04_sensitivity_crossover.png){fig-alt="Proposal B NPV stays near R2.662 million. Proposal C NPV rises with self-consumption and overtakes B at about 74%. The scenario values are listed in the table above."}
+![](assets/04_sensitivity_crossover.png){fig-alt="Sensitivity crossover chart for Proposal C self-consumption"}
 :::
 
 :::: {#what-should-management-do-with-the-crossover-result .interactive}
@@ -177,7 +180,8 @@ Self-consumption depends on **when** electricity is used relative to solar gener
 
 {{< include includes/_test-concept-check.qmd >}}
 
-::: {#cross-feedback .formative hidden="" role="status"}
+::: {#cross-feedback .formative hidden=""}
 :::
 ::::
 
+{{< include includes/_test-page-nav.qmd >}}
