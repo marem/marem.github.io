@@ -3,6 +3,12 @@ title: "Should We Invest in Solar?"
 description: "Develop your Digital Acumen with Excel: Cape Manufacturing solar investment case study"
 format:
   html:
+    title-block-style: none
+    include-in-header:
+      text: |
+        <style>
+        #title-block-header { display: none; }
+        </style>
     toc: false
     page-layout: full
 ---
@@ -11,19 +17,19 @@ format:
 [Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
 :::
 
+{{< include includes/_index-progress-nav.qmd >}}
+
 :::::: hero
 ![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
 
 ::::: hero-copy
 ::: course-kicker
-Digital Acumen · Cape Manufacturing Case Study
+Cape Manufacturing · Investment case
 :::
 
 # Should We Invest in Solar?
 
-**A real decision is needed. Based on data. Applying spreadsheet skills.**
-
-You are a trainee accountant. Three solar proposals compete for an investment of R650,000 to R990,000. Which proposal should management choose? How confident are you in the numbers?
+Compare three proposals. Build the evidence. Recommend an investment.
 
 ::: meta-strip
 [65–80 minutes]{.meta-item} [Beginner spreadsheet level]{.meta-item} [Excel or Google Sheets]{.meta-item}
@@ -34,8 +40,6 @@ You are a trainee accountant. Three solar proposals compete for an investment of
 ::: course-video
 {{< video assets/intro-video.mp4 >}}
 :::
-
-{{< include includes/_index-progress-nav.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The investment brief"}
 ::: case-study-label
