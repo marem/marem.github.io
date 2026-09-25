@@ -3,8 +3,6 @@ title: "Should We Invest in Solar?"
 description: "Develop your Digital Acumen with Excel: Cape Manufacturing solar investment case study"
 format:
   html:
-    #title-block-style: none
-    #body-classes: course-start
     toc: false
     page-layout: full
 ---
