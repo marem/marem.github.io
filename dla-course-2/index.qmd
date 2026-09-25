@@ -36,7 +36,7 @@ Three solar proposals. One investment decision. Use Excel to build the evidence,
 Case study · Cape Manufacturing · The investment brief
 :::
 
-Cape Manufacturing is a fictional Western Cape industrial producer facing material electricity costs. Three suppliers have proposed rooftop solar systems costing R650,000 to R990,000. Management wants to reduce grid purchases; any resilience benefit still needs verification.
+Cape Manufacturing is a fictional Western Cape industrial producer facing material electricity costs. Three suppliers have proposed rooftop solar systems costing R650,000 to R990,000. Management wants to reduce grid purchases; any resilience benefit still needs verification. You have been employed as a trainee accountant to assist with the commercial analysis. The financial director has texted you with the following request:
 
 ::::: case-message
 ::: {.case-avatar aria-hidden="true"}
@@ -50,7 +50,7 @@ Monday 08:30 · Financial Director
 
 ## Help us decide which solar proposal to take forward.
 
-You are our trainee accountant, supporting the commercial analysis. Compare the proposals on a common basis, test the assumptions and bring me a recommendation this afternoon. We need evidence before committing capital.
+Welcome as our new trainee accountant. Please could you assist. You need to compare the proposals on a common basis, test the assumptions and bring me a recommendation this afternoon. We need evidence before committing capital.
 ::::
 :::::
 ::::::
