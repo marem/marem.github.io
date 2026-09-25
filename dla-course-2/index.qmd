@@ -11,6 +11,30 @@ format:
 [Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
 :::
 
+:::::: hero
+![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
+
+::::: hero-copy
+::: course-kicker
+Digital Acumen · Cape Manufacturing Case Study
+:::
+
+# Should We Invest in Solar?
+
+**A real decision is needed. Based on data. Applying spreadsheet skills.**
+
+You are a trainee accountant. Three solar proposals compete for an investment of R650,000 to R990,000. Which proposal should management choose? How confident are you in the numbers?
+
+::: meta-strip
+[65–80 minutes]{.meta-item} [Beginner spreadsheet level]{.meta-item} [Excel or Google Sheets]{.meta-item}
+:::
+:::::
+::::::
+
+::: course-video
+{{< video assets/intro-video.mp4 >}}
+:::
+
 {{< include includes/_index-progress-nav.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The investment brief"}
@@ -36,30 +60,6 @@ You are our trainee accountant, supporting the commercial analysis. Compare the 
 ::::
 :::::
 ::::::
-
-:::::: hero
-![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
-
-::::: hero-copy
-::: course-kicker
-Digital Acumen · Cape Manufacturing
-:::
-
-# Should We Invest in Solar?
-
-**A real decision is needed. Based on data. Applying spreadsheet skills.**
-
-You are a trainee accountant. Three solar proposals compete for an investment of R650,000 to R990,000. Which proposal should management choose? How confident are you in the numbers?
-
-::: meta-strip
-[65–80 minutes]{.meta-item} [Beginner spreadsheet level]{.meta-item} [Excel or Google Sheets]{.meta-item}
-:::
-:::::
-::::::
-
-::: course-video
-{{< video assets/intro-video.mp4 >}}
-:::
 
 :::::::::: obe
 ::: label
