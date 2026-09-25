@@ -1,6 +1,6 @@
 ---
 title: "04 · Decide"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case — Decide supported by evidence"
 format:
   html:
     toc: false

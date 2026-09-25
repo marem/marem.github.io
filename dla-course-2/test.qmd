@@ -1,6 +1,6 @@
 ---
 title: "03 · Test"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case — Test your model under various assumptions"
 format:
   html:
     toc: false

@@ -1,6 +1,6 @@
 ---
 title: "02 · Build"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case — Build your model in Excel"
 format:
   html:
     toc: false

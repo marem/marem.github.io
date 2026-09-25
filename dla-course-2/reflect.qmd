@@ -1,6 +1,6 @@
 ---
 title: "05 · Reflect"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case — Reflect on your learning and the investment decision"
 format:
   html:
     toc: false

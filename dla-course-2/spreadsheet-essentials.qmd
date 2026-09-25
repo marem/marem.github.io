@@ -1,6 +1,6 @@
 ---
 title: "Spreadsheet Essentials"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case — Prepare the Excel workbook for analysis"
 format:
   html:
     toc: false
