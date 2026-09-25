@@ -1,6 +1,6 @@
 ---
 title: "01 · Understand"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
+description: "Cape Manufacturing solar investment case - Establish an understanding of the problem"
 format:
   html:
     toc: false
