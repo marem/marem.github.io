@@ -90,18 +90,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<a class="skip-link" href="#learning-content">Skip course navigation</a>
 <div class="embed-utility">
 <p><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></p>
 </div>
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="active" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="" href="build.html">Build</a>
-<a data-progress-page="test" class="" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
-</nav>
+<nav class="stage-progress" aria-label="Course progress"><a data-progress-page="index" href="index.html">Start</a><a data-progress-page="understand" href="understand.html">Understand</a><a data-progress-page="spreadsheet-essentials" href="spreadsheet-essentials.html" class="active" aria-current="page">Spreadsheet Essentials</a><a data-progress-page="build" href="build.html">Build</a><a data-progress-page="test" href="test.html">Test</a><a data-progress-page="decide" href="decide.html">Decide</a><a data-progress-page="reflect" href="reflect.html">Reflect</a></nav><span id="learning-content" tabindex="-1"></span>
+<div class="case-study" aria-label="Cape Manufacturing case study: Prepare the working model">
+<div class="case-study-label">
+<p>Case study · Cape Manufacturing · Prepare the working model</p>
+</div>
+<p>You have reviewed the proposal inputs. Before completing the comparison, you prepare a working copy of the supplied workbook and establish the link between generation and self-consumption.</p>
+<div class="case-message">
+<div class="case-avatar" aria-hidden="true">
+<p>FD</p>
+</div>
+<div class="case-message-body">
+<div class="case-meta">
+<p>Monday 09:20 · Financial Director</p>
+</div>
+<section id="make-the-analysis-traceable-from-the-first-formula." class="level2">
+<h2 data-anchor-id="make-the-analysis-traceable-from-the-first-formula.">Make the analysis traceable from the first formula.</h2>
+<p>Keep the supplier inputs together and reference them in your calculations. I need to be able to follow each result back to its source.</p>
+</section>
+</div>
+</div>
+</div>
 <div class="page-visual">
 <p><img src="assets/03_spreadsheet_anatomy.png" class="img-fluid" alt="Annotated spreadsheet interface showing the course-critical controls"></p>
 </div>
@@ -110,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Enabling outcomes · spreadsheet readiness</p>
 </div>
 <div class="obe-body">
-<p><strong>Purpose of this section:</strong> provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel or Google Sheets proficiency is assumed.</p>
+<p><strong>Purpose of this section:</strong> provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel proficiency is assumed.</p>
 <p><strong>After completing this section, you should be able to:</strong></p>
 <ul>
 <li><strong>identify</strong> a cell using its column and row address;</li>
@@ -140,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 <div class="platform">
-<p><strong>Google Sheets</strong></p>
+<p><strong>Google Sheets compatibility</strong></p>
 <ul>
 <li>Start a formula: type <code class="cell">=</code>.</li>
 <li>Edit a cell: double-click it or use the formula bar.</li>
@@ -154,15 +167,12 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Same conceptual rule:</strong> <code class="cell">B15</code> is relative, <code class="cell">$B$4</code> is absolute, and <code class="cell">$A8</code> fixes only the column. Dollar signs have the same meaning in both applications.</p>
 </div>
 </div>
-<div class="thread">
-<p><strong>Story so far:</strong> You know what the proposal data mean. Now learn the spreadsheet mechanics needed to turn those inputs into a model.</p>
-</div>
-<div class="story">
+<div class="course-context">
 <div class="label">
 <p>Excel bridge · just enough Excel to start modelling</p>
 </div>
-<section id="you-do-not-need-to-know-excel-or-google-sheets-before-continuing" class="level2">
-<h2 data-anchor-id="you-do-not-need-to-know-excel-or-google-sheets-before-continuing">You do not need to know Excel or Google Sheets before continuing</h2>
+<section id="you-do-not-need-to-know-excel-before-continuing" class="level2">
+<h2 data-anchor-id="you-do-not-need-to-know-excel-before-continuing">You do not need to know Excel before continuing</h2>
 <p>You need five moves: select a cell, enter a formula, reference another sheet, copy a formula across, and format a result. You will practise each move on the actual Cape Manufacturing workbook.</p>
 </section>
 </div>
@@ -207,22 +217,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Click <code class="cell">B4</code> again. Move the pointer to the small square at the bottom-right corner of the selection (the fill handle). Both Excel and Google Sheets use this control.</li>
 <li>Drag the fill handle across to <code class="cell">D4</code>. In Google Sheets you can alternatively select <code class="cell">B4:D4</code> and use <strong>Fill right</strong> / <code class="kbd">Ctrl+R</code> where supported. Excel should adapt the relative references for Systems B and C.</li>
 </ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Check the three values
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<details>
+<summary>
+Check your answer
+</summary>
 <p><code class="cell">B4 = 82,800</code>, <code class="cell">C4 = 102,850</code>, <code class="cell">D4 = 114,660</code>.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 </div>
 <div class="excel">
@@ -243,15 +243,12 @@ Check the three values
 <p><strong>If you make a mistake:</strong> use Undo (<code class="kbd">Ctrl+Z</code> on Windows; <code class="kbd">⌘Z</code> on Mac). A formula can always be edited in the cell or Formula Bar.</p>
 </div>
 <div class="formative">
-<p><strong>Formative readiness check:</strong> you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.</p>
+<p><strong>Completed:</strong> you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.</p>
 </div>
 <div class="next">
 <p><strong>Next:</strong> use those moves to complete the commercial model.</p>
 </div>
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="understand.html">← Back</a>
-<a class="course-button app-link" href="build.html">Next: Build the model →</a>
-</nav>
+<nav class="iframe-nav app-nav" aria-label="Page navigation"><a class="course-button alt" href="understand.html">← Previous: Understand</a><a class="course-button" href="build.html">Next: Build →</a></nav>
 
 
 
@@ -260,7 +257,6 @@ Check the three values
 (function () {
   'use strict';
   const KEY = 'slaSolarV9';
-  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
   const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
   let memory = {};
 
@@ -271,14 +267,14 @@ Check the three values
   const store = storage();
   function read(){
     if(!store) return memory;
-    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+    try { const value=JSON.parse(store.getItem(KEY) || '{}'); return value && typeof value==='object' && !Array.isArray(value) ? value : {}; } catch(e){ return {}; }
   }
   function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
   function mutate(fn){ const s=read(); fn(s); write(s); return s; }
 
   // App-like navigation: every course page begins at the top of the iframe.
   if ('scrollRestoration' in history) history.scrollRestoration='manual';
-  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  function topNow(){ if(location.hash) return; try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
   document.addEventListener('DOMContentLoaded', topNow, {once:true});
   window.addEventListener('pageshow', topNow);
   requestAnimationFrame(topNow);
@@ -304,7 +300,7 @@ Check the three values
     const sameOrigin=u.origin===location.origin;
     const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
     const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
-    if(isPage){
+    if(isPage && a.getAttribute('target') !== '_blank'){
       a.setAttribute('target','_self');
       a.addEventListener('click', function(ev){
         if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
@@ -322,7 +318,7 @@ Check the three values
     r.addEventListener('change',()=>{
       mutate(x=>{x.prediction=r.value;});
       const o=document.querySelector('#prediction-status');
-      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+      if(o) o.textContent=(store ? 'Saved: ' : 'Selected for this page view: ')+r.value+'. You will revisit this on Reflect.';
     });
   });
   const prior=document.querySelector('#prior-prediction');
@@ -361,7 +357,7 @@ Check the three values
   // Add embedded-app class for CSS and a small fallback when storage is blocked.
   document.documentElement.classList.add('sla-app');
   if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
-  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
+  if(!store){ document.querySelectorAll('[data-storage-note], #prediction-status').forEach(n=>n.textContent='Progress will be kept for this page view only because browser storage is restricted. Copy your response before leaving this page.'); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

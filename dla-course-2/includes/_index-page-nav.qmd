@@ -1,6 +1,0 @@
-```{=html}
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<span></span>
-<a class="course-button app-link" href="understand.html">Next: Start the case →</a>
-</nav>
-```

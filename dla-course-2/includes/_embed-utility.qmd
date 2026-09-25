@@ -1,0 +1,7 @@
+```{=html}
+<a class="skip-link" href="#learning-content">Skip course navigation</a>
+```
+
+::: embed-utility
+[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
+:::

@@ -7,7 +7,7 @@ Published URL: `https://marcelmare.com/dla-course-2/`
 - Edit lesson content in the eight top-level `.qmd` pages using Markdown headings, lists, tables, links, and inline code for formulas.
 - Quarto fenced divisions (`::: class-name`) apply layout classes without HTML div tags in the lesson text.
 - Keep visual styling in `styles.css`.
-- Navigation and interactive form markup live in the named `.qmd` partials under `includes/`, referenced with Quarto include shortcodes. The partials wrap their HTML in raw HTML fences.
+- Navigation is generated at render time by `includes/course-navigation.lua`, using one ordered list for progress and Previous/Next links. Shared `.qmd` includes provide insertion points; interactive form markup remains in separate partials.
 - Learner-state behaviour remains in `includes/course-state.html`.
 - Render with `quarto render dla-course-2`, then copy `dla-course-2/_site/.` into `docs/dla-course-2/` for the published output. The publishing workflow also performs these steps.
 
@@ -24,8 +24,8 @@ This build is designed to occupy effectively the entire content area of a Google
 ## Navigation behaviour
 
 - Start → Understand → Spreadsheet Essentials → Build → Test → Decide → Reflect remains inside the iframe.
-- Course links are forced to `_self`.
-- Each new course page resets the iframe scroll position to the top.
+- Course links remain in `_self`; explicit new-window utility and resource links retain `_blank`.
+- Each new course page resets the iframe scroll position to the top, except explicit fragment links.
 - Browser history scroll restoration is disabled for course pages so Back/Forward does not reopen halfway down a lesson.
 - Downloads remain normal downloads; PDFs/resources may open separately where explicitly requested.
 - The “Open course in new window” utility remains available as an accessibility/full-screen escape hatch.
@@ -41,15 +41,11 @@ This build is designed to occupy effectively the entire content area of a Google
 
 Storage uses `localStorage` when available, falls back to `sessionStorage`, then degrades safely to in-memory state if third-party iframe storage is restricted.
 
-## Intro video
+## Workbook scaffold and media
 
-Place `intro-video.mp4` in `assets/` and replace the placeholder in `index.qmd` with:
+The V8 student workbook includes the reference model’s NPV formulas and cached results in `Test Assumptions!B8:E8`. Learners inspect the references, fill down and refine the crossover. Year-1 calculations and the remaining sensitivity rows stay blank. The five sheets, cell addresses and download filenames are unchanged.
 
-```markdown
-::: {.course-video}
-{{< video assets/intro-video.mp4 >}}
-:::
-```
+The original introduction video is retained in an optional disclosure with a visual description. Review its audio and provide verified captions before claiming full media accessibility; no transcript was supplied.
 
 ## Render
 

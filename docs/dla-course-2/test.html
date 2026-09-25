@@ -90,65 +90,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<a class="skip-link" href="#learning-content">Skip course navigation</a>
 <div class="embed-utility">
 <p><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></p>
 </div>
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="" href="build.html">Build</a>
-<a data-progress-page="test" class="active" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
-</nav>
-<div class="message">
-<div class="meta">
-<p>13:15 · Thandi Jacobs · Production Manager</p>
+<nav class="stage-progress" aria-label="Course progress"><a data-progress-page="index" href="index.html">Start</a><a data-progress-page="understand" href="understand.html">Understand</a><a data-progress-page="spreadsheet-essentials" href="spreadsheet-essentials.html">Spreadsheet Essentials</a><a data-progress-page="build" href="build.html">Build</a><a data-progress-page="test" href="test.html" class="active" aria-current="page">Test</a><a data-progress-page="decide" href="decide.html">Decide</a><a data-progress-page="reflect" href="reflect.html">Reflect</a></nav><span id="learning-content" tabindex="-1"></span>
+<div class="case-study" aria-label="Cape Manufacturing case study: Operations challenges the assumption">
+<div class="case-study-label">
+<p>Case study · Cape Manufacturing · Operations challenges the assumption</p>
 </div>
-<p><strong>I’m not convinced by Supplier C’s 78% self-consumption assumption.</strong></p>
-<p>Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?</p>
+<p>Your Year-1 comparison favours A for the fastest payback. The next question is long-term value: the supplied 20-year model puts C ahead under the base assumptions, but that result depends on how much solar output the factory can use.</p>
+<div class="case-message">
+<div class="case-avatar" aria-hidden="true">
+<p>TJ</p>
+</div>
+<div class="case-message-body">
+<div class="case-meta">
+<p>Monday 13:15 · Thandi Jacobs · Production Manager</p>
+</div>
+<section id="will-we-really-use-78-of-system-cs-output" class="level2">
+<h2 data-anchor-id="will-we-really-use-78-of-system-cs-output">Will we really use 78% of System C’s output?</h2>
+<p>Production varies during the week. If we cannot use as much solar power at the time it is generated as Supplier C assumes, does C still offer the highest net present value (NPV)?</p>
+</section>
+</div>
+</div>
 </div>
 <div class="obe">
 <div class="obe-head">
-<p>Purpose → Outcome → Activity → Evidence</p>
+<p>Stage outcome and evidence</p>
 </div>
 <div class="obe-body">
-<p><strong>Purpose of this stage:</strong> move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.</p>
 <p><strong>Outcome for this stage:</strong> <strong>Evaluate the sensitivity of an investment decision to a material operational assumption and interpret the implications for management.</strong></p>
-<p><strong>You will demonstrate this by:</strong> distinguishing payback from NPV; changing System C’s self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.</p>
 <p><strong>Evidence:</strong> completed <code class="cell">Test Assumptions!A7:E14</code>, crossover interpretation and an evidence requirement concerning the factory load profile.</p>
 </div>
 </div>
-<div class="platform-note">
+<div class="course-context">
 <div class="label">
-<p>Excel + Google Sheets · Test</p>
+<p>Course guidance · compare payback and NPV</p>
 </div>
-<p>The <code class="cell">SUMPRODUCT</code>, <code class="cell">ROW</code>, <code class="cell">MAX</code>, <code class="cell">MATCH</code> and <code class="cell">CHOOSE</code> formulas below are written once and used unchanged in both applications.</p>
-<div class="platform-grid">
-<div class="platform">
-<p><strong>Excel</strong> Enter formulas in <code class="cell">B8:E8</code>; select the row and drag the fill handle down to row 14. Format <code class="cell">B8:D14</code> as rand currency.</p>
-</div>
-<div class="platform">
-<p><strong>Google Sheets</strong> Enter the same formulas in <code class="cell">B8:E8</code>; drag the fill handle down to row 14, or select <code class="cell">B8:E14</code> and use <strong>Fill down</strong> / <code class="kbd">Ctrl+D</code>. Format <code class="cell">B8:D14</code> via Format → Number → Currency.</p>
-</div>
-</div>
-<div class="same">
-<p><strong>Do not “translate” the formulas.</strong> Sheet names, apostrophes, dollar signs and cell addresses remain exactly as printed.</p>
-</div>
-</div>
-<div class="thread">
-<p><strong>Story so far:</strong> Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.</p>
-</div>
-<div class="story">
-<div class="label">
-<p>The case · Operations challenges the supplier assumption</p>
-</div>
-<section id="will-we-really-use-78-of-system-cs-output" class="level2">
-<h2 data-anchor-id="will-we-really-use-78-of-system-cs-output">“Will we really use 78% of System C’s output?”</h2>
+<section id="will-we-really-use-78-of-system-cs-output-1" class="level2">
+<h2 data-anchor-id="will-we-really-use-78-of-system-cs-output-1">“Will we really use 78% of System C’s output?”</h2>
 <p>Simple payback favours System A at about <strong>2.92 years</strong>. A 20-year discounted cash-flow view tells a different story: under the base assumptions, System C has the highest NPV at about <strong>R2.871 million</strong>.</p>
 <p>Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.</p>
-<p>The Production Manager now questions System C’s 78% self-consumption. Your task is to stress-test that assumption.</p>
+<p>Hold the assumptions for A and B fixed while varying C’s self-consumption. This isolates the effect of the operational uncertainty.</p>
 </section>
 </div>
 <div class="caseq">
@@ -164,30 +148,28 @@ ul.task-list li input[type="checkbox"] {
 <section id="work-on-the-test-assumptions-sheet" class="level3">
 <h3 data-anchor-id="work-on-the-test-assumptions-sheet">Work on the Test Assumptions sheet</h3>
 <p>The scenario rates are already entered in <code class="cell">A8:A14</code>: 78%, 75%, 72%, 70%, 68%, 65%, 60%.</p>
-<p>Enter the following formulas in row 8. The formulas use <code class="cell">SUMPRODUCT</code> to value 20 years of escalating savings, degradation, maintenance and discounting. For this short course, you are <strong>using</strong> the discounted-cash-flow engine rather than being assessed on constructing it from first principles.</p>
-<p><strong>NPV A — Test Assumptions!B8</strong></p>
-<div class="formula">
-<p><code>=SUMPRODUCT(('Case Data'!$B$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$B$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$B$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$B$13</code></p>
-</div>
-<p><strong>NPV B — Test Assumptions!C8</strong></p>
-<div class="formula">
-<p><code>=SUMPRODUCT(('Case Data'!$C$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$C$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$C$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$C$13</code></p>
-</div>
-<p><strong>NPV C — Test Assumptions!D8</strong></p>
-<div class="formula">
-<p><code>=SUMPRODUCT(('Case Data'!$D$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*$A8*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$D$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$D$13</code></p>
-</div>
-<p><strong>Highest NPV — Test Assumptions!E8</strong></p>
-<div class="formula">
-<p><code>=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"System A","System B","System C")</code></p>
-</div>
+<p>The NPV engine and highest-NPV formula are <strong>already supplied in B8:E8</strong> of the student workbook. You do not need to transcribe them.</p>
 <ol type="1">
-<li>After entering the four formulas in <code class="cell">B8:E8</code>, select them.</li>
-<li>Drag the fill handle down through row 14. Because System C’s formula uses <code class="cell">$A8</code>, the scenario row changes while column A stays fixed.</li>
-<li>Format <code class="cell">B8:D14</code> as rand currency with no decimals.</li>
+<li>Select <code>D8</code> and inspect the Formula Bar. Find <code>$A8</code>: this links C’s self-consumption to the scenario in column A. Dollar signs keep the column fixed when the formula is copied.</li>
+<li>Select <code>B8:E8</code> and drag the fill handle down through row 14. Inspect <code>D9</code>: the scenario reference should now be <code>$A9</code>, while the Case Data references remain fixed.</li>
+<li>Format <code>B8:D14</code> as rand currency with no decimals. A and B should remain unchanged; only C’s self-consumption varies.</li>
+<li>Identify the two scenario rates between which B overtakes C. Refine the estimate by temporarily entering <strong>74%</strong>, then <strong>73.9%</strong>, in <code>A14</code>. Watch D14 and E14 recalculate; then restore A14 to <strong>60%</strong>.</li>
 </ol>
+<p><strong>Google Sheets compatibility:</strong> select <code>B8:E14</code> and use <strong>Fill down</strong> if dragging is difficult; use <strong>Format → Number → Currency</strong> for the results.</p>
+<details>
+<summary>
+Advanced: How the NPV engine works
+</summary>
+<p>For each of 20 years, the supplied formula calculates generation after degradation, multiplies it by self-consumption and the escalating tariff, then subtracts escalating maintenance. It discounts each year-end net saving to today and subtracts the initial installed cost at time zero. The workbook expands these annual terms explicitly, so each term can be inspected in the Formula Bar.</p>
+<p>A and B use fixed base-case self-consumption. C uses <code>$A8</code>, which becomes <code>$A9</code> when filled down. All other case inputs are anchored. The 20-year horizon is fixed for this activity.</p>
+<p>The supplied <code>=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"A","B","C")</code> identifies the highest NPV. In an exact tie it returns the first matching proposal; inspect the values when interpreting the crossover.</p>
+</details>
 </section>
 </div>
+<details>
+<summary>
+Check your answer · sensitivity results
+</summary>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -234,50 +216,31 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</details>
 <div class="formative">
 <div class="label">
 <p>Formative checkpoint · find the crossover</p>
 </div>
-<p>Compare columns <code class="cell">C</code> and <code class="cell">D</code> in rows <code class="cell">8:14</code>. The switch occurs between 75% and 72%.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Formative feedback · check your conclusion
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<p>Compare columns <code class="cell">C</code> and <code class="cell">D</code> in rows <code class="cell">8:14</code>. Find the interval where the ranking changes.</p>
+<details>
+<summary>
+Check your answer
+</summary>
 <p>System B overtakes System C at approximately <strong>74%</strong> self-consumption. The modelled crossover is about <strong>73.96%</strong>.</p>
-</div>
-</div>
-</div>
+</details>
 </div>
 <section id="interrogate-the-assumption-not-just-the-number" class="level3 card accent">
 <h3 data-anchor-id="interrogate-the-assumption-not-just-the-number">Interrogate the assumption, not just the number</h3>
 <p>Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
+<details>
+<summary>
 Why half-hourly data?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+</summary>
 <p>Self-consumption depends on <strong>when</strong> electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory’s load profile.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 <div class="output">
-<p><strong>Evidence produced:</strong> completed sensitivity table <code class="cell">Test Assumptions!A7:E14</code> and a reasoned view on the operational data management still needs.</p>
+<p><strong>Completed:</strong> completed sensitivity table <code class="cell">Test Assumptions!A7:E14</code> and a reasoned view on the operational data management still needs.</p>
 </div>
 <div class="next">
 <p><strong>Next:</strong> turn conflicting evidence and uncertainty into an executive recommendation.</p>
@@ -288,14 +251,11 @@ Why half-hourly data?
 <section id="what-should-management-do-with-the-crossover-result" class="level3 interactive">
 <h3 data-anchor-id="what-should-management-do-with-the-crossover-result">What should management do with the crossover result?</h3>
 <label class="choice"><input type="radio" name="cross" value="a"> Reject Proposal C immediately.</label> <label class="choice"><input type="radio" name="cross" value="b"> Accept the supplier's 78% assumption.</label> <label class="choice"><input type="radio" name="cross" value="c"> Obtain better evidence about the factory load profile.</label> <label class="choice"><input type="radio" name="cross" value="d"> Choose Proposal A because it has the shortest payback.</label> <button type="button" class="btn" data-group="cross" data-check-answer="c">Check my reasoning</button>
-<div id="cross-feedback" class="formative" hidden="">
+<div id="cross-feedback" class="formative" role="status" aria-live="polite" hidden="">
 
 </div>
 </section>
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="build.html">← Back</a>
-<a class="course-button app-link" href="decide.html">Next: Decide →</a>
-</nav>
+<nav class="iframe-nav app-nav" aria-label="Page navigation"><a class="course-button alt" href="build.html">← Previous: Build</a><a class="course-button" href="decide.html">Next: Decide →</a></nav>
 
 
 
@@ -304,7 +264,6 @@ Why half-hourly data?
 (function () {
   'use strict';
   const KEY = 'slaSolarV9';
-  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
   const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
   let memory = {};
 
@@ -315,14 +274,14 @@ Why half-hourly data?
   const store = storage();
   function read(){
     if(!store) return memory;
-    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+    try { const value=JSON.parse(store.getItem(KEY) || '{}'); return value && typeof value==='object' && !Array.isArray(value) ? value : {}; } catch(e){ return {}; }
   }
   function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
   function mutate(fn){ const s=read(); fn(s); write(s); return s; }
 
   // App-like navigation: every course page begins at the top of the iframe.
   if ('scrollRestoration' in history) history.scrollRestoration='manual';
-  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  function topNow(){ if(location.hash) return; try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
   document.addEventListener('DOMContentLoaded', topNow, {once:true});
   window.addEventListener('pageshow', topNow);
   requestAnimationFrame(topNow);
@@ -348,7 +307,7 @@ Why half-hourly data?
     const sameOrigin=u.origin===location.origin;
     const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
     const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
-    if(isPage){
+    if(isPage && a.getAttribute('target') !== '_blank'){
       a.setAttribute('target','_self');
       a.addEventListener('click', function(ev){
         if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
@@ -366,7 +325,7 @@ Why half-hourly data?
     r.addEventListener('change',()=>{
       mutate(x=>{x.prediction=r.value;});
       const o=document.querySelector('#prediction-status');
-      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+      if(o) o.textContent=(store ? 'Saved: ' : 'Selected for this page view: ')+r.value+'. You will revisit this on Reflect.';
     });
   });
   const prior=document.querySelector('#prior-prediction');
@@ -405,7 +364,7 @@ Why half-hourly data?
   // Add embedded-app class for CSS and a small fallback when storage is blocked.
   document.documentElement.classList.add('sla-app');
   if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
-  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
+  if(!store){ document.querySelectorAll('[data-storage-note], #prediction-status').forEach(n=>n.textContent='Progress will be kept for this page view only because browser storage is restricted. Copy your response before leaving this page.'); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

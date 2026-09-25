@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "*.qmd"
   output-dir: _site
   resources:
     - assets/**
@@ -26,3 +28,5 @@ format:
 
 execute:
   freeze: auto
+filters:
+  - includes/course-navigation.lua

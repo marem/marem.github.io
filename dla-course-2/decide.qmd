@@ -7,11 +7,9 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
+{{< include includes/_embed-utility.qmd >}}
 
-{{< include includes/_decide-progress-nav.qmd >}}
+{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The recommendation"}
 ::: case-study-label
@@ -30,7 +28,7 @@ FD
 Monday 15:30 · Financial Director
 :::
 
-### Now turn the evidence into a recommendation.
+## Now turn the evidence into a recommendation.
 
 Which system should we take forward, why, and what do we still need to verify before signing? Keep your recommendation to 100 words. Separately, record the evidence you would need to assess Supplier C’s environmental claim.
 ::::
@@ -39,15 +37,11 @@ Which system should we take forward, why, and what do we still need to verify be
 
 ::::: obe
 ::: obe-head
-Purpose → Outcome → Assessment criteria → Evidence
+Stage outcome and evidence
 :::
 
 ::: obe-body
-**Purpose of this stage:** integrate quantitative evidence, uncertainty and professional scepticism into a concise management recommendation.
-
 **Outcome for this stage:** **Formulate and communicate an evidence-based investment recommendation that integrates quantitative analysis, commercial trade-offs, uncertainty and professional scepticism.**
-
-**Associated assessment criteria:** a successful response identifies a proposal; uses at least two correctly interpreted quantitative results; explains one material trade-off; identifies an assumption requiring verification; distinguishes evidence from an unsupported supplier claim; and remains within 100 words.
 
 **Evidence:** recommendation in `Recommendation!A7`{.cell} and professional-scepticism response in `Recommendation!A22`{.cell}.
 :::
@@ -55,7 +49,7 @@ Purpose → Outcome → Assessment criteria → Evidence
 
 ::::::: platform-note
 ::: label
-Excel + Google Sheets · Decide
+Microsoft Excel · Decide
 :::
 
 ::::: platform-grid
@@ -64,11 +58,10 @@ Excel + Google Sheets · Decide
 :::
 
 ::: platform
-**Google Sheets** Enter the recommendation in the same response area beginning `Recommendation!A7`{.cell}. Use Format → Wrapping → **Wrap** if necessary.
+**Google Sheets compatibility** Enter the recommendation in the same response area beginning `Recommendation!A7`{.cell}. Use Format → Wrapping → **Wrap** if necessary.
 :::
 :::::
 
-Use the workbook cells as evidence rather than retyping numbers from memory. This audit trail is the same in both platforms.
 :::::::
 
 :::: course-context
@@ -100,7 +93,7 @@ Excel instruction · use the workbook as evidence
 -   Sensitivity evidence: `Test Assumptions!A8:E14`{.cell}.
 -   Write your final recommendation in the merged response area beginning at `Recommendation!A7`{.cell} (displayed across A7:F13).
 
-Use **Wrap Text** if needed. Keep the recommendation to 100 words or fewer.
+Keep the recommendation to 100 words or fewer.
 ::::
 
 :::: caseq
@@ -135,7 +128,7 @@ Go to `Recommendation!A22`{.cell} (merged across A22:F26) and type your response
 ::::
 
 ::: output
-**Evidence produced:** ≤100-word recommendation in `Recommendation!A7`{.cell} + evidence request in `Recommendation!A22`{.cell}.
+**Completed:** ≤100-word recommendation in `Recommendation!A7`{.cell} + evidence request in `Recommendation!A22`{.cell}.
 :::
 
 :::: interactive
@@ -152,4 +145,4 @@ Pre-submission check
 **Next:** audit your outputs, explain the trade-off and transfer the modelling pattern.
 :::
 
-{{< include includes/_decide-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}

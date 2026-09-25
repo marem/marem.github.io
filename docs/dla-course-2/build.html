@@ -90,59 +90,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<a class="skip-link" href="#learning-content">Skip course navigation</a>
 <div class="embed-utility">
 <p><a href="https://marcelmare.com/dla-course-2/" target="_blank" rel="noopener">Open course in new window ↗</a></p>
 </div>
-<nav class="stage-progress" aria-label="Course progress">
-<a data-progress-page="index" class="" href="index.html">Start</a>
-<a data-progress-page="understand" class="" href="understand.html">Understand</a>
-<a data-progress-page="spreadsheet-essentials" class="" href="spreadsheet-essentials.html">Spreadsheets</a>
-<a data-progress-page="build" class="active" href="build.html">Build</a>
-<a data-progress-page="test" class="" href="test.html">Test</a>
-<a data-progress-page="decide" class="" href="decide.html">Decide</a>
-<a data-progress-page="reflect" class="" href="reflect.html">Reflect</a>
-</nav>
+<nav class="stage-progress" aria-label="Course progress"><a data-progress-page="index" href="index.html">Start</a><a data-progress-page="understand" href="understand.html">Understand</a><a data-progress-page="spreadsheet-essentials" href="spreadsheet-essentials.html">Spreadsheet Essentials</a><a data-progress-page="build" href="build.html" class="active" aria-current="page">Build</a><a data-progress-page="test" href="test.html">Test</a><a data-progress-page="decide" href="decide.html">Decide</a><a data-progress-page="reflect" href="reflect.html">Reflect</a></nav><span id="learning-content" tabindex="-1"></span>
+<div class="case-study" aria-label="Cape Manufacturing case study: The Year-1 comparison">
+<div class="case-study-label">
+<p>Case study · Cape Manufacturing · The Year-1 comparison</p>
+</div>
+<p>The inputs are understood and your first useful-generation calculation is in place. Management now needs the same financial measures for all three proposals.</p>
+<div class="case-message">
+<div class="case-avatar" aria-hidden="true">
+<p>FD</p>
+</div>
+<div class="case-message-body">
+<div class="case-meta">
+<p>Monday 09:40 · Financial Director</p>
+</div>
+<section id="before-we-discuss-long-term-value-give-me-a-clean-year-1-comparison." class="level2">
+<h2 data-anchor-id="before-we-discuss-long-term-value-give-me-a-clean-year-1-comparison.">Before we discuss long-term value, give me a clean Year-1 comparison.</h2>
+<p>Show me how much generation we can use, what we save after maintenance and how quickly the initial capital is recovered. Keep the model traceable to the source data.</p>
+</section>
+</div>
+</div>
+</div>
 <div class="page-visual">
 <p><img src="assets/05_evidence_to_decision.png" class="img-fluid" alt="Model to management information diagram"></p>
 </div>
-<div class="message">
-<div class="meta">
-<p>09:40 · Financial Director</p>
-</div>
-<p><strong>Before we discuss NPV, give me a clean Year-1 comparison.</strong></p>
-<p>I want to see what each system produces economically, what it saves after maintenance, and how quickly the capital is recovered. Keep the model traceable to the source data.</p>
-</div>
 <div class="obe">
 <div class="obe-head">
-<p>Purpose → Outcome → Activity → Evidence</p>
+<p>Stage outcome and evidence</p>
 </div>
 <div class="obe-body">
-<p><strong>Purpose of this stage:</strong> convert supplier and case data into comparable financial measures using an auditable spreadsheet structure.</p>
 <p><strong>Outcome for this stage:</strong> <strong>Construct an auditable spreadsheet model that converts operational solar data into comparable Year-1 financial measures.</strong></p>
-<p><strong>You will demonstrate this by:</strong> calculating useful generation, gross and net Year-1 savings and simple payback; applying relative and absolute references appropriately; formatting outputs consistently; and creating a decision-relevant visual.</p>
-<p><strong>Evidence:</strong> completed <code class="cell">Your Model!B4:D8</code>, one comparison chart and a one-sentence visual-design rationale.</p>
+<p><strong>Evidence:</strong> completed <code class="cell">Your Model!B4:D7</code> (optional ranks in row 8), one comparison chart and a one-sentence visual-design rationale.</p>
 </div>
 </div>
 <div class="platform-note">
 <div class="label">
-<p>Excel + Google Sheets · Build</p>
+<p>Microsoft Excel · Build</p>
 </div>
-<p><strong>All formulas on this page are identical.</strong> Enter them in the same cells and copy them across in the same direction.</p>
 <div class="platform-grid">
 <div class="platform">
 <p><strong>Excel formatting</strong> Select <code class="cell">B5:D6</code> → Home → Number and choose Currency/Accounting. Select <code class="cell">B7:D7</code> and show two decimal places.</p>
 </div>
 <div class="platform">
-<p><strong>Google Sheets formatting</strong> Select <code class="cell">B5:D6</code> → Format → Number → Currency (or use the currency toolbar button). Select <code class="cell">B7:D7</code> → Format → Number → Number and set two decimal places.</p>
+<p><strong>Google Sheets compatibility — formatting</strong> Select <code class="cell">B5:D6</code> → Format → Number → Currency (or use the currency toolbar button). Select <code class="cell">B7:D7</code> → Format → Number → Number and set two decimal places.</p>
 </div>
 </div>
 </div>
-<div class="thread">
-<p><strong>Story so far:</strong> You understand the inputs and have entered your first formula. Now complete the chain from operating data to payback.</p>
-</div>
-<div class="story">
+<div class="course-context">
 <div class="label">
-<p>The case · The Financial Director wants comparable numbers</p>
+<p>Course guidance · build the comparison</p>
 </div>
 <section id="turn-three-supplier-proposals-into-one-auditable-model" class="level2">
 <h2 data-anchor-id="turn-three-supplier-proposals-into-one-auditable-model">Turn three supplier proposals into one auditable model</h2>
@@ -183,25 +183,25 @@ ul.task-list li input[type="checkbox"] {
 <p><code>=B4*'Case Data'!$B$4</code></p>
 </div>
 <p>Copy across to <code class="cell">D5</code>. The first reference changes B4 → C4 → D4; the tariff stays locked at <code class="cell">Case Data!$B$4</code>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Formative feedback · check values
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<details>
+<summary>
+Check your answer
+</summary>
 <p>B5 = R231,840; C5 = R287,980; D5 = R321,048.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 </div>
 </div>
+<section id="check-your-model-a-copied-reference" class="level2 formative">
+<h2 data-anchor-id="check-your-model-a-copied-reference">Check your model · a copied reference</h2>
+<p>A colleague’s formula in <code>Your Model!C5</code> is <code>=C4*'Case Data'!C4</code>. It should calculate System B’s gross saving. Inspect <code>Case Data!C4</code>: why will this formula fail, and how should you correct it before copying across?</p>
+<details>
+<summary>
+Check your answer
+</summary>
+<p><code>C4</code> on <strong>Case Data</strong> contains the unit label, not the tariff. The tariff reference has moved during copying. Use <code>=C4*'Case Data'!$B$4</code>: useful generation remains relative, while the tariff stays fixed. The result should be <strong>R287,980</strong>. Correct the original formula in B5 too, then inspect D5 after copying.</p>
+</details>
+</section>
 <div class="card spaced-card">
 <div class="step">
 <div class="num">
@@ -217,22 +217,12 @@ Formative feedback · check values
 <p><code>=B5-'Case Data'!B17</code></p>
 </div>
 <p>Copy across to <code class="cell">D6</code>. Format <code class="cell">B6:D6</code> as rand currency.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Formative feedback · check values
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<details>
+<summary>
+Check your answer
+</summary>
 <p>B6 = R222,840; C6 = R276,980; D6 = R307,048.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 </div>
 </div>
@@ -251,22 +241,12 @@ Formative feedback · check values
 <p><code>='Case Data'!B13/B6</code></p>
 </div>
 <p>Copy across to <code class="cell">D7</code>. Format <code class="cell">B7:D7</code> to two decimal places.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Formative feedback · diagnose your result
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<details>
+<summary>
+Check your answer
+</summary>
 <p>Your answers should be approximately A = 2.92, B = 2.96, C = 3.22 years. If not, check percentage formats, cell references, subtraction of maintenance, and numerator/denominator.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 </div>
 </div>
@@ -281,22 +261,12 @@ Formative feedback · diagnose your result
 <p><code>=RANK.EQ(B7,$B$7:$D$7,1)</code></p>
 </div>
 <p>Copy across to <code class="cell">D8</code>. The final argument <code class="cell">1</code> means the smallest payback receives rank 1.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Formative feedback · check ranks
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<details>
+<summary>
+Check your answer
+</summary>
 <p>System A = 1, System B = 2, System C = 3.</p>
-</div>
-</div>
-</div>
+</details>
 </section>
 </div>
 <div class="excel">
@@ -314,7 +284,7 @@ Formative feedback · check ranks
 <p><strong>Excel</strong> Select <code class="cell">B3:D3</code>, then add the non-adjacent <code class="cell">B7:D7</code> range using <code class="kbd">Ctrl</code> (Windows) or <code class="kbd">⌘</code> (Mac). Choose <strong>Insert → Column or Bar Chart → Clustered Column</strong>.</p>
 </div>
 <div class="platform">
-<p><strong>Google Sheets</strong> The simplest beginner route is to create a small temporary two-row chart source in unused cells (for example <code class="cell">H3:J4</code>): copy the three proposal names into row 3 and link row 4 to <code class="cell">B7:D7</code>. Select <code class="cell">H3:J4</code> → <strong>Insert → Chart</strong> → choose <strong>Column chart</strong> in the Chart editor. This avoids awkward non-adjacent selection.</p>
+<p><strong>Google Sheets compatibility</strong> The simplest beginner route is to create a small temporary two-row chart source in unused cells (for example <code class="cell">H3:J4</code>): copy the three proposal names into row 3 and link row 4 to <code class="cell">B7:D7</code>. Select <code class="cell">H3:J4</code> → <strong>Insert → Chart</strong> → choose <strong>Column chart</strong> in the Chart editor. This avoids awkward non-adjacent selection.</p>
 </div>
 </div>
 <ol start="3" type="1">
@@ -325,15 +295,12 @@ Formative feedback · check ranks
 </section>
 </div>
 <div class="output">
-<p><strong>Evidence produced:</strong> completed <code class="cell">Your Model!B4:D8</code> + one chart + one-sentence design rationale.</p>
+<p><strong>Completed:</strong> completed <code class="cell">Your Model!B4:D7</code> (optional ranks in row 8) + one chart + one-sentence design rationale.</p>
 </div>
 <div class="next">
 <p><strong>Next:</strong> management challenges an assumption. Test whether your conclusion survives.</p>
 </div>
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="spreadsheet-essentials.html">← Back</a>
-<a class="course-button app-link" href="test.html">Next: Test the model →</a>
-</nav>
+<nav class="iframe-nav app-nav" aria-label="Page navigation"><a class="course-button alt" href="spreadsheet-essentials.html">← Previous: Spreadsheet Essentials</a><a class="course-button" href="test.html">Next: Test →</a></nav>
 
 
 
@@ -342,7 +309,6 @@ Formative feedback · check ranks
 (function () {
   'use strict';
   const KEY = 'slaSolarV9';
-  const ORDER = ['index','understand','spreadsheet-essentials','build','test','decide','reflect'];
   const page = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/,'') || 'index';
   let memory = {};
 
@@ -353,14 +319,14 @@ Formative feedback · check ranks
   const store = storage();
   function read(){
     if(!store) return memory;
-    try { return JSON.parse(store.getItem(KEY) || '{}'); } catch(e){ return {}; }
+    try { const value=JSON.parse(store.getItem(KEY) || '{}'); return value && typeof value==='object' && !Array.isArray(value) ? value : {}; } catch(e){ return {}; }
   }
   function write(s){ memory=s; if(store){ try{ store.setItem(KEY, JSON.stringify(s)); }catch(e){} } }
   function mutate(fn){ const s=read(); fn(s); write(s); return s; }
 
   // App-like navigation: every course page begins at the top of the iframe.
   if ('scrollRestoration' in history) history.scrollRestoration='manual';
-  function topNow(){ try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
+  function topNow(){ if(location.hash) return; try { window.scrollTo({top:0,left:0,behavior:'instant'}); } catch(e){ window.scrollTo(0,0); } }
   document.addEventListener('DOMContentLoaded', topNow, {once:true});
   window.addEventListener('pageshow', topNow);
   requestAnimationFrame(topNow);
@@ -386,7 +352,7 @@ Formative feedback · check ranks
     const sameOrigin=u.origin===location.origin;
     const isCourse=sameOrigin && u.pathname.includes('/dla-course-2/');
     const isPage=isCourse && /\.(html)?$|\/$/.test(u.pathname);
-    if(isPage){
+    if(isPage && a.getAttribute('target') !== '_blank'){
       a.setAttribute('target','_self');
       a.addEventListener('click', function(ev){
         if(ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.altKey||a.hasAttribute('download')) return;
@@ -404,7 +370,7 @@ Formative feedback · check ranks
     r.addEventListener('change',()=>{
       mutate(x=>{x.prediction=r.value;});
       const o=document.querySelector('#prediction-status');
-      if(o) o.textContent='Saved: '+r.value+'. You will revisit this on Reflect.';
+      if(o) o.textContent=(store ? 'Saved: ' : 'Selected for this page view: ')+r.value+'. You will revisit this on Reflect.';
     });
   });
   const prior=document.querySelector('#prior-prediction');
@@ -443,7 +409,7 @@ Formative feedback · check ranks
   // Add embedded-app class for CSS and a small fallback when storage is blocked.
   document.documentElement.classList.add('sla-app');
   if(window.self!==window.top) document.documentElement.classList.add('is-embedded');
-  if(!store){ const n=document.querySelector('[data-storage-note]'); if(n) n.textContent='Progress will be kept for this page view only because browser storage is restricted.'; }
+  if(!store){ document.querySelectorAll('[data-storage-note], #prediction-status').forEach(n=>n.textContent='Progress will be kept for this page view only because browser storage is restricted. Copy your response before leaving this page.'); }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,11 +7,9 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
+{{< include includes/_embed-utility.qmd >}}
 
-{{< include includes/_reflect-progress-nav.qmd >}}
+{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The debrief"}
 ::: case-study-label
@@ -30,7 +28,7 @@ FD
 Monday 16:00 · Financial Director
 :::
 
-### What changed your judgement—and what remains uncertain?
+## What changed your judgement—and what remains uncertain?
 
 Explain how the model and sensitivity test changed your initial view. What would you check next, and what would you carry into our next investment decision?
 ::::
@@ -38,11 +36,21 @@ Explain how the model and sensitivity test changed your initial view. What would
 ::::::
 
 ::: {#revisit-your-initial-judgement .state-box}
-## Revisit your initial judgement
+## Revisit
 
-Your initial prediction on this device was: **[Loading…]{#prior-prediction}**
+Your initial prediction on this device was: **[No saved prediction available.]{#prior-prediction}**
 
-What changed in your reasoning after building and stress-testing the model?
+What did you initially think mattered most in choosing between the proposals?
+
+## Explain
+
+Which result, assumption or sensitivity finding changed or strengthened your judgement, and why?
+
+## Transfer
+
+Identify another business investment decision where you could use the same pattern:
+
+**Inputs → Model → Test assumptions → Interpret → Recommend**
 
 {{< include includes/_reflect-reflection-input.qmd >}}
 :::
@@ -56,7 +64,7 @@ Use the completed model only after you have built, tested and checked your own w
 :::
 
 ::: next
-**Course complete:** the reviewer page explains the curriculum logic behind the activity.
+**Completed:** built evidence, tested assumptions and communicated a qualified recommendation. Carry this analytical pattern into your next investment decision.
 :::
 
-{{< include includes/_reflect-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}

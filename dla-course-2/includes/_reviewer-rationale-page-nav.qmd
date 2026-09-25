@@ -1,6 +1,0 @@
-```{=html}
-<nav class="iframe-nav app-nav" aria-label="Page navigation">
-<a class="course-button alt app-link" href="index.html">← Back</a>
-<span></span>
-</nav>
-```

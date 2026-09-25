@@ -7,11 +7,9 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
+{{< include includes/_embed-utility.qmd >}}
 
-{{< include includes/_understand-progress-nav.qmd >}}
+{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The proposals arrive"}
 ::: case-study-label
@@ -30,7 +28,7 @@ FD
 Monday 09:00 · Financial Director
 :::
 
-### First, establish what we are buying—and what we can use.
+## First, establish what we are buying—and what we can use.
 
 Check the proposal data before calculating. A larger system produces more electricity, but how much of that output will actually reduce our grid purchases?
 ::::
@@ -55,15 +53,11 @@ Your choice is saved automatically on this device. You will revisit it on Reflec
 
 ::::: obe
 ::: obe-head
-Purpose → Outcome → Evidence
+Stage outcome and evidence
 :::
 
 ::: obe-body
-**Purpose of this stage:** establish the commercial meaning of the supplier data before using the spreadsheet.
-
 **Outcome for this stage:** After completing this stage, you should be able to **interpret the case data and explain how self-consumption affects the economic value of solar generation**.
-
-**You will demonstrate this by:** distinguishing installed capacity, gross generation and useful generation; identifying the case assumptions; and explaining why a larger system is not automatically the better investment.
 
 **Evidence:** your prediction response and concept-check explanation.
 :::
@@ -104,25 +98,20 @@ Excel instruction · read cells, do not calculate yet
 **Useful habit:** never retype an input elsewhere if a formula can reference the original cell. This improves auditability and reduces inconsistent assumptions.
 ::::
 
-:::: formative
-::: label
-Formative checkpoint · prediction before calculation
-:::
+## Check your understanding
 
-If you had only 30 seconds, which metric would you look at first: **Installed Cost, Size, Gross Generation, Annual Saving, or Payback?**
+Which system generates the most electricity, and which has the highest self-consumption? Explain why neither fact alone identifies the best investment.
 
-Write down your choice and one reason. You will revisit it at the end.
-::::
-
-::: {.callout-note collapse="true"}
-## Formative feedback · concept check: which system generates most, and which has highest self-consumption?
+<details>
+<summary>Check your answer</summary>
 
 System C has the highest gross generation (147,000 kWh). System A has the highest self-consumption (90%). Those facts do not, by themselves, identify the best investment.
-:::
+
+</details>
 
 ::::::: platform-note
 ::: label
-Excel + Google Sheets · same task
+Microsoft Excel · same task
 :::
 
 ::::: platform-grid
@@ -131,15 +120,18 @@ Excel + Google Sheets · same task
 :::
 
 ::: platform
-**Google Sheets** Use the sheet tabs at the bottom. Click a cell and read its address in the **Name box** at the left of the formula bar; read/edit the formula in the formula bar.
+**Google Sheets compatibility** Use the sheet tabs at the bottom. Click a cell and read its address in the **Name box** at the left of the formula bar; read/edit the formula in the formula bar.
 :::
 :::::
 
-For this page there is no platform-specific calculation. The cell references `Case Data!B4`{.cell}, `D15`{.cell} and `D16`{.cell} mean the same thing in both.
 :::::::
+
+::: output
+**Completed:** interpreted proposal inputs and recorded your initial judgement.
+:::
 
 ::: next
 **Next:** learn the few Excel moves needed to build the model confidently.
 :::
 
-{{< include includes/_understand-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}

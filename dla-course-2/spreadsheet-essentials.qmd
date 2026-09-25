@@ -7,11 +7,9 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
+{{< include includes/_embed-utility.qmd >}}
 
-{{< include includes/_spreadsheet-essentials-progress-nav.qmd >}}
+{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: Prepare the working model"}
 ::: case-study-label
@@ -30,7 +28,7 @@ FD
 Monday 09:20 · Financial Director
 :::
 
-### Make the analysis traceable from the first formula.
+## Make the analysis traceable from the first formula.
 
 Keep the supplier inputs together and reference them in your calculations. I need to be able to follow each result back to its source.
 ::::
@@ -47,7 +45,7 @@ Enabling outcomes · spreadsheet readiness
 :::
 
 ::: obe-body
-**Purpose of this section:** provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel or Google Sheets proficiency is assumed.
+**Purpose of this section:** provide the minimum spreadsheet skills needed to complete the investment analysis. No prior Excel proficiency is assumed.
 
 **After completing this section, you should be able to:**
 
@@ -80,7 +78,7 @@ Platform guide · keep this beside you
 :::
 
 ::: platform
-**Google Sheets**
+**Google Sheets compatibility**
 
 -   Start a formula: type `=`{.cell}.
 -   Edit a cell: double-click it or use the formula bar.
@@ -100,7 +98,7 @@ Platform guide · keep this beside you
 Excel bridge · just enough Excel to start modelling
 :::
 
-## You do not need to know Excel or Google Sheets before continuing
+## You do not need to know Excel before continuing
 
 You need five moves: select a cell, enter a formula, reference another sheet, copy a formula across, and format a result. You will practise each move on the actual Cape Manufacturing workbook.
 ::::
@@ -158,11 +156,12 @@ Guided practice · your first live formula
 5.  Click `B4`{.cell} again. Move the pointer to the small square at the bottom-right corner of the selection (the fill handle). Both Excel and Google Sheets use this control.
 6.  Drag the fill handle across to `D4`{.cell}. In Google Sheets you can alternatively select `B4:D4`{.cell} and use **Fill right** / `Ctrl+R`{.kbd} where supported. Excel should adapt the relative references for Systems B and C.
 
-::: {.callout-note collapse="true"}
-## Check the three values
+<details>
+<summary>Check your answer</summary>
 
 `B4 = 82,800`{.cell}, `C4 = 102,850`{.cell}, `D4 = 114,660`{.cell}.
-:::
+
+</details>
 ::::::
 
 :::: excel
@@ -183,11 +182,11 @@ Formatting essentials
 :::
 
 ::: formative
-**Formative readiness check:** you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.
+**Completed:** you can now enter a formula, read a cross-sheet reference, copy a relative formula and recognise an absolute reference.
 :::
 
 ::: next
 **Next:** use those moves to complete the commercial model.
 :::
 
-{{< include includes/_spreadsheet-essentials-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}

@@ -1,133 +1,60 @@
 ---
 title: "Reviewer Rationale"
-description: "Cape Manufacturing solar investment case — Digital Acumen"
-format:
-  html:
-    toc: false
-    page-layout: full
+description: "A five-minute guide to the learning design and Excel evidence"
 ---
 
 ::: embed-utility
-[← Return to learner course](index.html)
+[← Return to learner course](index.qmd)
 :::
 
-::::: obe
-::: obe-head
-South African OBE design statement
-:::
+## One case, one model, one professional decision
 
-::: obe-body
-## Constructive alignment is made visible
+This **65–80 minute** authentic learning activity integrates Microsoft Excel competence with professional judgement. Students interpret business data, construct an auditable model, test a material assumption, evaluate conflicting investment measures and communicate a qualified recommendation. Formative checkpoints, scaffolding and reflection move the learner from spreadsheet operator to analyst to professional adviser.
 
-The activity is organised around explicit intended learning outcomes, authentic learning activities, formative checkpoints, associated assessment criteria and observable evidence of achievement. The narrative is the professional context through which the outcomes are developed; it does not replace the curriculum structure.
+## Five-minute review route
 
-The design deliberately integrates **foundational competence** (understanding concepts and assumptions), **practical competence** (performing spreadsheet and analytical tasks) and **reflexive competence** (adapting reasoning, evaluating uncertainty and transferring learning).
-
-The activity is best described as **designed in accordance with South African outcomes-based and constructive-alignment principles**. It should not be represented as independently “CHE accredited” or as an NQF-registered qualification. Exact formal module-level alignment would require the approved Stellenbosch module outcomes, assessment plan and institutional curriculum documentation.
-:::
-:::::
-
-:::: story
-::: label
-Reviewer note
-:::
-
-## One case, one evolving model, one professional decision
-
-The activity is structured as a continuous workplace narrative. The learner receives imperfect supplier information, constructs a transparent spreadsheet model, encounters a challenge to an assumption, stress-tests the model, communicates a recommendation and reflects on transfer.
-
-The five-step arc is **Understand → Build → Test → Decide → Reflect**. The separate Spreadsheet Essentials bridge supports true beginners in either Microsoft Excel or Google Sheets without turning the activity into a generic software tutorial.
-::::
+| Design feature | Evidence in the activity | Capability demonstrated |
+|---|---|---|
+| Authentic business case | [Understand](understand.qmd): Western Cape solar capital investment | Interpret financial and operational inputs |
+| Auditable Excel model | [Build](build.qmd): cross-sheet formulas, relative/absolute references, formatting, payback and reference-error diagnosis | Digital and numerical competence |
+| Executive chart | [Build](build.qmd): comparison chart and one-sentence design rationale | Purposeful visual communication |
+| Sensitivity analysis | [Test](test.qmd): supplied 20-year NPV engine, mixed references, fill-down and crossover refinement | Analytical reasoning and model interrogation |
+| Supplier claim | [Decide](decide.qmd): separate evidence request for C’s lifecycle environmental claim | Sustainability evidence literacy and professional scepticism |
+| Management recommendation | [Decide](decide.qmd): ≤100 words using quantified evidence and a qualification | Professional judgement and communication |
+| Reflection | [Reflect](reflect.qmd): revisit, explain and transfer | Reflexive competence |
 
 ## Constructive alignment
 
-| Intended learning outcome | Learning activity | Evidence of achievement |
-|----|----|----|
-| Interpret business and technical inputs | Understand proposals and self-consumption | Prediction + concept check |
-| Use spreadsheet tools purposefully | Cross-sheet references, relative/absolute references, formulas, formatting | Your Model!B4:D8 |
-| Analyse alternatives | Payback and NPV comparison | Model + chart |
-| Interrogate assumptions | Self-consumption sensitivity | Test Assumptions!A7:E14 |
-| Exercise judgement and scepticism | Executive brief + evidence request | Recommendation!A7 and A22 |
-| Reflect and transfer | Explain, verify, generalise | Guided reflection |
+The four learner-facing outcomes connect directly to observable work:
 
-## SAICA competency alignment
+1. **Build an auditable model:** interpret inputs; enter and copy formulas; apply appropriate references and number formats. Evidence: `Your Model!B4:D7`, the reference-error checkpoint and optional payback ranks in row 8.
+2. **Analyse financial results:** compare payback and NPV, create a relevant chart and test C’s self-consumption. Evidence: chart with rationale, `Test Assumptions!A7:E14` and crossover interpretation.
+3. **Evaluate assumptions and claims:** explain operational uncertainty and specify credible evidence before relying on the environmental claim. Evidence: load-profile explanation and `Recommendation!A22`.
+4. **Communicate a recommendation:** select a proposal using at least two correctly interpreted results, one trade-off and one operational qualification. Evidence: `Recommendation!A7`, limited to 100 words.
 
-This activity is designed to evidence publicly documented SAICA competencies associated with the former CA2025 framework, now described by SAICA as the **CA of the Future** Competency Framework. It particularly integrates:
+Reflection extends these outcomes to another investment decision. The detailed skills support **foundational competence** (understand), **practical competence** (model and communicate) and **reflexive competence** (evaluate and transfer).
 
-:::::: grid3
-::: card
-### Digital acumen
+## Scaffolding and formative assessment
 
-Digital user skills: using technology as an enabler of decision-making; data analysis and spreadsheet modelling; deliberate use of formulas, references and visual communication.
-:::
+The sequence is **Start → Understand → Spreadsheet Essentials → Build → Test → Decide → Reflect**. Spreadsheet Essentials introduces only the prerequisite moves. Build supplies guided formulas, then asks learners to diagnose a copied-reference error. Test supplies model infrastructure so effort goes into manipulating assumptions and interpreting results, rather than transcribing a long formula.
 
-::: card
-### Decision-making acumen
+An initial prediction makes prior judgement explicit. Answer disclosures support self-checking; diagnostic feedback and the reasoning question prompt correction. Decide’s checklist makes success criteria visible. The completed reference workbook is available on Reflect, after the modelling and recommendation tasks.
 
-Analytical and critical thinking, weighing alternatives, integrated thinking, numerical reasoning and judgement.
-:::
+| Criterion | Competent performance | Strong performance |
+|---|---|---|
+| Excel model | Core calculations and references correct | Accurate, structured and traceable to inputs |
+| Analysis and chart | Relevant comparison and sensitivity results | Explains the crossover and selects a clear visual |
+| Recommendation | Quantified advice with a limitation | Weighs competing measures and specifies verification needs |
+| Scepticism and reflection | Questions the claim and identifies learning | Specifies credible evidence and transfers the reasoning |
 
-::: card
-### Professional scepticism
+## Professional accountancy relevance
 
-Questioning supplier assumptions and unsupported claims, identifying evidence gaps and withholding reliance until appropriate evidence is obtained.
-:::
-::::::
+A has the shortest payback while C has the highest base-case NPV. Neither metric automatically determines the recommendation. The learner must explain a decision rule, test the utilisation assumption and distinguish model evidence from an unverified sustainability claim.
 
-::: {.card .accent .spaced-accent}
-### Why this is Digital- and Leadership Acumen
+**The spreadsheet gives evidence. It does not choose the decision rule.**
 
-Digital acumen is treated as more than software proficiency. The learner uses a spreadsheet (Excel or Google Sheets) to structure information, make logic auditable, interrogate uncertainty and communicate evidence. Leadership/professional acumen enters when the learner must make a qualified recommendation despite competing criteria and incomplete evidence.
-:::
+Microsoft Excel is the primary learning platform. Google Sheets notes provide a compatibility pathway without changing the model. The five-sheet workbook, Rand values and fictional Western Cape case maintain a coherent professional context. Tariff and escalation values are teaching assumptions, not forecasts.
 
-## Associated assessment criteria & formative feedback
+This is a non-credit application demonstration. Its intended alignment is with digital, analytical, communication and professional-judgement capabilities; formal Stellenbosch module or SAICA competency mapping requires the approved outcomes and assessment documentation.
 
-| Criterion | Developing | Competent | Strong |
-|----|----|----|----|
-| Excel model | Material formula/reference errors | Core calculations correct | Accurate, structured and auditable |
-| Analysis | Describes outputs | Compares alternatives and assumptions | Explains trade-offs and sensitivity |
-| Visual communication | Chart does not support decision | Relevant comparison is clear | Visual choice sharpens decision |
-| Professional judgement | Weakly evidenced | Evidence-based with limitation | Balances evidence, uncertainty and information needs |
-| Scepticism/reflection | Accepts claims at face value | Identifies need for verification | Specifies credible evidence and explains why it matters |
-
-::: warn
-**Alignment note:** this is a non-credit application demonstration. The public sources support alignment with Stellenbosch's Digital- and Leadership Acumen context and SAICA's competency language, but exact module-level constructive alignment would require the formally approved module outcomes and assessment plan.
-:::
-
-## Publicly documented curriculum context
-
--   Stellenbosch School of Accountancy includes Digital- and Leadership Acumen modules in its accountancy programmes, including modules focused on data analytics for accountants.
--   SAICA defines digital user skills as using technology ethically to optimise decision-making and business efficiencies, and defines decision-making competencies including analytical thinking, critical thinking, integrated thinking and judgement.
--   SAICA describes professional scepticism as questioning information, remaining alert to possible error or fraud, and critically evaluating evidence.
-
-Sources for reviewer verification: SAICA CA of the Future / Competencies Defined; SAICA IAC competency framework; Stellenbosch School of Accountancy programme information.
-
-:::: platform-note
-::: label
-Platform design rationale
-:::
-
-### Spreadsheet reasoning is the competence; software menus are scaffolding
-
-The activity deliberately preserves identical formulas, sheet names and cell addresses across Microsoft Excel and Google Sheets. Platform-specific guidance is limited to interface operations such as opening/saving, number formatting, filling formulas and chart creation.
-
-This allows the learner to demonstrate transferable digital acumen rather than success being contingent on prior familiarity with one vendor interface.
-::::
-
-:::: interactive
-::: label
-V7 interaction design
-:::
-
-## Interactivity is tied to evidence of learning
-
-The interactive elements are deliberately sparse and purposeful: a pre-model prediction activates prior conceptions; formula reveals support guided practice; management messages maintain authentic workplace narrative; sensitivity interpretation requires judgement rather than calculation alone; the pre-submission checklist makes assessment criteria visible; and the final reflection closes the prediction-feedback-transfer loop.
-
-Decorative interaction has been avoided. Each interaction either elicits evidence, provides formative feedback, scaffolds performance or strengthens transfer.
-::::
-
-::: next
-**Design principle:** technical spreadsheet skills are introduced at the point where the case creates a reason to use them.
-:::
-
-{{< include includes/_reviewer-rationale-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}

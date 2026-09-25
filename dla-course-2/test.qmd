@@ -7,11 +7,9 @@ format:
     page-layout: full
 ---
 
-::: embed-utility
-[Open course in new window ↗](https://marcelmare.com/dla-course-2/){target="_blank" rel="noopener"}
-:::
+{{< include includes/_embed-utility.qmd >}}
 
-{{< include includes/_test-progress-nav.qmd >}}
+{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: Operations challenges the assumption"}
 ::: case-study-label
@@ -30,7 +28,7 @@ TJ
 Monday 13:15 · Thandi Jacobs · Production Manager
 :::
 
-### Will we really use 78% of System C’s output?
+## Will we really use 78% of System C’s output?
 
 Production varies during the week. If we cannot use as much solar power at the time it is generated as Supplier C assumes, does C still offer the highest net present value (NPV)?
 ::::
@@ -39,41 +37,15 @@ Production varies during the week. If we cannot use as much solar power at the t
 
 ::::: obe
 ::: obe-head
-Purpose → Outcome → Activity → Evidence
+Stage outcome and evidence
 :::
 
 ::: obe-body
-**Purpose of this stage:** move beyond a single spreadsheet answer by testing whether the decision is robust to uncertainty.
-
 **Outcome for this stage:** **Evaluate the sensitivity of an investment decision to a material operational assumption and interpret the implications for management.**
-
-**You will demonstrate this by:** distinguishing payback from NPV; changing System C's self-consumption assumption; interpreting the resulting NPV changes; identifying the approximate crossover between Systems B and C; and identifying additional evidence required to validate the assumption.
 
 **Evidence:** completed `Test Assumptions!A7:E14`{.cell}, crossover interpretation and an evidence requirement concerning the factory load profile.
 :::
 :::::
-
-:::::::: platform-note
-::: label
-Excel + Google Sheets · Test
-:::
-
-The `SUMPRODUCT`{.cell}, `ROW`{.cell}, `MAX`{.cell}, `MATCH`{.cell} and `CHOOSE`{.cell} formulas below are written once and used unchanged in both applications.
-
-::::: platform-grid
-::: platform
-**Excel** Enter formulas in `B8:E8`{.cell}; select the row and drag the fill handle down to row 14. Format `B8:D14`{.cell} as rand currency.
-:::
-
-::: platform
-**Google Sheets** Enter the same formulas in `B8:E8`{.cell}; drag the fill handle down to row 14, or select `B8:E14`{.cell} and use **Fill down** / `Ctrl+D`{.kbd}. Format `B8:D14`{.cell} via Format → Number → Currency.
-:::
-:::::
-
-::: same
-**Do not “translate” the formulas.** Sheet names, apostrophes, dollar signs and cell addresses remain exactly as printed.
-:::
-::::::::
 
 :::: course-context
 ::: label
@@ -106,36 +78,29 @@ Excel instruction · sensitivity table
 
 The scenario rates are already entered in `A8:A14`{.cell}: 78%, 75%, 72%, 70%, 68%, 65%, 60%.
 
-Enter the following formulas in row 8. The formulas use `SUMPRODUCT`{.cell} to value 20 years of escalating savings, degradation, maintenance and discounting. For this short course, you are **using** the discounted-cash-flow engine rather than being assessed on constructing it from first principles.
+The NPV engine and highest-NPV formula are **already supplied in B8:E8** of the student workbook. You do not need to transcribe them.
 
-**NPV A — Test Assumptions!B8**
+1. Select `D8` and inspect the Formula Bar. Find `$A8`: this links C’s self-consumption to the scenario in column A. Dollar signs keep the column fixed when the formula is copied.
+2. Select `B8:E8` and drag the fill handle down through row 14. Inspect `D9`: the scenario reference should now be `$A9`, while the Case Data references remain fixed.
+3. Format `B8:D14` as rand currency with no decimals. A and B should remain unchanged; only C’s self-consumption varies.
+4. Identify the two scenario rates between which B overtakes C. Refine the estimate by temporarily entering **74%**, then **73.9%**, in `A14`. Watch D14 and E14 recalculate; then restore A14 to **60%**.
 
-::: formula
-`=SUMPRODUCT(('Case Data'!$B$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$B$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$B$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$B$13`
-:::
+**Google Sheets compatibility:** select `B8:E14` and use **Fill down** if dragging is difficult; use **Format → Number → Currency** for the results.
 
-**NPV B — Test Assumptions!C8**
+<details>
+<summary>Advanced: How the NPV engine works</summary>
 
-::: formula
-`=SUMPRODUCT(('Case Data'!$C$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*'Case Data'!$C$16*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$C$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$C$13`
-:::
+For each of 20 years, the supplied formula calculates generation after degradation, multiplies it by self-consumption and the escalating tariff, then subtracts escalating maintenance. It discounts each year-end net saving to today and subtracts the initial installed cost at time zero. The workbook expands these annual terms explicitly, so each term can be inspected in the Formula Bar.
 
-**NPV C — Test Assumptions!D8**
+A and B use fixed base-case self-consumption. C uses `$A8`, which becomes `$A9` when filled down. All other case inputs are anchored. The 20-year horizon is fixed for this activity.
 
-::: formula
-`=SUMPRODUCT(('Case Data'!$D$15*(1-'Case Data'!$B$7)^(ROW($1:$20)-1)*$A8*'Case Data'!$B$4*(1+'Case Data'!$B$5)^(ROW($1:$20)-1)-'Case Data'!$D$17*(1+'Case Data'!$B$8)^(ROW($1:$20)-1))/(1+'Case Data'!$B$6)^ROW($1:$20))-'Case Data'!$D$13`
-:::
+The supplied `=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"A","B","C")` identifies the highest NPV. In an exact tie it returns the first matching proposal; inspect the values when interpreting the crossover.
 
-**Highest NPV — Test Assumptions!E8**
-
-::: formula
-`=CHOOSE(MATCH(MAX(B8:D8),B8:D8,0),"System A","System B","System C")`
-:::
-
-1.  After entering the four formulas in `B8:E8`{.cell}, select them.
-2.  Drag the fill handle down through row 14. Because System C's formula uses `$A8`{.cell}, the scenario row changes while column A stays fixed.
-3.  Format `B8:D14`{.cell} as rand currency with no decimals.
+</details>
 ::::::::
+
+<details>
+<summary>Check your answer · sensitivity results</summary>
 
 | C self-consumption | Expected NPV C | Highest NPV |
 |--------------------|----------------|-------------|
@@ -147,18 +112,21 @@ Enter the following formulas in row 8. The formulas use `SUMPRODUCT`{.cell} to v
 | 65%                | ≈ R2.199m      | System B    |
 | 60%                | ≈ R1.941m      | System B    |
 
+</details>
+
 ::::: formative
 ::: label
 Formative checkpoint · find the crossover
 :::
 
-Compare columns `C`{.cell} and `D`{.cell} in rows `8:14`{.cell}. The switch occurs between 75% and 72%.
+Compare columns `C`{.cell} and `D`{.cell} in rows `8:14`{.cell}. Find the interval where the ranking changes.
 
-::: {.callout-note collapse="true"}
-## Formative feedback · check your conclusion
+<details>
+<summary>Check your answer</summary>
 
 System B overtakes System C at approximately **74%** self-consumption. The modelled crossover is about **73.96%**.
-:::
+
+</details>
 :::::
 
 :::: {.card .accent}
@@ -166,15 +134,16 @@ System B overtakes System C at approximately **74%** self-consumption. The model
 
 Which would be more useful for validating self-consumption: annual electricity consumption, or half-hourly load data aligned with expected solar production?
 
-::: {.callout-note collapse="true"}
-## Why half-hourly data?
+<details>
+<summary>Why half-hourly data?</summary>
 
 Self-consumption depends on **when** electricity is used relative to solar generation. Annual totals can conceal a mismatch between midday PV production and the factory's load profile.
-:::
+
+</details>
 ::::
 
 ::: output
-**Evidence produced:** completed sensitivity table `Test Assumptions!A7:E14`{.cell} and a reasoned view on the operational data management still needs.
+**Completed:** completed sensitivity table `Test Assumptions!A7:E14`{.cell} and a reasoned view on the operational data management still needs.
 :::
 
 ::: next
@@ -190,8 +159,8 @@ Self-consumption depends on **when** electricity is used relative to solar gener
 
 {{< include includes/_test-concept-check.qmd >}}
 
-::: {#cross-feedback .formative hidden=""}
+::: {#cross-feedback .formative role="status" aria-live="polite" hidden=""}
 :::
 ::::
 
-{{< include includes/_test-page-nav.qmd >}}
+{{< include includes/_course-page-nav.qmd >}}
