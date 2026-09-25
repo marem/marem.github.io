@@ -3,11 +3,15 @@ title: "Should We Invest in Solar?"
 description: "Develop your Digital Acumen with Excel: Cape Manufacturing solar investment case study"
 format:
   html:
-    title-block-style: none
-    body-classes: course-start
+    #title-block-style: none
+    #body-classes: course-start
     toc: false
     page-layout: full
 ---
+
+{{< include includes/_embed-utility.qmd >}}
+
+{{< include includes/_course-progress.qmd >}}
 
 :::::: hero
 ![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
@@ -26,10 +30,6 @@ Three solar proposals. One investment decision. Use Excel to build the evidence,
 :::
 :::::
 ::::::
-
-{{< include includes/_embed-utility.qmd >}}
-
-{{< include includes/_course-progress.qmd >}}
 
 :::::: {.case-study aria-label="Cape Manufacturing case study: The investment brief"}
 ::: case-study-label
