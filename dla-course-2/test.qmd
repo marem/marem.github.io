@@ -13,15 +13,29 @@ format:
 
 {{< include includes/_test-progress-nav.qmd >}}
 
-:::: message
-::: meta
-13:15 · Thandi Jacobs · Production Manager
+:::::: {.case-study aria-label="Cape Manufacturing case study: Operations challenges the assumption"}
+::: case-study-label
+Case study · Cape Manufacturing · Operations challenges the assumption
 :::
 
-**I'm not convinced by Supplier C's 78% self-consumption assumption.**
+Your Year-1 comparison favours A for the fastest payback. The next question is long-term value: the supplied 20-year model puts C ahead under the base assumptions, but that result depends on how much solar output the factory can use.
 
-Production varies during the week. If we cannot use as much solar power at the time it is generated as the supplier assumes, what happens to your recommendation?
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+TJ
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 13:15 · Thandi Jacobs · Production Manager
+:::
+
+### Will we really use 78% of System C’s output?
+
+Production varies during the week. If we cannot use as much solar power at the time it is generated as Supplier C assumes, does C still offer the highest net present value (NPV)?
 ::::
+:::::
+::::::
 
 ::::: obe
 ::: obe-head
@@ -61,13 +75,9 @@ The `SUMPRODUCT`{.cell}, `ROW`{.cell}, `MAX`{.cell}, `MATCH`{.cell} and `CHOOSE`
 :::
 ::::::::
 
-::: thread
-**Story so far:** Your base model is complete. System A has the shortest payback. But management also wants to understand long-term value.
-:::
-
-:::: story
+:::: course-context
 ::: label
-The case · Operations challenges the supplier assumption
+Course guidance · compare payback and NPV
 :::
 
 ## “Will we really use 78% of System C's output?”
@@ -76,7 +86,7 @@ Simple payback favours System A at about **2.92 years**. A 20-year discounted ca
 
 Why? Payback focuses on recovery speed. NPV considers the value today of future net savings over the full analysis period.
 
-The Production Manager now questions System C's 78% self-consumption. Your task is to stress-test that assumption.
+Hold the assumptions for A and B fixed while varying C’s self-consumption. This isolates the effect of the operational uncertainty.
 ::::
 
 :::: caseq

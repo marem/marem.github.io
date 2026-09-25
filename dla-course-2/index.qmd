@@ -13,6 +13,30 @@ format:
 
 {{< include includes/_index-progress-nav.qmd >}}
 
+:::::: {.case-study aria-label="Cape Manufacturing case study: The investment brief"}
+::: case-study-label
+Case study · Cape Manufacturing · The investment brief
+:::
+
+Cape Manufacturing is a fictional Western Cape industrial producer facing material electricity costs. Three suppliers have proposed rooftop solar systems costing R650,000 to R990,000. Management wants to reduce grid purchases; any resilience benefit still needs verification.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+FD
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 08:30 · Financial Director
+:::
+
+### Help us decide which solar proposal to take forward.
+
+You are our trainee accountant, supporting the commercial analysis. Compare the proposals on a common basis, test the assumptions and bring me a recommendation this afternoon. We need evidence before committing capital.
+::::
+:::::
+::::::
+
 :::::: hero
 ![](assets/00-western-cape-industrial-solar-hero.png){fig-alt="Industrial rooftop solar installation in a Western Cape setting"}
 
@@ -25,7 +49,7 @@ Digital Acumen · Cape Manufacturing
 
 **A real decision is needed. Based on data. Applying spreadsheet skills.**
 
-You are a trainee accountant. Three suppliers want nearly R1 million of capital. Which proposal should management choose? How confident are you in the numbers?
+You are a trainee accountant. Three solar proposals compete for an investment of R650,000 to R990,000. Which proposal should management choose? How confident are you in the numbers?
 
 ::: meta-strip
 [65–80 minutes]{.meta-item} [Beginner spreadsheet level]{.meta-item} [Excel or Google Sheets]{.meta-item}
@@ -43,7 +67,7 @@ Learning Activity
 :::
 
 :::::::: obe-body
-## What is this excercise all about?
+## What is this exercise all about?
 
 This micro-learning activity develops your ability to use spreadsheets (e.g. Excel) to support a commercial capital-investment decision in a South African business context. You will work with financial and operational information, build and interrogate a spreadsheet model, compare alternatives and communicate a reasoned recommendation.
 
@@ -160,24 +184,6 @@ The workbook logic, formulas, sheet names and cell addresses are the same in bot
 ::::::::::
 
 ::::::::
-
-:::::::::: obe
-
-:::: story
-::: label
-The case · Monday morning is now
-:::
-
-### Cape Manufacturing has a capital-allocation decision to make
-
-Cape Manufacturing is a Western Cape industrial producer. Electricity is a material operating cost, tariffs are expected to rise, and management is considering rooftop solar PV as a way to reduce grid purchases and improve energy resilience.
-
-Three suppliers have submitted proposals. Each looks attractive for a different reason. The Financial Director does not want a sales comparison; she wants a transparent commercial analysis that can be challenged before capital is committed.
-
-**You are the Junior Commercial Analyst / Trainee Accountant.** You have been asked to turn the proposals into an Excel model, test a key assumption and prepare a concise recommendation.
-::::
-
-::::::::::
 
 :::::::::: obe
 

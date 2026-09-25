@@ -13,6 +13,30 @@ format:
 
 {{< include includes/_reflect-progress-nav.qmd >}}
 
+:::::: {.case-study aria-label="Cape Manufacturing case study: The debrief"}
+::: case-study-label
+Case study · Cape Manufacturing · The debrief
+:::
+
+The analysis is ready for management review. A recommendation is a proposal for the next step; it does not establish that a contract has been approved or that the supplier assumptions have been verified.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+FD
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 16:00 · Financial Director
+:::
+
+### What changed your judgement—and what remains uncertain?
+
+Explain how the model and sensitivity test changed your initial view. What would you check next, and what would you carry into our next investment decision?
+::::
+:::::
+::::::
+
 ::: {#revisit-your-initial-judgement .state-box}
 ## Revisit your initial judgement
 

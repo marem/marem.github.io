@@ -13,6 +13,30 @@ format:
 
 {{< include includes/_spreadsheet-essentials-progress-nav.qmd >}}
 
+:::::: {.case-study aria-label="Cape Manufacturing case study: Prepare the working model"}
+::: case-study-label
+Case study · Cape Manufacturing · Prepare the working model
+:::
+
+You have reviewed the proposal inputs. Before completing the comparison, you prepare a working copy of the supplied workbook and establish the link between generation and self-consumption.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+FD
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 09:20 · Financial Director
+:::
+
+### Make the analysis traceable from the first formula.
+
+Keep the supplier inputs together and reference them in your calculations. I need to be able to follow each result back to its source.
+::::
+:::::
+::::::
+
 ::: page-visual
 ![](assets/03_spreadsheet_anatomy.png){fig-alt="Annotated spreadsheet interface showing the course-critical controls"}
 :::
@@ -71,11 +95,7 @@ Platform guide · keep this beside you
 :::
 ::::::::
 
-::: thread
-**Story so far:** You know what the proposal data mean. Now learn the spreadsheet mechanics needed to turn those inputs into a model.
-:::
-
-:::: story
+:::: course-context
 ::: label
 Excel bridge · just enough Excel to start modelling
 :::

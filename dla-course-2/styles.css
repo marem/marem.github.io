@@ -78,13 +78,11 @@ main.content { max-width:980px!important; margin:0 auto!important; padding:14px 
 .video-slot { aspect-ratio:16/9; border:2px dashed #aeb9c7; border-radius:12px; display:grid; place-items:center; background:#f8fafc; text-align:center; padding:18px; }
 .page-visual { margin:1rem 0 1.4rem; }
 .page-visual img { width:100%; border-radius:12px; border:1px solid var(--line); }
-.management-brief { display:grid; grid-template-columns:120px 1fr; gap:18px; align-items:center; border:1px solid #eadcc8; background:#fff9ef; border-radius:12px; padding:16px; margin:1rem 0; }
-.brief-avatar { width:110px; height:110px; border-radius:8px; background:linear-gradient(145deg,#d9e1ea,#f8fafc); display:grid; place-items:center; font-size:2.2rem; }
 .iframe-nav { display:flex; justify-content:space-between; align-items:center; gap:12px; margin:2rem 0 .5rem; padding-top:1rem; border-top:1px solid var(--line); }
 .iframe-nav .course-button { margin:0; }
 .state-box { background:#eef6ff; border-left:5px solid #2b6cb0; padding:14px; border-radius:8px; }
 textarea.course-response { width:100%; min-height:130px; box-sizing:border-box; padding:12px; border:1px solid var(--line); border-radius:8px; font:inherit; }
-@media(max-width:820px){ .resource-grid{grid-template-columns:repeat(2,1fr)} .management-brief{grid-template-columns:1fr}.brief-avatar{display:none} }
+@media(max-width:820px){ .resource-grid{grid-template-columns:repeat(2,1fr)} }
 @media(max-width:620px){
  main.content{padding:8px 10px 24px!important}.stage-progress{overflow-x:auto;grid-template-columns:repeat(7,minmax(76px,1fr))}.hero{min-height:390px}.hero-copy{padding:20px}.resource-grid{grid-template-columns:1fr 1fr}.iframe-nav{display:grid;grid-template-columns:1fr 1fr}.iframe-nav a{text-align:center}.obe-grid,.platform-grid,.grid3{grid-template-columns:1fr!important}
 }
@@ -119,3 +117,51 @@ main.content > .app-nav:last-child { margin-top:auto; }
 .course-kicker > p, .formula > p, .brief-avatar > p { margin: 0; }
 .hero > p { margin: 0; }
 .formula code { color: inherit; background: none; padding: 0; }
+
+/* The fictional case has one visual language, separate from learning tasks. */
+.case-study {
+  background:#fff8eb;
+  border:1px solid #d8bf91;
+  border-left:5px solid #93621c;
+  border-radius:12px;
+  padding:1.25rem;
+  margin:1rem 0 1.5rem;
+  color:#382f22;
+}
+.case-study-label {
+  color:#735019;
+  font-size:.76rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  margin-bottom:.8rem;
+}
+.case-message {
+  display:grid;
+  grid-template-columns:44px minmax(0,1fr);
+  gap:.85rem;
+  border-top:1px solid #d8bf91;
+  padding-top:1rem;
+  margin-top:1rem;
+}
+.case-avatar {
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#735019;
+  color:#fff;
+  font-weight:800;
+  font-size:.9rem;
+}
+.case-meta { color:#735019; font-size:.85rem; font-weight:650; }
+.case-study h3 { color:#382f22; font-size:1.2rem; margin:.4rem 0 .65rem; }
+.case-avatar > p, .case-meta > p, .case-study-label > p { margin:0; }
+.case-message-body > :last-child { margin-bottom:0; }
+.course-context { margin:1.5rem 0; }
+@media(max-width:620px) {
+  .case-study { padding:1rem; }
+  .case-message { grid-template-columns:32px minmax(0,1fr); gap:.6rem; }
+  .case-avatar { width:32px; height:32px; font-size:.75rem; }
+}

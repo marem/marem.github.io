@@ -13,19 +13,33 @@ format:
 
 {{< include includes/_build-progress-nav.qmd >}}
 
+:::::: {.case-study aria-label="Cape Manufacturing case study: The Year-1 comparison"}
+::: case-study-label
+Case study · Cape Manufacturing · The Year-1 comparison
+:::
+
+The inputs are understood and your first useful-generation calculation is in place. Management now needs the same financial measures for all three proposals.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+FD
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 09:40 · Financial Director
+:::
+
+### Before we discuss long-term value, give me a clean Year-1 comparison.
+
+Show me how much generation we can use, what we save after maintenance and how quickly the initial capital is recovered. Keep the model traceable to the source data.
+::::
+:::::
+::::::
+
 ::: page-visual
 ![](assets/05_evidence_to_decision.png){fig-alt="Model to management information diagram"}
 :::
-
-:::: message
-::: meta
-09:40 · Financial Director
-:::
-
-**Before we discuss NPV, give me a clean Year-1 comparison.**
-
-I want to see what each system produces economically, what it saves after maintenance, and how quickly the capital is recovered. Keep the model traceable to the source data.
-::::
 
 ::::: obe
 ::: obe-head
@@ -61,13 +75,9 @@ Excel + Google Sheets · Build
 :::::
 :::::::
 
-::: thread
-**Story so far:** You understand the inputs and have entered your first formula. Now complete the chain from operating data to payback.
-:::
-
-:::: story
+:::: course-context
 ::: label
-The case · The Financial Director wants comparable numbers
+Course guidance · build the comparison
 :::
 
 ## Turn three supplier proposals into one auditable model

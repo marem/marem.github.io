@@ -13,6 +13,30 @@ format:
 
 {{< include includes/_understand-progress-nav.qmd >}}
 
+:::::: {.case-study aria-label="Cape Manufacturing case study: The proposals arrive"}
+::: case-study-label
+Case study · Cape Manufacturing · The proposals arrive
+:::
+
+You have accepted the brief. The suppliers offer different combinations of installed cost, generation and self-consumption. In this case, electricity the factory cannot use when it is generated earns no revenue.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
+FD
+:::
+
+:::: case-message-body
+::: case-meta
+Monday 09:00 · Financial Director
+:::
+
+### First, establish what we are buying—and what we can use.
+
+Check the proposal data before calculating. A larger system produces more electricity, but how much of that output will actually reduce our grid purchases?
+::::
+:::::
+::::::
+
 :::: {#before-you-open-the-spreadsheet .interactive}
 ## Before you open the spreadsheet …
 
@@ -45,13 +69,9 @@ Purpose → Outcome → Evidence
 :::
 :::::
 
-::: thread
-**Story so far:** You have accepted the brief. Before calculating, you need to understand what the supplier numbers mean.
-:::
-
-:::: story
+:::: course-context
 ::: label
-The case · The proposals arrive
+Course guidance · interpret the inputs
 :::
 
 ## Price is only one part of the decision

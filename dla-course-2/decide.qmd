@@ -13,21 +13,27 @@ format:
 
 {{< include includes/_decide-progress-nav.qmd >}}
 
-:::::: management-brief
-::: {.brief-avatar aria-hidden="true"}
+:::::: {.case-study aria-label="Cape Manufacturing case study: The recommendation"}
+::: case-study-label
+Case study · Cape Manufacturing · The recommendation
+:::
+
+A has the shortest payback; C has the highest base-case NPV. With the other assumptions held fixed, B overtakes C if C’s self-consumption falls below roughly 74%. Supplier C also claims a lower lifecycle environmental impact, without independent verification.
+
+::::: case-message
+::: {.case-avatar aria-hidden="true"}
 FD
 :::
 
-::::: content-body
-
-::: meta
-15:30 · Financial Director
+:::: case-message-body
+::: case-meta
+Monday 15:30 · Financial Director
 :::
 
-### I don't need another spreadsheet. I need your recommendation.
+### Now turn the evidence into a recommendation.
 
-Which system should we take forward, why, and what do we still need to verify? Keep it to 100 words.
-
+Which system should we take forward, why, and what do we still need to verify before signing? Keep your recommendation to 100 words. Separately, record the evidence you would need to assess Supplier C’s environmental claim.
+::::
 :::::
 ::::::
 
@@ -65,13 +71,9 @@ Excel + Google Sheets · Decide
 Use the workbook cells as evidence rather than retyping numbers from memory. This audit trail is the same in both platforms.
 :::::::
 
-::: thread
-**Story so far:** A is fastest on payback; C creates the greatest base-case NPV; B becomes preferable to C if C's self-consumption falls below roughly 74%.
-:::
-
-:::: story
+:::: course-context
 ::: label
-The case · The Financial Director wants a recommendation
+Course guidance · weigh the evidence
 :::
 
 ## The spreadsheet gives evidence. It does not choose the decision rule.
@@ -119,7 +121,7 @@ Executive briefing task · ≤100 words
 ::: {.card .accent}
 ### Professional scepticism · Supplier C's environmental claim
 
-Supplier C states that its panels have a lower lifecycle environmental impact but provides no independently verified evidence.
+The environmental claim in the management brief is unverified. Treat it separately from the financial results.
 
 **What evidence would you request before allowing the claim to influence the recommendation?**
 :::
