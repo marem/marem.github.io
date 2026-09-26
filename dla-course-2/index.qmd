@@ -77,7 +77,7 @@ On successful completion of this activity, you should be able to:
 
 Your workbook will contain a Year-1 comparison, one management chart with a short design rationale, a sensitivity table and a recommendation of **100 words or fewer**. You will also request evidence for Supplier C’s environmental claim and briefly reflect on how your judgement developed.
 
-The spreadsheet gives evidence. It does not choose the decision rule.
+**The spreadsheet provides the evidence. The decisions require your judgement.**
 
 ## Get your workbook {#course-toolkit}
 
