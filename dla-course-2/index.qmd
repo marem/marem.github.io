@@ -54,13 +54,18 @@ Welcome as our new trainee accountant. Please could you assist. You need to comp
 ::::::
 
 <details>
-<summary>Optional case introduction · 10-second video</summary>
+
+<summary>Watch: Introduction to the learning activity · 1 minute</summary>
 
 ::: course-video
-{{< video assets/intro-video.mp4 >}}
+
+{{< video https://www.youtube.com/watch?v=nHSyLciFe1k >}}
+
 :::
 
-The clip shows a Western Cape factory rooftop and an accountant comparing solar proposals in a spreadsheet. Use the workbook and the steps below for the calculation method; the clip is an illustration of the setting.
+A brief introduction to the activity, the Cape Manufacturing case study,
+
+and how Excel supports evidence-based business decisions.
 
 </details>
 
